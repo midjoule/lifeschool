@@ -14,13 +14,13 @@ keep_files:
 
 
 # Site settings
-title: Airspace
-subtitle: "A free HTML5 agency template"
-url: "https://comh.cf/" # the base hostname & protocol for your site
+title: Life School Riviera
+subtitle: "Vivre l'école autrement"
+url: "https://lifeschool-riviera.ch/" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
-baseurl: "/airspace-jekyll"
-cover: "/assets/cover.png"
-logo: "/assets/logo.png"
+baseurl: "/"
+cover: "/img/slider-bg.jpg"
+logo: "/img/logo.png"
 
 # Build settings
 markdown: kramdown
