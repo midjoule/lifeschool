@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: jamstatic/jamstatic-fr
+  repo: github.com/midjoule/lifeschool
   branch: master
 
 publish_mode: editorial_workflow
