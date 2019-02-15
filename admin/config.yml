@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: github.com/midjoule/lifeschool
+  repo: midjoule/lifeschool
   branch: master
 
 #publish_mode: editorial_workflow
