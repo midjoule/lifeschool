@@ -1,16 +1,16 @@
 - name: Nathalie Dumoulin
   title: Project Manager
   testimonial: "Cette projet d'école répond à un désir profond de donner envie aux enfants d'aller à l'école."
-  image: img/nathalie.jpg
+  image: img/testimonials/nathalie.jpg
 - name: Julien Dumoulin
   title: IT Manager
   testimonial: "Nous sommes impatients de pouvoir donner un enseignement de qualité qui vient à la fois donner un bol d'air frais aux enfants, aux enseignants et aux parents."
-  image: img/julien.jpg
+  image: img/testimonials/julien.jpg
 - name: Rose Ray jr.
   title: CEO-Themefisher
   testimonial: "With the tools to make our business a success, this company created an e-commerce site, with innovative ideas. We feel that our site has unique elements that make us stand out from the crowd."
-  image: img/item-img1.jpg
+  image: img/testimonials/item-img1.jpg
 - name: Rose Ray III
   title: CEO-Themefisher
   testimonial: "We feel that our site has unique elements that make us stand out from the crowd. This company created an e-commerce site with the tools to make our business a success, with innovative ideas."
-  image: img/item-img1.jpg
+  image: img/testimonials/item-img1.jpg
