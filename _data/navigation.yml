@@ -1,18 +1,34 @@
-- title: About
-  url: /about.html
-- title: Team
-  url: /team.html
+- title: Présentation
+  url: /intro.html
+  sublinks:
+    - title: Vision, Mission, Valeurs
+      url: /intro.html#vision
+    - title: Pédagogie
+      url: /intro.html#pedagogie
+    - title: Équipe
+      url: /intro.html#staff  
+    - title: Partenaires
+      url: /intro.html#partners     
+    - title: Grands principes
+      url: /intro.html#principles      
+- title: L'École
+  url: /school.html
+  sublinks:
+    - title: Classes et Programme
+      url: /school.html#classes
+    - title: Méthodes
+      url: /school.html#methods
+    - title: separator
+    - title: Infos Pratiques
+      url: /school.html#infos
+- title: L'Atelier
+  url: /studio.html
+  sublinks:
+    - title: Projets
+      url: /studio.html#projects
+    - title: Activités
+      url: /studio.html#projects
+- title: Blog
+  url: /blog.html
 - title: Contact
   url: /contact.html
-- title: Store
-  url: /store.html
-- title: Support
-  url: /support.html
-  sublinks:
-    - title: FAQ
-      url: /faq.html
-    - title: Documentation
-      url: /documentation.html
-    - title: separator
-    - title: Customer Support
-      url: /customer-support.html
