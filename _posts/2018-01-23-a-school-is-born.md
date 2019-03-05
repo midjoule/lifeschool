@@ -2,7 +2,7 @@
 layout: post
 title: L'annonce d'une nouvelle naissance !
 description: Bienvenue Life School Riviera !
-author: Nathalie
+author: Julien
 ---
 
 Merci de votre visite et de votre intérêt ! 
