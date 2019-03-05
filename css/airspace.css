@@ -61,12 +61,7 @@ a:active {
   font-style: italic;
   color: #666;
 }
-IMG.thumbnail {        
-  width: 80px; 
-  height: auto;
-  overflow: hidden;
-  border: 0px;
-}
+
 /*--
 	Header Start
 --*/
