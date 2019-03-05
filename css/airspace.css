@@ -63,8 +63,8 @@ a:active {
 }
 IMG.thumbnail{        
   width: 100%; 
-  height: 100%;
-  overflow: auto;
+  height: auto;
+  overflow: hidden;
   border: 0px;
 }
 /*--
