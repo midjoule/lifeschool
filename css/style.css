@@ -43,3 +43,7 @@ IMG.thumbnail {
 P.wrap {
  white-space:normal;
 }
+
+DIV.table-borderless {
+ border: 0px;
+}
