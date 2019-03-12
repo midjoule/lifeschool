@@ -21,7 +21,9 @@ permalink: /contact/
 <section id="contact-form">
 
   <div class="container">
-    <form action="https://formspree.io/info@lifeschool-riviera.ch" method="post">      
+    <form action="https://formspree.io/info@lifeschool-riviera.ch" method="post">  
+      <input type="hidden" name="_subject" value="Message provenant du site Life School Riviera" />
+      <input type="hidden" name="_next" value="https://lifeschool-riviera.ch/thanks.html"/>
       <div class="row">
         <div class="col-md-6 col-sm-12">
           <div class="block">
@@ -31,9 +33,6 @@ permalink: /contact/
             <div class="form-group">
               <input type="email" class="form-control" placeholder="Votre e-mail" name="_replyto">
             </div>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Le sujet" name="_subject">
-            </div>
           </div>
         </div>
         <div class="col-md-6 col-sm-12">
@@ -41,6 +40,7 @@ permalink: /contact/
             <div class="form-group-2">
               <textarea class="form-control" rows="3" placeholder="Votre message" name="comments"></textarea>
             </div>
+            <br />
             <button class="btn btn-default" type="submit">Envoyer</button>
           </div>
         </div>
