@@ -277,7 +277,7 @@ px      68    160    252    */
     padding: 0 8px;
   }
   #portfolio-work .block .portfolio-contant ul li {
-    width: 100%;
+    width: 50%;
   }
   #portfolio-work .block .portfolio-contant ul li a .img-heading {
     padding: 5px 0 5px 13px;
