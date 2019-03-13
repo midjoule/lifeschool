@@ -1,16 +1,16 @@
 - title: Présentation
-  url: /intro.html
+  url: /index.html
   sublinks:
     - title: Vision, Mission, Valeurs
-      url: /intro.html#vision
+      url: /index.html#vision
     - title: Pédagogie
-      url: /intro.html#pedagogie
+      url: /index.html#pedagogie
     - title: Équipe
-      url: /intro.html#staff  
+      url: /index.html#staff  
     - title: Partenaires
-      url: /intro.html#partners     
+      url: /index.html#partners     
     - title: Grands principes
-      url: /intro.html#portfolio-work      
+      url: /index.html#portfolio-work      
 - title: L'École
   url: /school.html
   sublinks:
