@@ -194,3 +194,29 @@ permalink: /
 </section>
 {% endfor %}
 {% endif %}
+
+{% if site.data.team.size > 0 %}
+<!-- Team Start -->
+<section id="team">
+  <div class="container">
+      <div class="col-md-6 col-md-offset-3 col-xs-12">
+        
+        <div class="testimonial-carousel">
+          <div id="testimonial-slider" class="owl-carousel">
+            {% for tm in site.data.team %}
+            <div>
+                <img src="img/cotation.png" alt="IMG">
+                <p>{{ tm.testimonial }}</p>
+                <div class="user">
+                  <img src="{{ tm.image }}" alt="{{ tm.name }}">
+                  <p><span>{{ tm.name }}</span>{{ tm.title }}</p>
+                </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
