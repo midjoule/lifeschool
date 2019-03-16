@@ -121,8 +121,8 @@ permalink: /
   </div>
 </section>
 
-
-<!-- Portfolio Start -->
+{% if site.data.principles.size > 0 %}
+<!-- Principles Start -->
 <section id="portfolio-work">
   <div class="container">
     <div class="row">
@@ -143,116 +143,21 @@ permalink: /
                 <li class="filter" data-filter=".Relation">Relation</li>
             </ul>
           </div>
-          <div class="portfolio-contant">
-            <ul id="portfolio-contant-active">
-                <li class="mix Pedagogy">
-                  <a href="#personalized teaching">
-                    <img src="{{ site.baseurl }}/img/principles/finger print.png" alt="Enseignement personalisé">
+            <div class="portfolio-contant">
+              <ul id="portfolio-contant-active">        
+                {% for p in site.data.principles %}
+                <li class="mix {{ p.category }}">
+                  <a href="#{{ p.ref }}">
+                    <img src="{{ site.baseurl }}/img/principles/{{ p.image }}" alt="{{ p.title }}">
                     <div class="overly">
                       <div class="position-center">
-                        <h2>Enseignement Personalisé</h2>
-                        <p>Clique ici pour en savoir plus...</p>
+                        <h2>{{ p.title }}</h2>
+                        <p>{{ p.subtitle }}</p>
                       </div>
                     </div>
                   </a>
-              </li>
-
-              <li class="mix Pedagogy">
-                <a href="#multi-ages">
-                  <img src="{{ site.baseurl }}/img/principles/multi ages.png" alt="Multi-âges">
-                  <div class="overly">
-                    <div class="position-center">
-                      <h2>Classes Multi-âge</h2>
-                      <p>Labore et dolore magna aliqua. Ut enim ad </p>
-                    </div>
-                  </div>
-                </a>
-              </li>
-
-              <li class="mix Classroom">
-                <a href="#duo">
-                  <img src="{{ site.baseurl }}/img/principles/duo.png" alt="Duo">
-                  <div class="overly">
-                    <div class="position-center">
-                      <h2>Duo d'enseignants</h2>
-                      <p>1 enseignant et 1 aide à l'intégration</p>
-                    </div>
-                  </div>
-                </a>
-              </li>
-
-              <li class="mix Curriculum">
-                <a href="#per">
-                  <img src="{{ site.baseurl }}/img/principles/per.png" alt="PER">
-                  <div class="overly">
-                    <div class="position-center">
-                      <h2>PER</h2>
-                      <p>Suit le Plan d'Etude Romand</p>
-                    </div>
-                  </div>
-                </a>
-              </li>
-
-              <li class="mix Method">
-                <a href="#homework">
-                  <img src="{{ site.baseurl }}/img/principles/homework.png" alt="">
-                  <div class="overly">
-                    <div class="position-center">
-                      <h2>Devoirs en classe</h2>
-                      <p>Pas ou peu de devoirs à la maison</p>
-                    </div>
-                  </div>
-                </a>
-              </li>
-
-              <li class="mix Relation">
-                <a href="#collaboration">
-                  <img src="{{ site.baseurl }}/img/principles/students group.png" alt="">
-                  <div class="overly">
-                    <div class="position-center">
-                      <h2>Collaboration</h2>
-                      <p>Collaboration active avec les parents</p>
-                    </div>
-                  </div>
-                </a>
-              </li>
-
-              <li class="mix Method">
-                <a href="#no mark">
-                  <img src="{{ site.baseurl }}/img/principles/examination.png" alt="">
-                  <div class="overly">
-                    <div class="position-center">
-                      <h2>Evaluations sans note</h2>
-                      <p></p>
-                    </div>
-                  </div>
-                </a>
-              </li>
-
-              <li class="mix Method">
-                <a href="#move">
-                  <img src="{{ site.baseurl }}/img/principles/move.png" alt="">
-                  <div class="overly">
-                    <div class="position-center">
-                      <h2>Cours en mouvement</h2>
-                      <p>Fini les pupitres statiques</p>
-                    </div>
-                  </div>
-                </a>
-              </li>
-
-              <li class="mix Curriculum">
-                <a href="#languages">
-                  <img src="{{ site.baseurl }}/img/principles/languages.png" alt="">
-                  <div class="overly">
-                    <div class="position-center">
-                      <h2>Apprentissage des langues<br />par immersion</h2>
-                      <p></p>
-                    </div>
-                  </div>
-                </a>
-              </li>
-
+                 </li>
+                {% endfor %}
             </ul>
           </div>
         </div>
@@ -260,24 +165,26 @@ permalink: /
     </div>
   </div>
 </section>
+{% endif %}
 
-
-<section id="personalized teaching">
+{% if site.data.principles.size > 0 %}
+<!-- Principles Details Start -->
+{% for p in site.data.principles %}
+<section id="{{ p.ref }}">
   <div class="container">
       <div class="table-responsive table-borderless">          
         <table class="table">
             <tbody>
                 <tr>
                     <td style="width:10%">
-                        <img src="/img/principles/finger print.png" alt="finger print" class="thumbnail">
+                        <img src="/img/principles/{{ p.image }}" alt="{{ p.title }}" class="thumbnail">
                     </td>
                     <td style="width:90%">  
                         <div class="section-title">
-                            <h2>Enseignement Personalisé</h2>
-                            <p>Programme adapté à chaque enfant lui permettant d’évoluer constamment</p>
+                            <h2>{{ p.title }}</h2>
+                            <p>{{ p.summary }}</p>
                         </div>
-                        <p class="wrap">Chaque enfant sera accompagné dans son individualité et sa globalité, en tenant compte de ses points forts et ses points faibles, son profil d’apprentissage, ses talents et ses aspirations. Un apprentissage personnalisé permet d’avancer à son rythme et de passer à quelque chose de nouveau quand les compétences sont acquises, sans devoir se comparer. Méthodes d’apprentissage séquencé en périodes individuelles pour le français, les maths, l’anglais et l’allemand avec des objectifs précis pour chaque enfant selon son niveau et son rythme. L’enfant accompagné par un enseignant devient acteur de ses apprentissages.
-                        </p>
+                        <p class="wrap">{{ p.desc }}</p>
                     </td>
                 </tr>
             </tbody>
@@ -285,197 +192,4 @@ permalink: /
        </div>
    </div>
 </section>
-
-
-<section id="multi-ages">
-  <div class="container">
-      <div class="table-responsive table-borderless">          
-        <table class="table">
-            <tbody>
-                <tr>
-                    <td style="width:10%">
-                        <img src="/img/principles/multi ages.png" alt="multi-ages" class="thumbnail">
-                    </td>
-                    <td style="width:90%">  
-                        <div class="section-title">
-                            <h2>Classes multi-âges</h2>
-                            <p>Le mélange des âges permet aux enfants de se guider les uns-les autres dans leur exploration du monde.</p>
-                        </div>
-                        <p class="wrap">Les enfants du même âge n’ont pas forcément le même rythme, la même maturité et les mêmes intérêts en même temps. L’avantage des classes multi-âges est expérimenté principalement lors de travaux ou d’enseignements de groupes. Ils échanges leurs expériences et leurs connaissances de manière naturelle progressive et adaptée. Ils s’enseignent et se placent naturellement en position d’apprentissage sans s’en rendre compte.
-                        </p>
-                    </td>
-                </tr>
-            </tbody>
-          </table>
-       </div>
-   </div>
-</section>
-
-<section id="duo">
-  <div class="container">
-      <div class="table-responsive table-borderless">          
-        <table class="table">
-            <tbody>
-                <tr>
-                    <td style="width:10%">
-                        <img src="/img/principles/duo.png" alt="multi-ages" class="thumbnail">
-                    </td>
-                    <td style="width:90%">  
-                        <div class="section-title">
-                            <h2>Duo d'enseignants</h2>
-                            <p>un enseignant diplômé ainsi qu’un aide à l’intégration</p>
-                        </div>
-                        <p class="wrap">15 élèves maximum par classe accompagnés de 2 adultes. Bénéfices: répondre plus rapidement aux besoins des élèves, soulager la charge des enseignants, avoir un vis-à-vis en tant qu’enseignant.
-                        </p>
-                    </td>
-                </tr>
-            </tbody>
-          </table>
-       </div>
-   </div>
-</section>
-
-
-<section id="per">
-  <div class="container">
-      <div class="table-responsive table-borderless">          
-        <table class="table">
-            <tbody>
-                <tr>
-                    <td style="width:10%">
-                        <img src="/img/principles/per.png" alt="plan d'étude romand" class="thumbnail">
-                    </td>
-                    <td style="width:90%">  
-                        <div class="section-title">
-                            <h2>Pland d'Étude Romand</h2>
-                            <p>Cursus scolaire selon le plan d’étude romand</p>
-                        </div>
-                        <p class="wrap">Le <a href="https://www.plandetudes.ch/" target="_new">PER</a> servira de base et de guide. Le temps et les résultats ne devraient pas être un facteur de stress, ni pour les enseignants, ni pour les enfants, ni pour les parents. Nos enseignants seront encouragés à prendre le temps avec leurs élèves, à considérer les objectifs personnels de chaque enfant et ne pas se focaliser sur les objectifs à atteindre pour toute la classe. Nous voulons placer l’enfant au centre de l’apprentissage et non la pédagogie.
-                        </p>
-                    </td>
-                </tr>
-            </tbody>
-          </table>
-       </div>
-   </div>
-</section>
-
-<section id="homework">
-  <div class="container">
-      <div class="table-responsive table-borderless">          
-        <table class="table">
-            <tbody>
-                <tr>
-                    <td style="width:10%">
-                        <img src="/img/principles/homework.png" alt="devoirs en classe" class="thumbnail">
-                    </td>
-                    <td style="width:90%">  
-                        <div class="section-title">
-                            <h2>Devoirs en classe</h2>
-                            <p>Les devoirs sont effectués pendant les heures de cours.</p>
-                        </div>
-                        <p class="wrap">Le temps à la maison devrait être consacré aux jeux, au sport, à la détente, à la culture ou à l’étude d’autres matières selon le centre d’intérêt de chaque enfant (musique, langues, animaux, cuisine, visite de lieux culturels, etc.). Les seuls devoir à domicile seront de préparer des exposés, révisions de vocabulaire ou de lire des livres recommandés ou suggérés par l’élève en accord avec les enseignants.
-                        </p>
-                    </td>
-                </tr>
-            </tbody>
-          </table>
-       </div>
-   </div>
-</section>
-
-<section id="collaboration">
-  <div class="container">
-      <div class="table-responsive table-borderless">          
-        <table class="table">
-            <tbody>
-                <tr>
-                    <td style="width:10%">
-                        <img src="/img/principles/students group.png" alt="collaboration" class="thumbnail">
-                    </td>
-                    <td style="width:90%">  
-                        <div class="section-title">
-                            <h2>Collaboration parents école</h2>
-                            <p>L’école en collaboration avec les familles établira des repères solides et transmettra des valeurs essentielles et porteuse de vie.</p>
-                        </div>
-                        <p class="wrap">Nous souhaitons encourager les parents et les enseignants à établir un contact régulier afin de pourvoir aider l’enfant à progresser. Nous voulons encourager la culture de la confiance, à savoir que les parents reconnaissent que les enseignants sont des spécialistes qui ont comme but de faire progresser leurs enfants dans un climat serein.
-                        </p>
-                    </td>
-                </tr>
-            </tbody>
-          </table>
-       </div>
-   </div>
-</section>
-
-<section id="no mark">
-  <div class="container">
-      <div class="table-responsive table-borderless">          
-        <table class="table">
-            <tbody>
-                <tr>
-                    <td style="width:10%">
-                        <img src="/img/principles/examination.png" alt="évaluations sans note" class="thumbnail">
-                    </td>
-                    <td style="width:90%">  
-                        <div class="section-title">
-                            <h2>Evaluations sans note</h2>
-                            <p>Lorsque l’enfant a compris et assimilé une matière, il peut passer à autre chose..</p>
-                        </div>
-                        <p class="wrap">Nous privilégions un système scolaire basé sur un tableau de compétence que l’élève remplit avec le vis-à-vis de son professeur. Chaque enfant évalue régulièrement ses connaissances par rapport à un sujet avec son professeur. L’enfant peut donc apprendre à son rythme et constater sa progression par lui-même (avec le suivi de son professeur). Les progrès et les besoins des enfants sont communiqués régulièrement aux parents.
-                        </p>
-                    </td>
-                </tr>
-            </tbody>
-          </table>
-       </div>
-   </div>
-</section>
-
-<section id="move">
-  <div class="container">
-      <div class="table-responsive table-borderless">          
-        <table class="table">
-            <tbody>
-                <tr>
-                    <td style="width:10%">
-                        <img src="/img/principles/move.png" alt="en mouvement" class="thumbnail">
-                    </td>
-                    <td style="width:90%">  
-                        <div class="section-title">
-                            <h2>Cours en mouvement</h2>
-                            <p>Apprendre en mouvement pour apprendre avec plaisir</p>
-                        </div>
-                        <p class="wrap">Lorsque le mouvement est introduit pendant l’apprentissage scolaire, tant les élèves que les enseignants sont plus réceptifs et plus concentrés en classe et prennent plus de plaisir à participer au quotidien scolaire. La gymnastique du cerveau permet de renforcer les performances scolaires en optimisant les processus liés à la réflexion et à la mémorisation. 
-                        </p>
-                    </td>
-                </tr>
-            </tbody>
-          </table>
-       </div>
-   </div>
-</section>
-
-<section id="languages">
-  <div class="container">
-      <div class="table-responsive table-borderless">          
-        <table class="table">
-            <tbody>
-                <tr>
-                    <td style="width:10%">
-                        <img src="/img/principles/languages.png" alt="multilingue" class="thumbnail">
-                    </td>
-                    <td style="width:90%">  
-                        <div class="section-title">
-                            <h2>Apprentissage des langues par immersion</h2>
-                            <p>### définir</p>
-                        </div>
-                        <p class="wrap">Notre pays a une grande influence germanophone et il est important pour les jeunes adultes de bien maîtriser cette langue. L’anglais quant à lui est indispensable pour des études universitaires, pour travailler dans les multinationales et pour découvrir le monde. Les techniques d’apprentissages (français, math, géographie, sciences, histoire) seront données en français. De nombreux cours pratiques tels que l’éducation physique, la chorale, la cuisine, la couture, ateliers à choix seront donnés en anglais et en allemand pour permettre une pratique active des langues.
-                        </p>
-                    </td>
-                </tr>
-            </tbody>
-          </table>
-       </div>
-   </div>
-</section>
+{% endfor %}
