@@ -557,7 +557,6 @@ font header .navbar-default .navbar-nav li a:hover {
   transition: all 0.4s ease-in-out;
 }
 #portfolio-work .block .portfolio-contant ul li {
-  float: left;
   width: 30%;
   overflow: hidden;
   margin: 6px;
