@@ -1,19 +1,12 @@
-
-
-
-        {% if site.data.testimonials.size > 0 %}
-        <div class="testimonial-carousel">
-          <div id="testimonial-slider" class="owl-carousel">
-            {% for tm in site.data.testimonials %}
-            <div>
-                <img src="img/cotation.png" alt="IMG">
-                <p>{{ tm.testimonial }}</p>
-                <div class="user">
-                  <img src="{{ tm.image }}" alt="Pepole">
-                  <p><span>{{ tm.name }}</span> {{ tm.title }}</p>
-                </div>
-            </div>
-            {% endfor %}
-          </div>
-        </div>
-        {% endif %}
+- ref: personalized teaching
+  image: finger print.png
+  title: Enseignement Personalisé
+  category: Pedagogy
+  subtitle: Programme adapté à chaque enfant lui permettant d’évoluer constamment
+  desc: Chaque enfant sera accompagné dans son individualité et sa globalité, en tenant compte de ses points forts et ses points faibles, son profil d’apprentissage, ses talents et ses aspirations. Un apprentissage personnalisé permet d’avancer à son rythme et de passer à quelque chose de nouveau quand les compétences sont acquises, sans devoir se comparer. Méthodes d’apprentissage séquencé en périodes individuelles pour le français, les maths, l’anglais et l’allemand avec des objectifs précis pour chaque enfant selon son niveau et son rythme. L’enfant accompagné par un enseignant devient acteur de ses apprentissages.
+- ref: languages        
+  image: languages.png
+  title: Apprentissage des langues par immersion
+  category: Pedagogy
+  subtitle: Apprendre les langues en les pratiquant
+  desc: Notre pays a une grande influence germanophone et il est important pour les jeunes adultes de bien maîtriser cette langue. L’anglais quant à lui est indispensable pour des études universitaires, pour travailler dans les multinationales et pour découvrir le monde. Les techniques d’apprentissages (français, math, géographie, sciences, histoire) seront données en français. De nombreux cours pratiques tels que l’éducation physique, la chorale, la cuisine, la couture, ateliers à choix seront donnés en anglais et en allemand pour permettre une pratique active des langues.
