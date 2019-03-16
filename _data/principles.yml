@@ -40,13 +40,6 @@
   category: Method
   summary: Les devoirs sont effectués pendant les heures de cours.
   desc: Le temps à la maison devrait être consacré aux jeux, au sport, à la détente, à la culture ou à l’étude d’autres matières selon le centre d’intérêt de chaque enfant (musique, langues, animaux, cuisine, visite de lieux culturels, etc.). Les seuls devoir à domicile seront de préparer des exposés, révisions de vocabulaire ou de lire des livres recommandés ou suggérés par l’élève en accord avec les enseignants.
-- title: Collaboration
-  subtitle: Collaboration active avec les parents
-  image: students group.png
-  ref: collaboration
-  category: Relation
-  summary: L’école en collaboration avec les familles établira des repères solides et transmettra des valeurs essentielles et porteuse de vie.
-  desc: Nous souhaitons encourager les parents et les enseignants à établir un contact régulier afin de pourvoir aider l’enfant à progresser. Nous voulons encourager la culture de la confiance, à savoir que les parents reconnaissent que les enseignants sont des spécialistes qui ont comme but de faire progresser leurs enfants dans un climat serein.
 - title: Evaluations sans note
   subtitle: Fini les comparaisons et la compétition entre élèves
   image: examination.png
@@ -61,3 +54,10 @@
   category: Method
   summary: Apprendre en mouvement pour apprendre avec plaisir !
   desc: Lorsque le mouvement est introduit pendant l’apprentissage scolaire, tant les élèves que les enseignants sont plus réceptifs et plus concentrés en classe et prennent plus de plaisir à participer au quotidien scolaire. La gymnastique du cerveau permet de renforcer les performances scolaires en optimisant les processus liés à la réflexion et à la mémorisation.
+- title: Collaboration
+  subtitle: Collaboration active avec les parents
+  image: students group.png
+  ref: collaboration
+  category: Relation
+  summary: L’école en collaboration avec les familles établira des repères solides et transmettra des valeurs essentielles et porteuse de vie.
+  desc: Nous souhaitons encourager les parents et les enseignants à établir un contact régulier afin de pourvoir aider l’enfant à progresser. Nous voulons encourager la culture de la confiance, à savoir que les parents reconnaissent que les enseignants sont des spécialistes qui ont comme but de faire progresser leurs enfants dans un climat serein.
