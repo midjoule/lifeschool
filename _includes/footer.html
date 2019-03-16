@@ -1,4 +1,57 @@
 <!-- Principles Section Start -->
+{% if site.data.principles.size > 0 %}
+  <section id="clients-logo-section">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="block">
+            <div id="clients-logo" class="owl-carousel">
+
+              {% for p in site.data.principles %}
+              <div class="clients-logo-img">
+                <a href="{{ site.baseurl }}/index.html#{{ p.ref }}">
+                  <img class="logo-img" src="{{ site.baseurl }}/img/principles/{{ p.image }}" alt="{{ p.title }}">
+                </a>
+              </div>
+              {% endfor %}
+
+              <div class="clients-logo-img">
+                <a href="{{ site.baseurl }}/index.html#personalized teaching">
+                  <img class="logo-img" src="{{ site.baseurl }}/img/principles/students group.png">
+                </a>
+              </div>
+              <div class="clients-logo-img">
+                <img class="logo-img" src="{{ site.baseurl }}/img/principles/multi ages.png" alt="Features">
+              </div>
+              <div class="clients-logo-img">
+                <img class="logo-img" src="{{ site.baseurl }}/img/principles/finger print.png" alt="Features">
+              </div>
+              <div class="clients-logo-img">
+                <img class="logo-img" src="{{ site.baseurl }}/img/principles/per.png" alt="Features">
+              </div>
+               <div class="clients-logo-img">
+                <img class="logo-img" src="{{ site.baseurl }}/img/principles/examination.png" alt="Features">
+              </div>
+               <div class="clients-logo-img">
+                <img class="logo-img" src="{{ site.baseurl }}/img/principles/homework.png" alt="Features">
+              </div>
+              <div class="clients-logo-img">
+                <img class="logo-img" src="{{ site.baseurl }}/img/principles/languages.png" alt="Features">
+              </div>
+              <div class="clients-logo-img">
+                <img class="logo-img" src="{{ site.baseurl }}/img/principles/move.png" alt="Features">
+              </div>
+              <div class="clients-logo-img">
+                <img class="logo-img" src="{{ site.baseurl }}/img/principles/collaboration.png" alt="Features">
+              </div>                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endif %}
 
 <!-- footer Start -->
 <footer>
