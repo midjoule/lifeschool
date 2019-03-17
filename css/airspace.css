@@ -26,7 +26,7 @@ h6 {
   font-family: 'Roboto', sans-serif;
 }
 h2 {
-  font-size: 30px;
+  font-size: 5vw;
   font-weight: 400;
 }
 h3 {
@@ -34,8 +34,8 @@ h3 {
   font-weight: 300;
 }
 p {
-  font-size: 15px;
-  line-height: 28px;
+  font-size: 2.5vw;
+  line-height: 5vw;
 }
 ul {
   padding: 0;
@@ -55,11 +55,13 @@ a:active {
   text-transform: uppercase;
   font-size: 6vw;
   font-weight: 600;
+  white-space: normal;
 }
 .section-title p {
   font-family: 'Volkhov', serif;
   font-style: italic;
   color: #666;
+  white-space: normal;
 }
 
 /*--
@@ -422,7 +424,7 @@ font header .navbar-default .navbar-nav li a:hover {
   display: inline-block;
   padding: 0px 25px;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 4vw;
   line-height: 40px;
   font-weight: 600;
   color: #333333;
