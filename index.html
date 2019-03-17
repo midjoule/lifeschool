@@ -204,10 +204,9 @@ permalink: /
         <h2 style="text-align:center">Notre équipe</h2>
       </div>
     </div>
-    {% assign i = site.data.team.size | modulo:2 %}
+    {% assign i = 0 %}
     {% for tm in site.data.team %}
-    {{ i }}
-    {% if i == 0 %}
+    {% if i | modulo:2 == 0 %}
     <div class="row">
       <div class="col-md-7 col-md-offset-1 col-xs-12">       
         <div class="pull-left">
@@ -234,6 +233,7 @@ permalink: /
       </div>
     </div>
    {% endif %}
+   {% assign i = 0 %}
    {% endfor %}
   </div>
 </section>
