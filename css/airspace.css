@@ -121,9 +121,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background: linear-gradient(to left, #8b86a3, #322e40);
   opacity: 0.8;
 }
-#slider .block {
-  color: #E3E3E4;
-}
+
 #slider .block h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
@@ -168,9 +166,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background: linear-gradient(to left, #8b86a3, #322e40);
   opacity: 0.8;
 }
-#philo .block {
-  color: #E3E3E4;
-}
+
 #philo .block h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
@@ -319,7 +315,7 @@ font header .navbar-default .navbar-nav li a:hover {
   opacity: 0.8;
 }
 
-#feature .block {
+#feature, #slider, #philo .block {
   color: #E3E3E4;
 }
 #feature .block h1 {
@@ -327,8 +323,8 @@ font header .navbar-default .navbar-nav li a:hover {
   font-weight: 100;
   font-size: 8vw;
   line-height: 12vw;
-  letter-spacing: 10px;
-  padding-bottom: 45px;
+  letter-spacing: 1vw;
+  padding-bottom: 5vw;
 }
 #feature .block p {
   font-size: 23px;
