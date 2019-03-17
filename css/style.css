@@ -52,3 +52,24 @@ P.wrap {
 DIV.table-borderless {
  border: 0px;
 }
+
+/* Text over images 
+*/
+.block {
+  color: #E3E3E4;
+}
+.block h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 8vw;
+  line-height: 12vw;
+  letter-spacing: 10px;
+  padding-bottom: 45px;
+}
+.block p {
+  font-size: 4vw;
+  line-height: 9vw;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
