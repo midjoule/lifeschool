@@ -122,9 +122,10 @@ font header .navbar-default .navbar-nav li a:hover {
 */
 
 #slider, #feature, #philo {
-  background-attachment: inherit;
-  background-position-x: top ;
-  background-position-y: left;
+  background-attachment: fixed;
+  background-position: center ;
+  background-repeat: no-repeat ; 
+  background-size: cover ;
   -webkit-background-size: 100% auto;
   -moz-background-size: 100% auto;
   -o-background-size: 100% auto;
