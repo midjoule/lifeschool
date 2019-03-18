@@ -147,11 +147,11 @@ font header .navbar-default .navbar-nav li a:hover {
   opacity: 0.8;
 }
 
-#feature, #slider, #philo .block {
+#feature .block, #slider .block, #philo .block {
   color: #E3E3E4;
 }
 
-#feature, #slider, #philo .block h1 {
+#feature .block h1, #slider .block h1, #philo .block h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 8vw;
@@ -160,7 +160,7 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-bottom: 5vw;
 }
 
-#feature, #slider, #philo .block p {
+#feature .block p, #slider .block p, #philo .block p {
   font-size: 23px;
   line-height: 40px;
   font-family: 'Roboto', sans-serif;
@@ -168,7 +168,7 @@ font header .navbar-default .navbar-nav li a:hover {
   letter-spacing: 3px;
 }
 
-#feature, #slider, #philo h2 {
+#feature h2, #slider h2, #philo h2 {
   font-size: 6vw;
   font-weight: 600;
   margin-bottom: 3vw;
