@@ -26,16 +26,16 @@ h6 {
   font-family: 'Roboto', sans-serif;
 }
 h2 {
-  font-size: 5vw;
+  font-size: larger;
   font-weight: 400;
 }
 h3 {
-  font-size: 28px;
+  font-size: large;
   font-weight: 300;
 }
 p {
-  font-size: 2.5vw;
-  line-height: 5vw;
+  font-size: medium;
+  line-height: 8vh;
 }
 ul {
   padding: 0;
@@ -53,7 +53,7 @@ a:active {
 }
 .section-title h2 {
   text-transform: uppercase;
-  font-size: 5rem;
+  font-size: larger;
   font-weight: 600;
   white-space: normal;
 }
@@ -154,24 +154,24 @@ font header .navbar-default .navbar-nav li a:hover {
 #feature .block h1, #slider .block h1, #philo .block h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  font-size: 6vw;
-  line-height: 10vw;
+  font-size: x-large;
+  line-height: 10vh;
   letter-spacing: 1vw;
-  padding-bottom: 5vw;
+  padding-bottom: 5vh;
 }
 
 #feature .block p, #slider .block p, #philo .block p {
-  font-size: 23px;
+  font-size: medium;
   line-height: 40px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  letter-spacing: 3px;
+  letter-spacing: 1vw;
 }
 
 #feature h2, #slider h2, #philo h2 {
-  font-size: 6vw;
+  font-size: larger;
   font-weight: 600;
-  margin-bottom: 3vw;
+  margin-bottom: 3vh;
   color: #8d8f92;	
 }
 
