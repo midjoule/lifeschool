@@ -12,11 +12,11 @@
   subtitle: Apprendre en pratiquant
   summary: Apprendre les langues dans le quotidien, de manière pratique et ludique
   desc: Notre pays a une grande influence germanophone et il est important pour les jeunes adultes de bien maîtriser cette langue. L’anglais quant à lui est indispensable pour des études universitaires, pour travailler dans les multinationales et pour découvrir le monde. Les techniques d’apprentissages (français, math, géographie, sciences, histoire) seront données en français. De nombreux cours pratiques tels que l’éducation physique, la chorale, la cuisine, la couture, ateliers à choix seront donnés en anglais et en allemand pour permettre une pratique active des langues.
-- title: Classes Multi-âge
+- title: Classes Multi-âges
   category: Pedagogy
   image: multi ages.png
   ref: multi-ages
-  subtitle: Se guider les uns-les autres
+  subtitle: Collaborer les uns avec les autres
   summary: Le mélange des âges permet aux enfants de se guider les uns-les autres dans leur exploration du monde.
   desc: Les enfants du même âge n’ont pas forcément le même rythme, la même maturité et les mêmes intérêts en même temps. L’avantage des classes multi-âges est expérimenté principalement lors de travaux ou d’enseignements de groupes. Ils échanges leurs expériences et leurs connaissances de manière naturelle progressive et adaptée. Ils s’enseignent et se placent naturellement en position d’apprentissage sans s’en rendre compte.
 - title: Duo d'enseignants
@@ -30,7 +30,7 @@
   image: per.png
   ref: per
   category: Curriculum
-  subtitle: Suit le Plan d'Etude Romand (PER)
+  subtitle: Cursus selon le Plan d'Etude Romand
   summary: Cursus scolaire selon le plan d’étude romand
   desc: Le PER servira de base et de guide. Le temps et les résultats ne devraient pas être un facteur de stress, ni pour les enseignants, ni pour les enfants, ni pour les parents. Nos enseignants seront encouragés à prendre le temps avec leurs élèves, à considérer les objectifs personnels de chaque enfant et ne pas se focaliser sur les objectifs à atteindre pour toute la classe. Nous voulons placer l’enfant au centre de l’apprentissage et non la pédagogie.
 - title: Devoirs en classe
