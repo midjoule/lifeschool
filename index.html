@@ -210,27 +210,29 @@ permalink: /
       </div>
       <div class="col-md-11"> 
         {% for tm in site.data.team %}
+        {{ forloop.index | modulo:2 }}
         <div class="row">
         {% if forloop.index | modulo:2 == 0 %}
           <div class="col-md-7">
+           
             <p>{{ tm.testimonial }}</p>
           </div>
           <div class="col-md-4">
             <div class="user">
               <img src="{{ tm.image }}" class="img-rounded" alt="{{ tm.name }}">
-              <p><span>{{ tm.name }}</span><br/><i>{{ tm.title }}</i></p>
+              <p><span>{{ tm.name }}</span>, <i>{{ tm.title }}</i></p>
             </div> 
           </div>           
         {% else %}
-          <div class="col-md-7 col-md-offset-1">
-            <p>{{ tm.testimonial }}</p>
-          </div>
           <div class="col-md-3">
             <div class="user">
               <img src="{{ tm.image }}" class="img-rounded" alt="{{ tm.name }}">
-              <p><span>{{ tm.name }}</span><br/><i>{{ tm.title }}</i></p>
+              <p><span>{{ tm.name }}</span>, <i>{{ tm.title }}</i></p>
             </div> 
-          </div>           
+          </div>  
+          <div class="col-md-7">
+            <p>{{ tm.testimonial }}</p>
+          </div>         
         {% endif %}
         </div>
         {% endfor %}
