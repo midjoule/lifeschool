@@ -207,6 +207,8 @@ permalink: /
     <div class="row">
       <div class="col-md-1">       
         <img src="img/testimonials/quote.png" alt="quotation"  class="img-responsive">
+      </div>
+      <div class="col-md-11"> 
         {% for tm in site.data.team %}
         <div class="row">
         {% if forloop.index | modulo:2 == 0 %}
@@ -229,7 +231,7 @@ permalink: /
               <p><span>{{ tm.name }}</span><br/><i>{{ tm.title }}</i></p>
             </div> 
           </div>           
-          {% endif %}
+        {% endif %}
         </div>
         {% endfor %}
       </div>
