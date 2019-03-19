@@ -17,8 +17,8 @@
   image: multi ages.png
   ref: multi-ages
   subtitle: Collaborer les uns avec les autres
-  summary: Le mélange des âges permet aux enfants de se guider les uns-les autres dans leur exploration du monde.
-  desc: Les enfants du même âge n’ont pas forcément le même rythme, la même maturité et les mêmes intérêts en même temps. L’avantage des classes multi-âges est expérimenté principalement lors de travaux ou d’enseignements de groupes. Ils échanges leurs expériences et leurs connaissances de manière naturelle progressive et adaptée. Ils s’enseignent et se placent naturellement en position d’apprentissage sans s’en rendre compte.
+  summary: Favoriser solidarité et partage entre enfants
+  desc: Le mélange des âges permet aux enfants de se guider les uns-les autres dans leur exploration du monde. Les enfants du même âge n’ont pas forcément le même rythme, la même maturité et les mêmes intérêts en même temps. L’avantage des classes multi-âges est expérimenté principalement lors de travaux ou d’enseignements de groupes. Ils échanges leurs expériences et leurs connaissances de manière naturelle progressive et adaptée. Ils s’enseignent et se placent naturellement en position d’apprentissage sans s’en rendre compte.
 - title: Duo d'enseignants
   image: duo.png
   category: Classroom
@@ -38,26 +38,26 @@
   image: homework.png
   ref: homework
   category: Method
-  summary: Les devoirs sont effectués pendant les heures de cours.
+  summary: Devoirs effectués pendant les heures de cours
   desc: Le temps à la maison devrait être consacré aux jeux, au sport, à la détente, à la culture ou à l’étude d’autres matières selon le centre d’intérêt de chaque enfant (musique, langues, animaux, cuisine, visite de lieux culturels, etc.). Les seuls devoir à domicile seront de préparer des exposés, révisions de vocabulaire ou de lire des livres recommandés ou suggérés par l’élève en accord avec les enseignants.
 - title: Evaluations sans note
   subtitle: Fini la comparaison et la compétition
   image: examination.png
   ref: no mark
   category: Method
-  summary: Lorsque l’enfant a compris et assimilé une matière, il peut passer à autre chose.
-  desc: Nous privilégions un système scolaire basé sur un tableau de compétences que l’élève remplit sous la supervision de son professeur. Chaque enfant évalue régulièrement ses connaissances par rapport à un sujet avec son professeur. L’enfant peut donc apprendre à son rythme et constater sa progression par lui-même (avec le suivi de son professeur). Les progrès et les besoins des enfants sont communiqués régulièrement aux parents.
+  summary: Appréciation des acquis sans compétition
+  desc: Nous privilégions un système scolaire basé sur un tableau de compétences que l’élève remplit sous la supervision de son professeur. Chaque enfant évalue régulièrement ses connaissances par rapport à un sujet avec son professeur. Lorsque l’enfant a compris et assimilé une matière, il peut passer à autre chose. L’enfant peut donc apprendre à son rythme et constater sa progression par lui-même (avec le suivi de son professeur). Les progrès et les besoins des enfants sont communiqués régulièrement aux parents.
 - title: Cours en mouvement
   subtitle: Optimisation des processus cérébraux et sociaux
   image: move.png
   ref: move
   category: Method
-  summary: Apprendre en mouvement pour apprendre avec plaisir !
+  summary: Apprentissage en mouvement et ludique
   desc: Lorsque le mouvement est introduit pendant l’apprentissage scolaire, tant les élèves que les enseignants sont plus réceptifs et plus concentrés en classe et prennent plus de plaisir à participer au quotidien scolaire. La gymnastique du cerveau permet de renforcer les performances scolaires en optimisant les processus liés à la réflexion et à la mémorisation.
 - title: Familles
   subtitle: Collaboration parents / école
   image: students group.png
   ref: collaboration
   category: Relation
-  summary: L’école en collaboration avec les familles établira des repères solides et transmettra des valeurs essentielles et porteuse de vie.
-  desc: Nous souhaitons encourager les parents et les enseignants à établir un contact régulier afin de pourvoir aider l’enfant à progresser. Nous voulons encourager la culture de la confiance, à savoir que les parents reconnaissent que les enseignants sont des spécialistes qui ont comme but de faire progresser leurs enfants dans un climat serein.
+  summary: Communication régulière avec les familles
+  desc: L’école, en collaboration avec les familles, établira des repères solides et transmettra des valeurs essentielles et porteuse de vie. Nous souhaitons encourager les parents et les enseignants à établir un contact régulier afin de pourvoir aider l’enfant à progresser. Nous voulons encourager la culture de la confiance, à savoir que les parents reconnaissent que les enseignants sont des spécialistes qui ont comme but de faire progresser leurs enfants dans un climat serein.
