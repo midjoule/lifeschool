@@ -210,11 +210,11 @@ permalink: /
       </div>
       <div class="col-md-11"> 
         {% for tm in site.data.team %}
-        {{ forloop.index | modulo:2 }}
+        {% assign num = forloop.index | modulo:2 %}
+        {{ num }}
         <div class="row">
-        {% if forloop.index | modulo:2 == 0 %}
+        {% if num == 0 %}
           <div class="col-md-7">
-           
             <p>{{ tm.testimonial }}</p>
           </div>
           <div class="col-md-4">
