@@ -204,39 +204,28 @@ permalink: /
         <h2 style="text-align:center">Notre équipe</h2>
       </div>
     </div>
-    {% assign i = 0 %}
     {% for tm in site.data.team %}
-   {{ i | modulo:2 }}
-    {% if i | modulo:2 == 0 %}
     <div class="row">
-      <div class="col-md-1 col-md-offset-1 col-xs-12">       
-        <img src="img/cotation.png" alt="quotation"  class="img-responsive">
-      </div>
-      <div class="col-md-3"
-          <p>{{ tm.testimonial }}</p>
-          <div class="user">
-            <img src="{{ tm.image }}" class="img-rounded" alt="{{ tm.name }}">
-            <p><span>{{ tm.name }}</span><br/><i>{{ tm.title }}</i></p>
+      <div class="col-md-1">       
+        <img src="img/testimonials/quote.png" alt="quotation"  class="img-responsive">
+        <div class="row">
+          {% if forloop.index | modulo:2 == 0 %}
+          <div class="col-md-7 col-md-offset-1">
+          {% else %}
+          <div class="col-md-7 col-md-offset-1">
+          {% endif %}
+            <p>{{ tm.testimonial }}</p>
+          </div>
+          <div class="col-md-3">
+            <div class="user">
+              <img src="{{ tm.image }}" class="img-rounded" alt="{{ tm.name }}">
+              <p><span>{{ tm.name }}</span><br/><i>{{ tm.title }}</i></p>
+            </div> 
           </div>
         </div>
       </div>
     </div>
-   {% else %}
-    <div class="row">
-      <div class="col-md-7 col-md-offset-5 col-xs-12">       
-        <div class="pull-right">
-          <img src="img/cotation.png" alt="quotation" class="img-responsive">
-          <p>{{ tm.testimonial }}</p>
-          <div class="user">
-            <img src="{{ tm.image }}" class="img-rounded" alt="{{ tm.name }}">
-            <p><span>{{ tm.name }}</span><br/><i>{{ tm.title }}</i></p>
-          </div>
-        </div>
-      </div>
-    </div>
-   {% endif %}
-   {% assign i = i + 1 %}
-   {% endfor %}
+    {% endfor %}
   </div>
 </section>
 {% endif %}
