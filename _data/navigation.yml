@@ -5,12 +5,10 @@
       url: /index.html#vision
     - title: Philosophie
       url: /index.html#philosophy
-    - title: Équipe
-      url: /index.html#staff  
-    - title: Partenaires
-      url: /index.html#partners     
     - title: Grands principes
-      url: /index.html#portfolio-work      
+      url: /index.html#portfolio-work   
+    - title: Équipe
+      url: /index.html#team    
 - title: L'École
   url: /school.html
   sublinks:
