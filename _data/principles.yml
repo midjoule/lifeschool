@@ -34,28 +34,28 @@
   summary: Cursus scolaire selon le plan d’étude romand
   desc: Le PER servira de base et de guide. Le temps et les résultats ne devraient pas être un facteur de stress, ni pour les enseignants, ni pour les enfants, ni pour les parents. Nos enseignants seront encouragés à prendre le temps avec leurs élèves, à considérer les objectifs personnels de chaque enfant et ne pas se focaliser sur les objectifs à atteindre pour toute la classe. Nous voulons placer l’enfant au centre de l’apprentissage et non la pédagogie.
 - title: Devoirs en classe
-  subtitle: Pas ou peu de devoirs à la maison
+  subtitle: Davantage de temps de qualité en famille
   image: homework.png
   ref: homework
   category: Method
   summary: Les devoirs sont effectués pendant les heures de cours.
   desc: Le temps à la maison devrait être consacré aux jeux, au sport, à la détente, à la culture ou à l’étude d’autres matières selon le centre d’intérêt de chaque enfant (musique, langues, animaux, cuisine, visite de lieux culturels, etc.). Les seuls devoir à domicile seront de préparer des exposés, révisions de vocabulaire ou de lire des livres recommandés ou suggérés par l’élève en accord avec les enseignants.
 - title: Evaluations sans note
-  subtitle: Fini les comparaisons et la compétition entre élèves
+  subtitle: Fini la comparaison et la compétition
   image: examination.png
   ref: no mark
   category: Method
   summary: Lorsque l’enfant a compris et assimilé une matière, il peut passer à autre chose.
-  desc: Nous privilégions un système scolaire basé sur un tableau de compétence que l’élève remplit avec le vis-à-vis de son professeur. Chaque enfant évalue régulièrement ses connaissances par rapport à un sujet avec son professeur. L’enfant peut donc apprendre à son rythme et constater sa progression par lui-même (avec le suivi de son professeur). Les progrès et les besoins des enfants sont communiqués régulièrement aux parents.
+  desc: Nous privilégions un système scolaire basé sur un tableau de compétences que l’élève remplit sous la supervision de son professeur. Chaque enfant évalue régulièrement ses connaissances par rapport à un sujet avec son professeur. L’enfant peut donc apprendre à son rythme et constater sa progression par lui-même (avec le suivi de son professeur). Les progrès et les besoins des enfants sont communiqués régulièrement aux parents.
 - title: Cours en mouvement
-  subtitle: Fini les pupitres statiques
+  subtitle: Optimisation des processus cérébraux et sociaux
   image: move.png
   ref: move
   category: Method
   summary: Apprendre en mouvement pour apprendre avec plaisir !
   desc: Lorsque le mouvement est introduit pendant l’apprentissage scolaire, tant les élèves que les enseignants sont plus réceptifs et plus concentrés en classe et prennent plus de plaisir à participer au quotidien scolaire. La gymnastique du cerveau permet de renforcer les performances scolaires en optimisant les processus liés à la réflexion et à la mémorisation.
-- title: Collaboration
-  subtitle: Collaboration active avec les parents
+- title: Familles
+  subtitle: Collaboration parents / école
   image: students group.png
   ref: collaboration
   category: Relation
