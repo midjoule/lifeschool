@@ -206,11 +206,13 @@ permalink: /
     </div>
     {% assign i = 0 %}
     {% for tm in site.data.team %}
+   {{ i | modulo:2 }}
     {% if i | modulo:2 == 0 %}
     <div class="row">
-      <div class="col-md-7 col-md-offset-1 col-xs-12">       
-        <div class="pull-left">
-          <img src="img/cotation.png" alt="quotation"  class="img-responsive">
+      <div class="col-md-1 col-md-offset-1 col-xs-12">       
+        <img src="img/cotation.png" alt="quotation"  class="img-responsive">
+      </div>
+      <div class="col-md-3"
           <p>{{ tm.testimonial }}</p>
           <div class="user">
             <img src="{{ tm.image }}" class="img-rounded" alt="{{ tm.name }}">
