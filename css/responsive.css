@@ -176,17 +176,20 @@ px      68    160    252    */
     margin-bottom: 20px;
   }
   #slider {
-    padding-top: 90px;
-    padding-bottom: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   #slider .block {
     padding-left: 0px;
   }
   #slider .block h1 {
-    font-size: 20px;
+    font-size: 6vw;
+    line-height: 12vw;
+    padding-bottom: 0px;
   }
   #slider .block p {
-    font-size: 13px;
+    font-size: 4vw;
+    line-height: 9vw;
   }
   /*--
 	wrapper Start 
