@@ -113,7 +113,6 @@ permalink: /
           <p>Nous voulons encourager les enfants à donner le meilleur d’eux-mêmes, ne pas se comparer mais tendre toujours au meilleur. L’excellence fait partie de notre philosophie mais pas au détriment des êtres humains.</p>
           <p>Nous voulons une école ancrée dans un enseignement solide où l’on donne du sens aux apprentissages, en permettant aux élèves de construire leur savoir en s’appuyant sur du vécu et de pouvoir utiliser ensuite les aptitudes et les outils appris à l’école dans la vie de tous les jours.</p>
           <p>Notre vision du monde est basée sur la Bible. La Bible nous révèle que l’être humain a été créé pour avoir une relation avec Dieu. Son plan d’amour est de nous permettre de le connaître et de vivre une vie dans l’harmonie et la paix. Toutefois, ce Dieu qui nous tend la main nous laisse l’entière liberté de choisir si nous voulons croire en lui ou non.</p>
-          <p>Notre école n’est pas une école religieuse mais une école de relation.</p>
           <p>Nous souhaitons transmettre aux élèves les connaissances scolaires exigées par le plan d’étude romand en y intégrant les valeurs chrétiennes qui n’ont rien de religieux mais qui ont aussi été les forces de notre constitution helvétique, à savoir sans notion de prosélytisme. Les valeurs chrétiennes permettent à chaque enfant (individu) de faire ses propres choix concernant sa vie et son futur. L’endoctrinement ou le prosélytisme ne font pas partie des valeurs chrétiennes. La liberté d’opinion, d’expression, de conviction et de choisir sont également au cœur des valeurs chrétiennes.</p>
         </p>
       </div>
@@ -205,37 +204,21 @@ permalink: /
       </div>
     </div>
     <div class="row">
+      {% for tm in site.data.team %}
+      {% assign num = forloop.index | modulo:2 %}     
       <div class="col-md-1 col-sm-1">       
         <img src="img/testimonials/quote.png" alt="quotation"  class="img-responsive">
       </div>
-      <div class="col-md-11 col-sm-11"> 
-        {% for tm in site.data.team %}
-        {% assign num = forloop.index | modulo:2 %}
-        <div class="row">
-        {% if num == 0 %}
-          <div class="col-md-7">
-            <p>{{ tm.testimonial }}</p>
-          </div>
-          <div class="col-md-4">
-            <div class="user">
-              <img src="{{ tm.image }}" class="img-rounded" alt="{{ tm.name }}">
-              <p><span>{{ tm.name }}</span>, <i>{{ tm.title }}</i></p>
-            </div> 
-          </div>           
-        {% else %}
-          <div class="col-md-3">
-            <div class="user">
-              <img src="{{ tm.image }}" class="img-rounded" alt="{{ tm.name }}">
-              <p><span>{{ tm.name }}</span>, <i>{{ tm.title }}</i></p>
-            </div> 
-          </div>  
-          <div class="col-md-7">
-            <p>{{ tm.testimonial }}</p>
-          </div>         
-        {% endif %}
-        </div>
-        {% endfor %}
+      <div class="col-md-7">
+        <p>{{ tm.testimonial }}</p>
       </div>
+      <div class="col-md-4">
+        <div class="user">
+          <img src="{{ tm.image }}" class="img-rounded" alt="{{ tm.name }}">
+          <p><span>{{ tm.name }}</span>, <i>{{ tm.title }}</i></p>
+        </div> 
+      </div>           
+      {% endfor %}
     </div>
   </div>
 </section>
