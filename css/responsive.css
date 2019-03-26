@@ -169,7 +169,8 @@ px      68    160    252    */
     font-size: 18px;
   }
   p {
-    font-size: 13px;
+    font-size: small;
+    line-height: 5vh ;
   }
   header .navbar-default .navbar-toggle {
     margin-top: 20px;
@@ -383,7 +384,29 @@ px      68    160    252    */
   /*---------------------------------------------
 					contact close 
 -----------------------------------------------*/
-  /*--
+
+/*---------------------------------------------
+					Titles start
+-----------------------------------------------*/
+
+#feature .block h1, #slider .block h1, #philo .block h1 {
+  font-size: large;
+  line-height: 5vh;
+  letter-spacing: 1vw;
+  padding-bottom: 2vh;
+}
+
+#portfolio-work .block .portfolio-contant ul li {
+  width: 27%;
+  overflow: hidden;
+  margin: 6px;
+  position: relative;
+  text-align: center;
+}	
+/*---------------------------------------------
+					Titles close
+-----------------------------------------------*/	
+/*--
 	footer Start 
 --*/
   footer .footer-manu {
