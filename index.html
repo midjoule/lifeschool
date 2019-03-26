@@ -203,23 +203,23 @@ permalink: /
         <h2 style="text-align:center">Notre équipe</h2>
       </div>
     </div>
-    <div class="row">
-      {% for tm in site.data.team %}
+    {% for tm in site.data.team %} 
+    <div class="row">      
       {% assign num = forloop.index | modulo:2 %}     
-      <div class="col-md-1 col-sm-1">       
+      <div class="col-md-1 col-sm-1 col-xs-1">       
         <img src="img/testimonials/quote.png" alt="quotation"  class="img-responsive">
       </div>
-      <div class="col-md-7">
+      <div class="col-md-7 col-sm-7 col-xs-7">
         <p>{{ tm.testimonial }}</p>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 col-sm-4 col-xs-4">
         <div class="user">
           <img src="{{ tm.image }}" class="img-rounded" alt="{{ tm.name }}">
           <p><span>{{ tm.name }}</span>, <i>{{ tm.title }}</i></p>
         </div> 
       </div>           
-      {% endfor %}
     </div>
+    {% endfor %}
   </div>
 </section>
 {% endif %}
