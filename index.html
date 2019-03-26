@@ -175,16 +175,20 @@ permalink: /
         <table class="table">
             <tbody>
                 <tr>
-                    <td style="width:10%">
-                        <img src="/img/principles/{{ p.image }}" alt="{{ p.title }}" class="thumbnail">
-                    </td>
-                    <td style="width:90%">  
-                        <div class="section-title">
-                            <h2>{{ p.title }}</h2>
-                            <p>{{ p.summary }}</p>
-                        </div>
-                        <p class="wrap">{{ p.desc }}</p>
-                    </td>
+                  <td style="width:10%">
+                    <img src="/img/principles/{{ p.image }}" alt="{{ p.title }}" class="thumbnail">
+                  </td>
+                  <td style="width:90%">  
+                    <div class="section-title">
+                      <h2>{{ p.title }}</h2>
+                      <p>{{ p.summary }}</p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan=2>
+                    <p class="wrap">{{ p.desc }}</p>
+                  </td>
                 </tr>
             </tbody>
           </table>
