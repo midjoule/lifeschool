@@ -37,6 +37,9 @@ p {
   font-size: medium;
   line-height: 6vh;
 }
+br {
+  margin-bottom: 20px;
+}
 ul {
   padding: 0;
   margin: 0;
