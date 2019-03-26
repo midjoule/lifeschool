@@ -386,7 +386,7 @@ px      68    160    252    */
 -----------------------------------------------*/
 
 /*---------------------------------------------
-					Titles start
+					Titles and homepage start
 -----------------------------------------------*/
 
 #feature .block h1, #slider .block h1, #philo .block h1 {
@@ -403,8 +403,12 @@ px      68    160    252    */
   position: relative;
   text-align: center;
 }	
+	
+#slider, #feature, #philo {	
+  padding: 100px 0 100px 0;
+}	
 /*---------------------------------------------
-					Titles close
+					Titles and homepage close
 -----------------------------------------------*/	
 /*--
 	footer Start 
