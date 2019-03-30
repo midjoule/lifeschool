@@ -12,6 +12,8 @@
 - title: L'École
   url: /school.html
   sublinks:
+    - title: Fondements
+      url: /school.html#foundations
     - title: Classes et Programme
       url: /school.html#classes
     - title: Méthodes
