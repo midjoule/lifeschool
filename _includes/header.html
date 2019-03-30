@@ -18,7 +18,7 @@
              {% assign links = site.data.navigation %}
              {% for link in links %}
              {% assign class = nil %}
-              <!-- {{ page.url }} --- {{ link.url }} -->
+{{ page.url }} << >> {{ link.url }}
              {% if page.url contains link.url %}
              {% assign class = 'active' %}
              {% endif %}
