@@ -1,6 +1,8 @@
 - title: Présentation
   url: /
   sublinks:
+    - title: A propos de nous
+      url: /index.html#aboutus
     - title: Vision, Mission, Valeurs
       url: /index.html#vision
     - title: Philosophie
