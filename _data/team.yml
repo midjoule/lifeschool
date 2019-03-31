@@ -3,6 +3,10 @@
   testimonial: "Nous croyons dans le potentiel de tous les élèves et souhaitons leur permettre d'apprendre en ayant du plaisir, dans un environement sain, performant et sécurisant."
   image: img/testimonials/nathalie.jpg
 - name: Julien
-  title: IT Manager
+  title: Responsable IT
   testimonial: "Je suis impatient de voir ce projet naître et constater tout l'impact positif qu'il aura à la fois sur les enfants, les enseignants, les parents et la société."
   image: img/testimonials/julien.jpg
+- name: Fabienne
+  title: 
+  testimonial: « Tous les enfants ont du génie, le tout c’est de le faire apparaître. » Charlie Chaplin 
+  image: img/testimonials/fabienne.jpg
