@@ -52,3 +52,7 @@ P.wrap {
 DIV.table-borderless {
  border: 0px;
 }
+
+TD.principle {
+ border: none;
+}
