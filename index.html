@@ -209,10 +209,10 @@ permalink: /
     {% for tm in site.data.team %} 
     <div class="row animated fadeInUp">      
       {% assign num = forloop.index | modulo:2 %}     
-      <div class="col-md-3 col-sm-3 col-xs-3">       
+      <div class="offset-md-3 col-md-3 offset-sm-3col-sm-3 offset-xs-3 col-xs-3">       
         <img src="img/testimonials/quote.png" alt="quotation"  class="img-responsive">
       </div>
-      <div class="col-md-6 col-sm-6 col-xs-6">
+      <div class="col-md-3 col-sm-3 col-xs-3">
         <p>{{ tm.testimonial }}</p>
       </div>
       <div class="col-md-3 col-sm-3 col-xs-3">
