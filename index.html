@@ -203,23 +203,20 @@ permalink: /
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h2 style="text-align:center">Notre équipe</h2>
+        <h2 style="text-align:center"><img src="img/testimonials/quote.png" alt="quotation"  style="width:50px;right-margin:30px;">Notre équipe</h2>
       </div>
     </div>
     {% for tm in site.data.team %} 
     <div class="row animated fadeInUp">      
       {% assign num = forloop.index | modulo:2 %}     
       <div class="col-md-3 col-sm-3 col-xs-3">       
-        <img src="img/testimonials/quote.png" alt="quotation"  class="img-responsive">
+        <img src="{{ tm.image }}" class="img-rounded" alt="{{ tm.name }}"> 
       </div>
       <div class="col-md-6 col-sm-6 col-xs-6">
-        <p>{{ tm.testimonial }}</p>
-      </div>
-      <div class="col-md-3 col-sm-3 col-xs-3">
-        <div class="user">
-          <img src="{{ tm.image }}" class="img-rounded" alt="{{ tm.name }}">
-          <p><i>{{ tm.name }}</i></p>
-        </div> 
+        <blockquote class="blockquote">
+          <p class="mb-0">{{ tm.testimonial }}</p>
+          <footer class="blockquote-footer">{{ tm.name }}</footer>
+        </blockquote>  
       </div>           
     </div>
     {% endfor %}
