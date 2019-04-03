@@ -56,3 +56,7 @@ DIV.table-borderless {
 TD.principle {
  border: none;
 }
+
+footer.blockquote-footer {
+ padding-top: 3rem;
+ padding-bottom: 2em;
