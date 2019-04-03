@@ -60,3 +60,10 @@ TD.principle {
 footer.blockquote-footer {
  padding-top: 3rem;
  padding-bottom: 2em;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
