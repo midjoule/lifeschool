@@ -4,7 +4,7 @@
   image: img/testimonials/fabienne.jpg
 - name: Joël
   title: Enseignant ACM
-  testimonial: « Je rêve d’une école "atelier" qui permette à chacun d’apprendre au travers de sa créativité. Une école où l’ imagination et l’expérimentation sont possibles.&crarr;Albert Einstein l’a si bien résumé&#58; "La créativité, c’est l’intelligence qui s’amuse." 
+  testimonial: « Je rêve d’une école "atelier" qui permette à chacun d’apprendre au travers de sa créativité. Une école où l’ imagination et l’expérimentation sont possibles.&lt;br /&gt;Albert Einstein l’a si bien résumé&#58; "La créativité, c’est l’intelligence qui s’amuse." 
   image: img/testimonials/joel.jpg  
 - name: Julien
   title: Responsable IT
