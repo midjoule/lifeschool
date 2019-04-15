@@ -2,6 +2,10 @@
   title: 
   testimonial: « Tous les enfants ont du génie, le tout c’est de le faire apparaître. » Charlie Chaplin 
   image: img/testimonials/fabienne.jpg
+- name: Joël
+  title: Enseignant ACM
+  testimonial: « Je rêve d’une école "atelier" qui permette à chacun d’apprendre au travers de sa créativité. Une école où l’ imagination et l’expérimentation sont possibles. Albert Einstein l’a si bien résumé: "La créativité, c’est l’intelligence qui s’amuse." 
+  image: img/testimonials/joel.jpg  
 - name: Julien
   title: Responsable IT
   testimonial: "Je suis impatient de voir ce projet naître et constater tout l'impact positif qu'il aura à la fois sur les enfants, les enseignants, les parents et la société."
