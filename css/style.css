@@ -53,6 +53,11 @@ DIV.table-borderless {
  border: 0px;
 }
 
+H2 IMG {
+ width:50px;
+ padding-right:15px;
+}
+
 TD.principle {
  border: none;
 }
