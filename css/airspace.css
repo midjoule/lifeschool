@@ -151,19 +151,18 @@ font header .navbar-default .navbar-nav li a:hover {
 
 #feature .block h1, #slider .block h1, #philo .block h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: xx-large;
-  line-height: 10vh;
-  letter-spacing: 1vw;
-  padding-bottom: 5vh;
+  letter-spacing: 0.6em;
+  padding-bottom: 2em;
 }
 
 #feature .block p, #slider .block p, #philo .block p {
-  font-size: medium;
-  line-height: 40px;
+  font-size: large;
+  line-height: 2em;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  letter-spacing: 1vw;
+  letter-spacing: 0.5em;x§
 }
 
 #feature h2, #slider h2, #philo h2 {
