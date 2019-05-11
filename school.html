@@ -18,12 +18,45 @@ permalink: /school/
     </div>
 </section>
 
-<section id="portfolio-work">
+{% if site.data.school.size > 0 %}
+{% for p in site.data.school %}
+<section id="{{ p.id }}">
   <div class="container">
     <div class="row">
       <div class="col-md-12 col-sm-12">
         <h2 style="text-align:center;margin-bottom:40px;">
-          <img src="/img/partners.png" alt="quotation">
+          <img src="/img/school/{{ p.icon }}" alt="quotation">
+         {{ p.title }}
+        </h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="table-responsive table-borderless">          
+        <table class="table">
+            <tbody>
+                <tr>
+                  <td style="border:none;">
+                    <p class="wrap">{{ p.intro }}</p>
+                    <p class="wrap"><a href="" target="_new">En savoir plus...{{ p.link }}</a></p>
+                  </td>
+                </tr>
+            </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+{% endfor %}
+{% endif %}
+
+
+<section id="partners">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <h2 style="text-align:center;margin-bottom:40px;">
+          <img src="/img/school/partners.png" alt="quotation">
          Nos Partenaires
         </h2>
       </div>
