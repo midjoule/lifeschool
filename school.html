@@ -23,7 +23,7 @@ permalink: /school/
     <div class="row">
       <div class="col-md-12 col-sm-12">
         <h2 style="text-align:center;margin-bottom:40px;">
-          <img src="img/partners.png" alt="quotation">
+          <img src="/img/partners.png" alt="quotation">
          Nos Partenaires
         </h2>
       </div>
@@ -38,12 +38,12 @@ permalink: /school/
         <table class="table">
             <tbody>
                 <tr>
-                  <td style="width:10%">
+                  <td style="width:30%">
                     <a href="{{ p.website }}" target="_new">
-                      <img src="/img/partners/{{ p.logo }}" alt="{{ p.name }}" class="thumbnail">
+                      <img src="/img/partners/{{ p.logo }}" title="{{ p.name }}" class="thumbnail">
                     </a>
                   </td>
-                  <td style="width:90%">  
+                  <td style="width:70%">  
                     <div class="section-title">
                       <h2>{{ p.name }}</h2>
                     </div>
@@ -51,7 +51,7 @@ permalink: /school/
                 </tr>
                 <tr>
                   <td colspan=2 style="border:none;">
-                    <p class="wrap">{{ p.desc }}</p>
+                    <p class="wrap">{{ p.description }}</p>
                   </td>
                 </tr>
             </tbody>
