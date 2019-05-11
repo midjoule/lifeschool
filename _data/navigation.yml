@@ -23,6 +23,8 @@
     - title: separator
     - title: Infos Pratiques
       url: /school.html#infos
+    - title: Partenaires
+      url: /school.html#partners
 - title: L'Atelier
   url: /studio.html
   sublinks:
