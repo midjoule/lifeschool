@@ -16,13 +16,13 @@
   sublinks:
     - title: Fondements
       url: /school.html#foundations
-    - title: Classes et Programme
-      url: /school.html#classes
-    - title: Méthodes
-      url: /school.html#methods
+   # - title: Classes et Programme
+   #   url: /school.html#classes
+   # - title: Méthodes
+   #   url: /school.html#methods
     - title: separator
-    - title: Infos Pratiques
-      url: /school.html#infos
+   # - title: Infos Pratiques
+   #   url: /school.html#infos
     - title: Partenaires
       url: /school.html#partners
 - title: L'Atelier
