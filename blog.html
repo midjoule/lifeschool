@@ -16,17 +16,20 @@ permalink: /blog/
     </div>
   </div>
 </section>
+{% assign i = 0 %}
 {% for post in site.posts %}
+{% increment i %}
 <div class="post-area">
   <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
   <p class="post-date">{{ post.date | date_to_long_string }}</p>
  
   <p>{{ post.description }}
     <br />
-    <a href="{{ post.url | prepend: site.baseurl }}" title="En savoir plus..." onclick="javascript: document.all.item('{{ post.date }}').style.disply='block'"><img src="/img/more.png" style="width:50px;" /></a>
+    <a href="#post_{{ i }}" title="En savoir plus..." data-toggle="collapse">
+        <img src="/img/more.png" style="width:50px;" />
+    </a>
   </p>
-  
-  <p id="{{ post.date }}" style="display:none;">
+  <p id="post_{{ i }}" class="collapse">
     {{ post.content | strip_html }}
   </p>
   <p>
