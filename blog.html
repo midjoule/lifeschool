@@ -4,18 +4,6 @@ title: Blog
 permalink: /blog/
 ---
 
-<style>
-  UL {
-    margin: 15px 0px 20px 0px;
-  }
-  LI {
-    list-style-type: disc;
-    list-style-position: inside;
-    font-size:medium ;
-    line-height: 1.3em;
-  }
-</style>
-
 
 <!-- Slider Start -->
 <section id="global-header">
@@ -30,6 +18,8 @@ permalink: /blog/
     </div>
   </div>
 </section>
+
+<section id="blog-posts">
 {% assign i = 0 %}
 {% for post in site.posts %}
 {% assign i = i + 1 %}
@@ -48,3 +38,4 @@ permalink: /blog/
   </div>
 </div>
 {% endfor %}
+</section>
