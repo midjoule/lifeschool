@@ -18,7 +18,7 @@ permalink: /blog/
 </section>
 {% assign i = 0 %}
 {% for post in site.posts %}
-{% increment i %}
+{% assign i = i + 1 %}
 <div class="post-area">
   <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
   <p class="post-date">{{ post.date | date_to_long_string }}</p>
