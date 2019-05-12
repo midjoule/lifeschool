@@ -2,11 +2,11 @@
 title: Soirée découverte pédagogique
 description: >-
   Life School Riviera a tenu sa première soirée d'atelier pour adultes le 12
-  avril 2019 de 18h à 22h.
+  avril 2019 de 18h à 22h. Une trentaine de personnes étaient présentes et ont eu beaucoup de plaisir et d'intérêt à écouter les intervenants.
 author: Nathalie
 image: /img/clapperboard.png
 ---
-Life School Riviera a tenu sa première soirée d'atelier pour adultes. Le but de cette soirée a été de découvrir les pédagogies principales de notre école.
+Le but de cette soirée a été de découvrir les principaux concepts pédagogiques de notre école.
 
 **Nos intervenants** 
 
