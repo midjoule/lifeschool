@@ -74,3 +74,10 @@ footer.blockquote-footer {
     vertical-align: middle;
     float: none;
 }
+
+LI {
+ list-style-type: disc;
+ list-style-position: inside;
+ font-size:medium ;
+ line-height: 1.3em;
+}
