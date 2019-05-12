@@ -34,7 +34,7 @@ permalink: /blog/
 {% for post in site.posts %}
 {% assign i = i + 1 %}
 <div class="post-area">
-  <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
+  <h2>{{ post.title }}</h2>
   <p class="post-date">{{ post.date | date_to_long_string }}</p>
  
   <p>{{ post.description }}
@@ -43,11 +43,8 @@ permalink: /blog/
         <img src="/img/more.png" style="width:50px;" />
     </a>
   </p>
-  <p id="post_{{ i }}" class="collapse">
+  <div id="post_{{ i }}" class="collapse">
     {{ post.content }}
-  </p>
-  <p>
-    
-  </p>
+  </div>
 </div>
 {% endfor %}
