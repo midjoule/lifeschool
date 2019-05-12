@@ -17,7 +17,7 @@ Ils nous ont partagé leur passion pour l'apprentissage des enfants.
 
 **Les thèmes abordés**
 
-* Un enseignement centré sur le sens
+* L'enseignement centré sur le sens
 * L'apprentissage et le mouvement
 * Les profils d'apprentissage
 * Les classes multi-âges
