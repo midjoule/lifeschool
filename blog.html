@@ -10,7 +10,7 @@ permalink: /blog/
       <div class="col-md-12">
         <div class="block">
           <h1>Restez connectés avec nous !</h1>
-          <p>Vous trouverez bientôt nos dernières nouvelles et plein d'histoires intéressantes à propos de notre école !</p>
+          <p>Voici nos dernières nouvelles et des histoires intéressantes à propos de notre école !</p>
         </div>
       </div>
     </div>
@@ -22,6 +22,9 @@ permalink: /blog/
   <p class="post-date">{{ post.date | date_to_long_string }}</p>
   <p>
     {{ post.content | strip_html | truncatewords: 50 }}
+  </p>
+  <p>
+    <a href="{{ post.url | prepend: site.baseurl }}" title="En savoir plus..."><img src="/img/more.png" style="width:50px;" /></a>
   </p>
 </div>
 {% endfor %}
