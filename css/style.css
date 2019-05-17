@@ -76,10 +76,10 @@ footer.blockquote-footer {
 }
 
 
-blog-posts UL {
+#blog-posts UL {
   margin: 15px 0px 20px 0px;
 }
-blog-posts LI {
+#blog-posts LI {
   list-style-type: disc;
   list-style-position: inside;
   font-size:medium ;
