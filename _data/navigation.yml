@@ -25,6 +25,9 @@
    #   url: /school.html#infos
     - title: Partenaires
       url: /school.html#partners
+    - title: separator      
+    - title: Nous soutenir
+      url: /school.html#donate      
 - title: L'Atelier
   url: /studio.html
   sublinks:
