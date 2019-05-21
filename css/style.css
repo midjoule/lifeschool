@@ -89,10 +89,7 @@ footer.blockquote-footer {
 
 
 /* TOP Nav bar display */
-body {
-    padding-top: 90px;
-}
 
-.navbar.hide-nav {
+NAV.hide-nav {
     display:none;
 }
