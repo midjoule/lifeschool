@@ -61,9 +61,9 @@ var scrollTimeOut = true,
 
         if(Math.abs(lastYPos - yPos) >= yPosDelta) {
             if (yPos > lastYPos && yPos > navHeight){
-                nav.show(1000);
-            } else {
                 nav.hide(1000);
+            } else {
+                nav.show(1000);
             }
             lastYPos = yPos;
         }
