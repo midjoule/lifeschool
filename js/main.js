@@ -55,7 +55,6 @@ var scrollTimeOut = true,
     yPosDelta = 5,
     nav = $('nav.navbar'),
     navHeight = nav.outerHeight(),
-    console.log (navHeight);
     setNavClass = function() {
         scrollTimeOut = false;
         yPos = $(window).scrollTop();
