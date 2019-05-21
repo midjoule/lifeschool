@@ -90,7 +90,7 @@ footer.blockquote-footer {
 
 /* TOP Nav bar display */
 body {
-    padding-top: 40px;
+    padding-top: 90px;
 }
 
 header {
@@ -117,7 +117,7 @@ header {
     transform: translateY(-100%);
 }
 
-main {
+body {
    background:url(
 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAPklEQVQYV2O8dOnSfwYg0NPTYwTRuAAj0QqxmYBNM1briFaIzRbi3UiRZ75uNgUHGbfvabgfsHqGaIXYPAMAD8wgC/DOrZ4AAAAASUVORK5CYII=
    ) repeat;
