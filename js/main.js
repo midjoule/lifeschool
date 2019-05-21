@@ -61,11 +61,9 @@ var scrollTimeOut = true,
 
         if(Math.abs(lastYPos - yPos) >= yPosDelta) {
             if (yPos > lastYPos && yPos > navHeight){
-                nav.removeClass('navbar-static-top');
-                nav.addClass('navbar-fixed-top');
+                nav.show(1000);
             } else {
-                nav.removeClass('navbar-fixed-top');
-                nav.addClass('navbar-static-top');
+                nav.hide(1000);
             }
             lastYPos = yPos;
         }
