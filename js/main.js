@@ -55,15 +55,18 @@ var scrollTimeOut = true,
     yPosDelta = 5,
     nav = $('nav.navbar'),
     navHeight = nav.outerHeight(),
+    console.log (navHeight);
     setNavClass = function() {
         scrollTimeOut = false;
         yPos = $(window).scrollTop();
 
         if(Math.abs(lastYPos - yPos) >= yPosDelta) {
             if (yPos > lastYPos && yPos > navHeight){
-                nav.addClass('hide-nav');
+                nav.removeClass('navbar-static-top');
+                nav.addClass('navbar-fixed-top');
             } else {
-                nav.removeClass('hide-nav');
+                nav.removeClass('navbar-fixed-top');
+                nav.addClass('navbar-static-top');
             }
             lastYPos = yPos;
         }
