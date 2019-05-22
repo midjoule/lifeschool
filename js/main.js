@@ -62,7 +62,7 @@ var scrollTimeOut = true,
             if (yPos > lastYPos && yPos > navHeight){
                 $('nav.navbar').hide(1000);
             } else {
-                $('nav.navbar').show(1000);
+                $('nav.navbar').show(500);
             }
             lastYPos = yPos;
         }
