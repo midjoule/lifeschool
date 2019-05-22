@@ -53,17 +53,16 @@ var scrollTimeOut = true,
     lastYPos = 0,
     yPos = 0,
     yPosDelta = 5,
-    nav = $('nav.navbar'),
-    navHeight = nav.outerHeight(),
+    navHeight = $('nav.navbar').outerHeight(),
     setNavClass = function() {
         scrollTimeOut = false;
         yPos = $(window).scrollTop();
 
         if(Math.abs(lastYPos - yPos) >= yPosDelta) {
             if (yPos > lastYPos && yPos > navHeight){
-                nav.hide(1000);
+                $('nav.navbar').hide(1000);
             } else {
-                nav.show(1000);
+                $('nav.navbar').show(1000);
             }
             lastYPos = yPos;
         }
@@ -74,9 +73,7 @@ $(window).scroll(function(e){
 });
 
 setInterval(function() {
-    if (scrollTimeOut) {
+    if (scrollTimeOut) 
         setNavClass();
-    }
-
 }, 250);
 
