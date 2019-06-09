@@ -1,5 +1,5 @@
 - name: Fabienne
-  title: 
+  title: Enseignante
   testimonial: « Tous les enfants ont du génie, le tout c’est de le faire apparaître. » Charlie Chaplin 
   image: img/testimonials/fabienne.jpg
 - name: Joël
@@ -14,3 +14,15 @@
   title: Responsable du projet
   testimonial: « Nous croyons dans le potentiel de tous les élèves et souhaitons leur permettre d'apprendre en ayant du plaisir, dans un environement sain, performant et sécurisant. »
   image: img/testimonials/nathalie.jpg
+- name: Pierre-André
+  title: 
+  testimonial: Si le programme scolaire n'est pas adapté à l'élève, il faut adapter le programme à l'élève. C'est ce que cette école se propose de faire.
+  image: img/testimonials/pierre-andre.jpg
+- name: Audrey
+  title: 
+  testimonial: Nos enfants sont de véritables explorateur, de petits scientifiques en here qui ne demandent qu'à découvrir le monde ! Notre école leur offre un espace de vie et de découverte riche et bienveillant pour qu'il s'épanouissent, soient libres de penser par eux-mêmes et acteurs de leur vie.
+  image:  
+- name: Mélanie
+  title: 
+  testimonial: « Si un enfant ne peut apprendre de la façon dont nous lui apprenons, peut-être devrions-nous lui enseigner de la façon dont il apprend » Charlie Chaplin 
+  image:  
