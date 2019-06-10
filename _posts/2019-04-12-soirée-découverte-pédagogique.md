@@ -1,8 +1,10 @@
 ---
 title: Soirée découverte pédagogique
 description: >-
-  Life School Riviera a tenu sa première soirée d'atelier pour adultes le 12
-  avril 2019 de 18h à 22h. Une trentaine de personnes étaient présentes et ont eu beaucoup de plaisir et d'intérêt à écouter les intervenants.
+  Nous avons tenu notre première soirée d'atelier pédagogique pour adultes le 12
+  avril 2019. Que plaisir de voir plus de 30 personnes participer à cette soirée
+  et écouter avec beaucoup d'intérêt les intervenants Natacha Pfister et
+  Guillaume Bousquet.
 author: Nathalie
 image: /img/clapperboard.png
 ---
