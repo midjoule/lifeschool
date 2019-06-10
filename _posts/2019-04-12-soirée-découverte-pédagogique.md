@@ -7,6 +7,7 @@ description: >-
   Guillaume Bousquet.
 author: Nathalie
 image: /img/clapperboard.png
+video: https://www.youtube.com/embed/RP-JXJHAjS8
 ---
 Le but de cette soirée a été de découvrir les principaux concepts pédagogiques de notre école.
 
