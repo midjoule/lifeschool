@@ -22,13 +22,13 @@ permalink: /blog/
 <section id="blog-posts">
 
 {% for post in site.posts %}
-{% increment i %}
+
 <div class="post-area">
   <h2>{{ post.title }}</h2>
   <p class="post-date">{% assign dy = post.date | date: "%a" %}{% case dy %}{% when "Mon" %}Lundi{% when "Tue" %}Mardi{% when "Wed" %}Mercredi{% when "Thu" %}Jeudi{% when "Fri" %}Vendredi{% when "Sat" %}Samedi{% when "Sun" %}Dimanche{% else %}{{ dy }}{% endcase %} {% assign d = post.date | date: "%-d"  %}{% case d %}{% when '1' %}{{ d }}er{% else %}{{ d }}{% endcase %} {% assign m = post.date | date: "%-m" %}{% case m %}{% when '1' %}janvier{% when '2' %}février{% when '3' %}mars{% when '4' %}avril{% when '5' %}mai{% when '6' %}juin{% when '7' %}juillet{% when '8' %}août{% when '9' %}septembre{% when '10' %}octobre{% when '11' %}novembre{% when '12' %}décembre{% endcase %} {{ post.date | date: '%Y' }}</p> 
   <p>{{ post.description }}
     <br />
-    <a href="#post_{{ i }}" title="En savoir plus..." data-toggle="collapse">
+    <a href="#post_{% increment i %}" title="En savoir plus..." data-toggle="collapse">
       En savoir plus <img src="/img/more.png" style="width:30px;" />
     </a>
   </p>
