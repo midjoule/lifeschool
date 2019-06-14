@@ -35,7 +35,7 @@ permalink: /blog/
   <div id="post_{{ i }}" class="collapse">
     {{ post.content }}
     Size {{ post.video.size }}
-    {% if post.video.size != 0 %}
+    {% if post.video and post.video != blank %}
     <p>
       <iframe width="560" height="315" src="{{ post.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </p> 
