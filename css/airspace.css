@@ -150,10 +150,11 @@ font header .navbar-default .navbar-nav li a:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: xx-large;
-  font-color: rgb(247,45,163);
+  font-color: whitesmoke;
   letter-spacing: 0.05em;
-  padding-bottom: 2em;
+  padding: 1em;
   line-height: 2em;
+  background-color: rgba(247, 45, 163, 0.5);
 }
 
 #feature .block p, #slider .block p, #philo .block p {
