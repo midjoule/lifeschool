@@ -1,5 +1,5 @@
 ---
-title: Formation RéEDUK'action du 14 et 15 Octobre 2019 à Vevey
+title: Formation RéEDUK'action - 15 et 16 Octobre 2019 à Vevey
 description: >-
   RéEDUK’action est une approche pédagogique bienveillante et ludique
   d’accompagnement individuel des difficultés et troubles d’apprentissage.
