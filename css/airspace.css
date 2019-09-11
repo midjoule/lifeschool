@@ -9,6 +9,7 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 @import url(//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 @import url(//fonts.googleapis.com/css?family=Volkhov:400italic);
+@import url('https://fonts.googleapis.com/css?family=Carter+One&display=swap');
 /* var text-decoration */
 /*--
 	Common Css
@@ -147,14 +148,13 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #feature .block h1, #slider .block h1, #philo .block h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Carter One', cursive;
   font-weight: 400;
   font-size: xx-large;
   font-color: whitesmoke;
   letter-spacing: 0.05em;
   padding: 1em;
   line-height: 2em;
-  background-color: rgba(247, 45, 163, 0.5);
 }
 
 #feature .block p, #slider .block p, #philo .block p {
