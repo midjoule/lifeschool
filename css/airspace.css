@@ -135,7 +135,7 @@ font header .navbar-default .navbar-nav li a:hover {
 /* common title overlays
 */
 
-#slider, #feature, #philo {
+#slider, #feature, #philo, #principles {
   background-attachment: fixed;
   background-position: center ;
   background-repeat: no-repeat ; 
@@ -148,11 +148,11 @@ font header .navbar-default .navbar-nav li a:hover {
   position: relative;
 }
 
-#feature .block, #slider .block, #philo .block {
+#feature .block, #slider .block, #philo .block, #principles .block {
   color: #E3E3E4;
 }
 
-#feature .block h1, #slider .block h1, #philo .block h1 {
+#feature .block h1, #slider .block h1, #philo .block h1, #principles .block h1 {
   font-family: 'Carter One', cursive;
   font-weight: 400;
   font-size: xx-large;
@@ -162,7 +162,7 @@ font header .navbar-default .navbar-nav li a:hover {
   line-height: 2em;
 }
 
-#feature .block p, #slider .block p, #philo .block p {
+#feature .block p, #slider .block p, #philo .block p, #principles .block p {
   font-size: large;
   line-height: 2em;
   font-family: 'Roboto', sans-serif;
@@ -170,7 +170,7 @@ font header .navbar-default .navbar-nav li a:hover {
   letter-spacing: 0.5em;x§
 }
 
-#feature h2, #slider h2, #philo h2 {
+#feature h2, #slider h2, #philo h2, #principles h2 {
   font-size: larger;
   font-weight: 600;
   margin-bottom: 3vh;
