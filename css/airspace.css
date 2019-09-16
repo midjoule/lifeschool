@@ -132,10 +132,15 @@ font header .navbar-default .navbar-nav li a:hover {
   background: url("../img/bg/child playing hoop.jpg") no-repeat;
 }
 
+#joy {
+  background: url("../img/bg/painted girl.jpg") no-repeat;
+}
+
+
 /* common title overlays
 */
 
-#slider, #feature, #philo, #principles {
+#slider, #feature, #philo, #principles, #joy {
   background-attachment: fixed;
   background-position: center ;
   background-repeat: no-repeat ; 
@@ -148,11 +153,11 @@ font header .navbar-default .navbar-nav li a:hover {
   position: relative;
 }
 
-#feature .block, #slider .block, #philo .block, #principles .block {
+#feature .block, #slider .block, #philo .block, #principles .block, #joy .block {
   color: #E3E3E4;
 }
 
-#feature .block h1, #slider .block h1, #philo .block h1, #principles .block h1 {
+#feature .block h1, #slider .block h1, #philo .block h1, #principles .block h1, #joy .block h1 {
   font-family: 'Carter One', cursive;
   font-weight: 400;
   font-size: 4rem;
@@ -163,7 +168,7 @@ font header .navbar-default .navbar-nav li a:hover {
   text-align:center;
 }
 
-#feature .block p, #slider .block p, #philo .block p, #principles .block p {
+#feature .block p, #slider .block p, #philo .block p, #principles .block p, #joy .block p {
   font-size: large;
   line-height: 2em;
   font-family: 'Roboto', sans-serif;
@@ -171,7 +176,7 @@ font header .navbar-default .navbar-nav li a:hover {
   letter-spacing: 0.5em;
 }
 
-#feature h2, #slider h2, #philo h2, #principles h2 {
+#feature h2, #slider h2, #philo h2, #principles h2, #joy h2 {
   font-size: larger;
   font-weight: 600;
   margin-bottom: 3vh;
