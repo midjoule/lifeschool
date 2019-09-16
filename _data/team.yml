@@ -1,11 +1,15 @@
-- name: Fabienne
-  title: Enseignante
-  testimonial: « Tous les enfants ont du génie, le tout c’est de le faire apparaître. » Charlie Chaplin 
-  image: img/testimonials/fabienne.jpg
+- name: Mélanie
+  title: 
+  testimonial: Bien trop souvent, l'apprentissage est vu comme quelque chose de contraignant par les élèves, mais parfois aussi par les parents, quand vient le moment des devoirs. Notre école se propose de redéfinir l'apprentissage de manière positive, en plaçant le plaisir au coeur de celui-ci. Ainsi, nous souhaitons, dans notre enseignement, aller au plus près des besoins de l'enfant et du fonctionnement naturel du cerveau, afin de rendre l'apprentissage motivant, accessible et épanouissant.
+  image:  img/testimonials/melanie.jpg
 - name: Joël
   title: Enseignant ACM
   testimonial: « Je rêve d’une école "atelier" qui permette à chacun d’apprendre au travers de sa créativité. Une école où l’ imagination et l’expérimentation sont possibles.<br />Albert Einstein l’a si bien résumé&#58; "La créativité, c’est l’intelligence qui s’amuse." 
   image: img/testimonials/joel.jpg  
+- name: Fabienne
+  title: Enseignante
+  testimonial: « Tous les enfants ont du génie, le tout c’est de le faire apparaître. » Charlie Chaplin 
+  image: img/testimonials/fabienne.jpg
 - name: Julien
   title: Responsable IT
   testimonial: « Je suis impatient de voir ce projet naître et constater tout l'impact positif qu'il aura à la fois sur les enfants, les enseignants, les parents et la société. »
@@ -22,7 +26,3 @@
   title: 
   testimonial: Nos enfants sont de véritables explorateurs, de petits scientifiques en herbe qui ne demandent qu'à découvrir le monde ! Notre école leur offre un espace de vie et de découverte riche et bienveillant pour qu'ils s'épanouissent, soient libres de penser par eux-mêmes et acteurs de leur vie.
   image: img/testimonials/audrey.jpg
-- name: Mélanie
-  title: 
-  testimonial: Bien trop souvent, l'apprentissage est vu comme quelque chose de contraignant par les élèves, mais parfois aussi par les parents, quand vient le moment des devoirs. Notre école se propose de redéfinir l'apprentissage de manière positive, en plaçant le plaisir au coeur de celui-ci. Ainsi, nous souhaitons, dans notre enseignement, aller au plus près des besoins de l'enfant et du fonctionnement naturel du cerveau, afin de rendre l'apprentissage motivant, accessible et épanouissant.
-  image:  img/testimonials/melanie.jpg
