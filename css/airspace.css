@@ -155,11 +155,12 @@ font header .navbar-default .navbar-nav li a:hover {
 #feature .block h1, #slider .block h1, #philo .block h1, #principles .block h1 {
   font-family: 'Carter One', cursive;
   font-weight: 400;
-  font-size: xx-large;
-  font-color: whitesmoke;
+  font-size: 4rem;
+  color: floralwhite;
   letter-spacing: 0.05em;
   padding: 1em;
   line-height: 2em;
+  text-align:center;
 }
 
 #feature .block p, #slider .block p, #philo .block p, #principles .block p {
