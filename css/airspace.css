@@ -801,9 +801,10 @@ footer {
   padding-bottom: 55px;
 }
 footer p {
-  font-size: 13px;
-  line-height: 25px;
-  color: #919191;
+    font-size: 2rem;
+    line-height: 25px;
+    color: rgb(147,78,152);
+    font-weight: 600;
 }
 footer a {
   color: #595959;
