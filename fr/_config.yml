@@ -16,7 +16,7 @@ keep_files:
 # Site settings
 title: Life School Riviera
 subtitle: "Vivre l'école autrement"
-url: "https://lifeschool-riviera.ch/" # the base hostname & protocol for your site
+url: "https://lifeschool-riviera.ch" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: "/fr"
 cover: "/img/slider-bg.jpg"
