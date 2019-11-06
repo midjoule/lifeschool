@@ -18,7 +18,7 @@ page.lang {{ page.lang }}
         </div>
         <div id="bs-example-navbar-collapse-1" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-             {% assign links = site.data.navigation %}
+             {% assign links = site.data.navigation | where: "title", "Blog" %}
              {% for link in links %}
              {% assign class = nil %}
               <!-- page url : {{ page.url }} contains link.url : {{ link.url }} -->
