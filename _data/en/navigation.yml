@@ -1,0 +1,41 @@
+- title: Présentation
+  url: /
+  sublinks:
+    - title: About us
+      url: /en/index.html#aboutus
+    - title: Vision, Mission, Values
+      url: /en/index.html#vision
+    - title: Philosophy
+      url: /en/index.html#philosophy
+    - title: Principles
+      url: /en/index.html#portfolio-work
+    - title: Team
+      url: /en/index.html#team
+- title: L'École
+  url: /school.html
+  sublinks:
+    - title: Fondements
+      url: /school.html#foundations
+   # - title: Classes et Programme
+   #   url: /school.html#classes
+   # - title: Méthodes
+   #   url: /school.html#methods
+    - title: separator
+   # - title: Infos Pratiques
+   #   url: /school.html#infos
+    - title: Partenaires
+      url: /school.html#partners
+    - title: separator
+    - title: Nous soutenir
+      url: /school.html#donate
+- title: L'Atelier
+  url: /studio.html
+  sublinks:
+    - title: Projets
+      url: /studio.html#projects
+    - title: Activités
+      url: /studio.html#projects
+- title: Blog
+  url: /blog.html
+- title: Contact
+  url: /contact.html
