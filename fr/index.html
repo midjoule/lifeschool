@@ -131,7 +131,7 @@ lang: fr
  </div>
 </section>
 
-{% if site.data.principles.size > 0 %}
+{% if site.data.fr.principles.size > 0 %}
 <!-- Principles Start -->
 <section id="portfolio-work">
  <div class="container">
@@ -149,7 +149,7 @@ lang: fr
        <div class="block">
            <div class="portfolio-contant">
              <ul id="portfolio-contant-active">
-               {% for p in site.data.principles %}
+               {% for p in site.data.fr.principles %}
                <li class="mix {{ p.category }}">
                  <a href="#{{ p.ref }}">
                    <img src="{{ site.baseurl }}/img/principles/{{ p.image }}" alt="{{ p.title }}">
@@ -171,9 +171,9 @@ lang: fr
 </section>
 {% endif %}
 
-{% if site.data.principles.size > 0 %}
+{% if site.data.fr.principles.size > 0 %}
 <!-- Principles Details Start -->
-{% for p in site.data.principles %}
+{% for p in site.data.fr.principles %}
 <section id="{{ p.ref }}">
  <div class="container">
      <div class="table-responsive table-borderless">
@@ -219,7 +219,7 @@ lang: fr
 
 
 
-{% if site.data.team.size > 0 %}
+{% if site.data.fr.team.size > 0 %}
 <!-- Team Start -->
 <section id="team">
  <div class="container">
@@ -228,7 +228,7 @@ lang: fr
        <h2 style="text-align:center"><img src="img/testimonials/quote.png" alt="quotation"  style="width:50px;padding-right:10px;">Notre équipe</h2>
      </div>
    </div>
-   {% for tm in site.data.team %}
+   {% for tm in site.data.fr.team %}
    <div class="row animated fadeInUp">
      {% assign num = forloop.index | modulo:2 %}
      <div class="col-md-3 col-sm-3 col-xs-3">
