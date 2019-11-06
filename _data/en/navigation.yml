@@ -1,5 +1,5 @@
-- title: Présentation
-  url: /
+- title: Introduction
+  url: /en/
   sublinks:
     - title: About us
       url: /en/index.html#aboutus
@@ -11,11 +11,11 @@
       url: /en/index.html#portfolio-work
     - title: Team
       url: /en/index.html#team
-- title: L'École
-  url: /school.html
+- title: School
+  url: /en/school.html
   sublinks:
-    - title: Fondements
-      url: /school.html#foundations
+    - title: Foundations
+      url: /en/school.html#foundations
    # - title: Classes et Programme
    #   url: /school.html#classes
    # - title: Méthodes
@@ -23,13 +23,13 @@
     - title: separator
    # - title: Infos Pratiques
    #   url: /school.html#infos
-    - title: Partenaires
-      url: /school.html#partners
+    - title: Partners
+      url: /en/school.html#partners
     - title: separator
-    - title: Nous soutenir
-      url: /school.html#donate
-- title: L'Atelier
-  url: /studio.html
+    - title: Donate
+      url: /en/school.html#donate
+- title: Workshop
+  url: /en/studio.html
   sublinks:
     - title: Projets
       url: /studio.html#projects

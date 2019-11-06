@@ -2,6 +2,7 @@
 layout: page
 title: Life School Riviera
 permalink: /
+lang: fr
 ---
 
  <!-- Slider Start -->
@@ -12,7 +13,7 @@ permalink: /
         <div class="block">
           <h1 class="animated fadeInUp">LIFE SCHOOL<br>RIVIERA</h1>
           <p class="animated fadeInUp">Vivre l'école autrement...</p>
-          <p class="animated fadeInUp">Bienvenue !</p>          
+          <p class="animated fadeInUp">Bienvenue !</p>
         </div>
       </div>
     </div>
@@ -76,7 +77,7 @@ permalink: /
         <b>Enseigner</b> l'autonomie aux enfants pour qu'ils puissent assumer des responsabilités et mettre en pratique des connaissances déjà acquises.<br>
         <b>Encourager</b> dialogue et échanges entre familles et enseignants.
       </p>
-    </div>   
+    </div>
   </div>
   <div class="row">
     <div class="col-md-10 col-md-offset-2 col-sm-12">
@@ -85,7 +86,7 @@ permalink: /
       Nos enseignants doivent vivre ces valeurs au quotidien. Nous voulons mettre en pratique les valeurs chrétiennes, majoritairement adoptées par la constitution hélvétique, c'est à dire sans notion de prosélytisme.
       </p>
     </div>
-  </div> 
+  </div>
 </div>
 </section>
 
@@ -131,13 +132,13 @@ permalink: /
   </div>
 </section>
 
-{% if site.data.principles.size > 0 %}
+{% if site.data.fr.principles.size > 0 %}
 <!-- Principles Start -->
 <section id="portfolio-work">
   <div class="container">
     <div class="row">
       <div class="col-md-12 col-sm-12">
-       
+
         <h2 style="text-align:center;margin-bottom:40px;">
           <img src="img/principles.png" alt="quotation">
          Grands Principes
@@ -148,8 +149,8 @@ permalink: /
       <div class="col-md-12 col-sm-12">
         <div class="block">
             <div class="portfolio-contant">
-              <ul id="portfolio-contant-active">        
-                {% for p in site.data.principles %}
+              <ul id="portfolio-contant-active">
+                {% for p in site.data.fr.principles %}
                 <li class="mix {{ p.category }}">
                   <a href="#{{ p.ref }}">
                     <img src="{{ site.baseurl }}/img/principles/{{ p.image }}" alt="{{ p.title }}">
@@ -171,19 +172,19 @@ permalink: /
 </section>
 {% endif %}
 
-{% if site.data.principles.size > 0 %}
+{% if site.data.fr.principles.size > 0 %}
 <!-- Principles Details Start -->
-{% for p in site.data.principles %}
+{% for p in site.data.fr.principles %}
 <section id="{{ p.ref }}">
   <div class="container">
-      <div class="table-responsive table-borderless">          
+      <div class="table-responsive table-borderless">
         <table class="table">
             <tbody>
                 <tr>
                   <td style="width:10%;vertical-align:middle;">
                     <img src="/img/principles/{{ p.image }}" alt="{{ p.title }}" class="thumbnail">
                   </td>
-                  <td style="width:90%">  
+                  <td style="width:90%">
                     <div class="section-title">
                       <h2>{{ p.title }}</h2>
                       <p>{{ p.summary }}</p>
@@ -219,7 +220,7 @@ permalink: /
 
 
 
-{% if site.data.team.size > 0 %}
+{% if site.data.fr.team.size > 0 %}
 <!-- Team Start -->
 <section id="team">
   <div class="container">
@@ -228,20 +229,20 @@ permalink: /
         <h2 style="text-align:center"><img src="img/testimonials/quote.png" alt="quotation"  style="width:50px;padding-right:10px;">Notre équipe</h2>
       </div>
     </div>
-    {% for tm in site.data.team %} 
-    <div class="row animated fadeInUp">      
-      {% assign num = forloop.index | modulo:2 %}     
-      <div class="col-md-3 col-sm-3 col-xs-3">   
+    {% for tm in site.data.fr.team %}
+    <div class="row animated fadeInUp">
+      {% assign num = forloop.index | modulo:2 %}
+      <div class="col-md-3 col-sm-3 col-xs-3">
        {% if tm.image.size != 0 %}
-        <img src="{{ tm.image }}" class="img-rounded img-responsive pull-right" alt="{{ tm.image.size }}" style="margin-top:15px;width:90px"> 
+        <img src="{{ tm.image }}" class="img-rounded img-responsive pull-right" alt="{{ tm.image.size }}" style="margin-top:15px;width:90px">
        {% endif %}
       </div>
       <div class="col-md-6 col-sm-9 col-xs-9">
         <blockquote class="blockquote">
           <p class="mb-0">{{ tm.testimonial }}</p>
           <footer class="blockquote-footer">{{ tm.name }}</footer>
-        </blockquote>  
-      </div>           
+        </blockquote>
+      </div>
     </div>
     {% endfor %}
   </div>
