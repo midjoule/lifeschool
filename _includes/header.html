@@ -23,7 +23,7 @@ page.lang {{ page.lang }}
              {% else %}
               {% assign links = site.data.en.navigation %}
              {% endif %}
-             
+
              {% for link in links %}
              {% assign class = nil %}
               <!-- page url : {{ page.url }} contains link.url : {{ link.url }} -->
@@ -51,6 +51,13 @@ page.lang {{ page.lang }}
              </li>
              {% endif %}
              {% endfor %}
+             <li class="">
+                {% if page.lang == "fr" %}
+                  <a title="English" href="{{ site.baseurl }}{{ link.title | replace: "fr", "en" }}"><img src="{{ site.baseurl }}/img/flags/en.png" /></a>
+                {% else %}
+                  <a title="Français" href="{{ site.baseurl }}{{ link.title | replace: "en", "fr" }}"><img src="{{ site.baseurl }}/img/flags/fr.png" /></a>
+                {% endif %}
+             </li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
