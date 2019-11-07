@@ -26,7 +26,7 @@ page.lang {{ page.lang }}
 
              {% for link in links %}
              {% assign class = nil %}
-              <!-- page url : {{ page.url }} contains link.url : {{ link.url }} -->
+              <!-- page url : {{ page.url }} contains link.url : {{ link.url }}  replace fr : {{ link.url | replace: "fr", "en" }} replace en : {{ link.url | replace: "en", "fr" }} -->
              {% if page.url contains link.url %}
              {% assign class = 'active' %}
              {% endif %}
@@ -51,7 +51,7 @@ page.lang {{ page.lang }}
              </li>
              {% endif %}
              {% endfor %}
-             <li class="">
+             <li class="" style="padding-top:0px; padding-bottom:0px;">
                 {% if page.lang == "fr" %}
                   <a title="English" href="{{ site.baseurl }}{{ link.url | replace: "fr", "en" }}"><img src="{{ site.baseurl }}/img/flags/en.png" /></a>
                 {% else %}
