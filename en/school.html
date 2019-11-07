@@ -1,0 +1,125 @@
+---
+layout: page
+title: L'École
+permalink: /en/school
+lang: en
+---
+
+    <!-- Slider Start -->
+<section id="global-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h1>L'École</h1>
+                    <p>-- EN CONSTRUCTION --</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% if site.data.fr.school.size > 0 %}
+{% for p in site.data.fr.school %}
+<section id="{{ p.id }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <h2 style="text-align:center;margin-bottom:40px;">
+          <img src="{{ p.icon }}" alt="quotation">
+         {{ p.title }}
+        </h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="table-responsive table-borderless">
+        <table class="table">
+            <tbody>
+                <tr>
+                  <td style="border:none;">
+                    <p class="wrap">{{ p.intro }}</p>
+                    <p class="wrap"><a href="{{ p.link }}" target="_new">En savoir plus...</a></p>
+                  </td>
+                </tr>
+            </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+{% endfor %}
+{% endif %}
+
+
+<section id="partners">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <h2 style="text-align:center;margin-bottom:40px;">
+          <img src="/img/school/partners.png" alt="quotation">
+         Nos Partenaires
+        </h2>
+      </div>
+    </div>
+
+
+{% if site.data.fr.partners.size > 0 %}
+<!-- Principles Details Start -->
+{% for p in site.data.fr.partners %}
+    <div class="row">
+      <div class="table-responsive table-borderless">
+        <table class="table">
+            <tbody>
+                <tr>
+                  <td style="width:30%">
+                    <a href="{{ p.website }}" target="_new">
+                      <img src="{{ p.logo }}" title="{{ p.name }}" style="width:100%">
+                    </a>
+                  </td>
+                  <td style="width:70%">
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan=2 style="border:none;">
+                    <p class="wrap">{{ p.description }}</p>
+                  </td>
+                </tr>
+            </tbody>
+        </table>
+      </div>
+    </div>
+{% endfor %}
+{% endif %}
+  </div>
+</section>
+
+<section id="donate">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <h2 style="text-align:center;margin-bottom:40px;">
+          <img src="/img/school/donate.png" alt="donate">
+         Nous soutenir
+        </h2>
+      </div>
+    </div>
+    <div class="row">
+      <p>
+        Grâce à votre générosité notre école peut avoir un impact sur les jeunes de notre région ! Ils vous en seront à jamais reconnaissants !
+      </p>
+      <p>
+        Vos dons peuvent être fait par virement bancaire:
+      </p>
+      <p style="padding-left:20px;padding-bottom:15px;">
+        Banque Raiffeisen de la Riviera
+        <br>Bénéficiaire: <b>Life School Riviera</b>
+        <br>IBAN: <b>CH63 8080 8001 8614 8862 5</b>
+        <br>BIC/SWIFT: RAIFCH22430
+      </p>
+      <p>
+        Merci de tout coeur!
+      </p>
+    </div>
+  </div>
+</section>
