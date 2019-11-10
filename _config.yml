@@ -35,3 +35,8 @@ descriptions:
 
   - cat: dummy
     desc: "Just some placeholder posts, lorem ipsum and the rest."
+
+collections:
+  redirects:
+    output: true
+    permalink: /:path/
