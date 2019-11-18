@@ -1,32 +1,32 @@
 - name: Mélanie
   title:
   testimonial: All too often, learning is seen as something constraining by students, but sometimes also by parents, when it comes to homework. Our school aims to redefine learning in a positive way, placing pleasure at the heart of it. Thus, in our teaching, we wish to be as close as possible to the needs of the child and the natural functioning of the brain, in order to make learning motivating, accessible and fulfilling.
-  image:  img/testimonials/melanie.jpg
+  image:  /img/testimonials/melanie.jpg
 - name: Joël
-  title: Enseignant ACM
+  title: CMA Teacher
   testimonial: « I dream of a "workshop" school that allows everyone to learn through their creativity. A school where imagination and experimentation are possible.<br />Albert Einstein summed it up so well&#58; "Creativity is about intelligence having fun."
-  image: img/testimonials/joel.jpg
+  image: /img/testimonials/joel.jpg
 - name: Fabienne
-  title: Enseignante
+  title: Teacher
   testimonial: « All children have genius, the trick is to make it appear. » Charlie Chaplin
-  image: img/testimonials/fabienne.jpg
+  image: /img/testimonials/fabienne.jpg
 - name: Julien
   title: IT Manager
   testimonial: « I look forward to seeing this project come to life and to seeing the positive impact it will have on children, teachers, parents and society. »
-  image: img/testimonials/julien.jpg
+  image: /img/testimonials/julien.jpg
 - name: Nathalie
   title: Project Manager
   testimonial: « We believe in the potential of all students and want to enable them to learn while having fun, in a healthy, efficient and safe environment. »
-  image: img/testimonials/nathalie.jpg
+  image: /img/testimonials/nathalie.jpg
 - name: Pierre-André
   title:
   testimonial: If the curriculum is not appropriate for the student, the curriculum must be adapted to the student. That is what this school proposes to do.
-  image: img/testimonials/pierre-andre.jpg
+  image: /img/testimonials/pierre-andre.jpg
 - name: Audrey
   title:
   testimonial: Our children are real explorers, little budding scientists who just want to discover the world! Our school offers them a rich and benevolent space for life and discovery so that they can flourish and be free to think for themselves and as actors in their lives.
-  image: img/testimonials/audrey.jpg
+  image: /img/testimonials/audrey.jpg
 - name: Carine
-  title:
+  title: Specialised Teacher
   testimonial: "Be you tiful : you are wonderfully made !"
-  image: img/testimonials/carine.jpg
+  image: /img/testimonials/carine.jpg
