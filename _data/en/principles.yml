@@ -2,62 +2,63 @@
   category: Pedagogy
   image: finger print.png
   ref: personalized teaching
-  subtitle: Au rythme de l'enfant
+  subtitle: At the child's rhythm
   summary: Program adapted to each child allowing them to constantly progress
   desc: Each child will be accompanied in their individuality and competences, taking into account their strengths and weaknesses, their learning profile, talents and aspirations. Personalised learning allows you to progress at your own pace and move on to something new when skills are learned, without comparing yourself to others. In French, Maths, English and German there will be specific targets for each child according to his level and pace. The child accompanied by a teacher becomes a player in their own learning.
 - title: Language learning by immersion
   category: Pedagogy
   image: languages.png
   ref: languages
-  subtitle: Apprendre en pratiquant
-  summary: Apprendre les langues dans le quotidien, de manière pratique et ludique
-  desc: Notre pays a une grande influence germanophone et il est important pour les jeunes adultes de bien maîtriser cette langue. L’anglais quant à lui est indispensable pour des études universitaires, pour travailler dans les multinationales et pour découvrir le monde. Les techniques d’apprentissages (français, math, géographie, sciences, histoire) seront données en français. De nombreux cours pratiques tels que l’éducation physique, la chorale, la cuisine, la couture, ateliers à choix seront donnés en anglais et en allemand pour permettre une pratique active des langues.
-- title: Classes Multi-âges
+  subtitle: Learning by practicing
+  summary: Learn languages ​​in everyday life, in a practical and fun way
+  desc: Our country has a great German-speaking influence and it is important for young adults to have a good command of this language.
+  English is essential for university studies, to work in multinational companies and to discover the world. French, Maths, Geography, Science and History will be taught in French. Many practical classes such as physical education, choir, cooking, sewing, and practical workshops will be given in English and German to enable active language practice.
+- title: Multi-age classes
   category: Pedagogy
   image: multi ages.png
   ref: multi-ages
-  subtitle: Collaborer les uns avec les autres
-  summary: Favoriser solidarité et partage entre enfants
-  desc: Le mélange des âges permet aux enfants de se guider les uns-les autres dans leur exploration du monde. Les enfants du même âge n’ont pas forcément le même rythme, la même maturité et les mêmes intérêts en même temps. L’avantage des classes multi-âges est expérimenté principalement lors de travaux ou d’enseignements de groupes. Ils échangent leurs expériences et leurs connaissances de manière naturelle progressive et adaptée. Ils s’enseignent et se placent naturellement en position d’apprentissage sans s’en rendre compte.
-- title: Duo d'enseignants
+  subtitle: Collaborate with each other
+  summary: Foster solidarity and sharing between children
+  desc: The mixture of ages allows children to guide one another in their exploration of the world. Children of the same age do not necessarily have the same rhythm, the same maturity and the same interests at the same time. The advantage of multi-age classes is experienced mainly during group lessons. They exchange their experiences and knowledge in a natural and progressive way. They teach each other and naturally place themselves in a learning position without realising it.
+- title: Teaching duo
   image: duo.png
   category: Classroom
   ref: duo
-  subtitle: 1 enseignant et 1 aide à l'intégration
-  summary: Un enseignant diplômé ainsi qu’une aide à l’intégration
-  desc: 15 élèves maximum par classe, accompagnés de 2 adultes. Bénéfices&#58; répondre plus rapidement aux besoins des élèves, soulager la charge des enseignants, avoir un vis-à-vis en tant qu’enseignant.
+  subtitle: 1 teacher and 1 integration assistant
+  summary: A qualified teacher as well as a teaching assistant
+  desc: 15 students maximum per class, accompanied by 2 adults. Benefits: Respond more quickly to the needs of students, enable differentiated learning and more tailored teaching and support and can ease the burden of teachers by using a collaborative approach.
 - title: PER
   image: per.png
   ref: per
   category: Curriculum
-  subtitle: Cursus selon le Plan d'Etude Romand
-  summary: Cursus scolaire selon le plan d’étude romand
-  desc: Le PER servira de base et de guide. Le temps et les résultats ne devraient pas être un facteur de stress, ni pour les enseignants, ni pour les enfants, ni pour les parents. Nos enseignants seront encouragés à prendre le temps avec leurs élèves, à considérer les objectifs personnels de chaque enfant et ne pas se focaliser sur les objectifs à atteindre pour toute la classe. Nous voulons placer l’enfant au centre de l’apprentissage et non la pédagogie.
-- title: Devoirs en classe
-  subtitle: Davantage de temps de qualité en famille
+  subtitle: School curriculum using the Romand Study Plan
+  summary: School curriculum using the Romand Study Plan
+  desc: The PER will serve as a basis and guide. Time and results should not be stressful for teachers, children or parents.  Our teachers will be encouraged to take time with their students, to consider the personal goals of each child and not to focus on the goals to be achieved for the whole class. We want to place the child at the centre of their learning and not the pedagogy.
+- title: Homework in classroom
+  subtitle: More quality time with the family
   image: homework.png
   ref: homework
   category: Method
-  summary: Devoirs effectués pendant les heures de cours
-  desc: Le temps à la maison devrait être consacré aux jeux, au sport, à la détente, à la culture ou à l’étude d’autres matières selon le centre d’intérêt de chaque enfant (musique, langues, animaux, cuisine, visite de lieux culturels, etc.). Les seuls devoirs à domicile seront de préparer des exposés, révisions de vocabulaire ou de lire des livres recommandés ou suggérés par l’élève en accord avec les enseignants.
-- title: Evaluations sans note
-  subtitle: Fini la comparaison et la compétition
+  summary: Individual study to be completed during class hours
+  desc: The time at home should be devoted to games, sport, relaxation, culture or the study of other subjects according to the interest of each child (music, languages, animals, cooking, visit of cultural places, etc.). The only homework will be to prepare presentations, revise vocabulary or to read books recommended to them or suggested by the student in agreement with the teachers.
+- title: Progression without comparison
+  subtitle: No more comparison and competition
   image: examination.png
   ref: no mark
   category: Method
-  summary: Appréciation des acquis sans compétition
-  desc: Nous privilégions un système scolaire basé sur un tableau de compétences que l’élève remplit sous la supervision de son professeur. Chaque enfant évalue régulièrement ses connaissances par rapport à un sujet avec son professeur. Lorsque l’enfant a compris et assimilé une matière, il peut passer à autre chose. L’enfant peut donc apprendre à son rythme et constater sa progression par lui-même (avec le suivi de son professeur). Les progrès et les besoins des enfants sont communiqués régulièrement aux parents.
-- title: Cours en mouvement
-  subtitle: Optimisation des processus cérébraux et sociaux
+  summary: Appraisal of achievements without competition
+  desc: We favour a school system based on skills that the student fulfills under the supervision of their teacher. Each child regularly evaluates their understanding of a topic with the teacher. When the child has understood and assimilated knowledge in a subject/topic area, they can move on. The child can learn at their own pace and clearly sees their progress with the teacher. We seek to highlight and praise progression in our students. Achievements, areas to work on and the needs of the children are communicated regularly to parents.
+- title: Learning in motion
+  subtitle: Optimization of brain and social processes
   image: move.png
   ref: move
   category: Method
-  summary: Apprentissage en mouvement et ludique
-  desc: Lorsque le mouvement est introduit pendant l’apprentissage scolaire, tant les élèves que les enseignants sont plus réceptifs et plus concentrés en classe et prennent plus de plaisir à participer au quotidien scolaire. La gymnastique du cerveau permet de renforcer les performances scolaires en optimisant les processus liés à la réflexion et à la mémorisation.
-- title: Familles
-  subtitle: Collaboration parents / école
+  summary: Get moving to heighten learning!
+  desc: We recognise that children all learn in different ways. When children are allowed to move during class time, in order to further explore a topic, learning comes alive for both students and teachers. This form of kinaesthetic learning and also with the use of Brain Gym are accessible for all and they allow students to heighten their cognitive skills and memory while learning and exploring topics in a fun way.
+- title: Families
+  subtitle: Parent / school collaboration
   image: students group.png
   ref: collaboration
   category: Relation
-  summary: Communication régulière avec les familles
-  desc: L’école, en collaboration avec les familles, établira des repères solides et transmettra des valeurs essentielles et porteuses de vie. Nous souhaitons encourager les parents et les enseignants à établir un contact régulier afin de pourvoir aider l’enfant à progresser. Nous voulons encourager la culture de la confiance, à savoir que les parents reconnaissent que les enseignants sont des spécialistes qui ont comme but de faire progresser leurs enfants dans un climat serein.
+  summary: Regular communication with families
+  desc: The school, in collaboration with each family, will establish solid benchmarks and transmit essential and life-giving values.  We want to encourage parents and teachers to establish regular contact so that we can help the child to progress, both academically and socially. We want to encourage a culture of trust, whereby parents recognise that teachers are specialists in their subjects, professionals in their conduct and whose goal is to help their children achieve in a calm and caring environment.
