@@ -132,14 +132,14 @@ practice knowledge they have already acquired.<br>
    <div class="row">
      <div class="col-md-12">
        <div class="block">
-         <H1 class="animated fadeInUp">Valoriser les dons de chacun</h1>
+         <H1 class="animated fadeInUp">Valuing everyone's gifts</h1>
        </div>
      </div>
    </div>
  </div>
 </section>
 
-{% if site.data.principles.size > 0 %}
+{% if site.data.en.principles.size > 0 %}
 <!-- Principles Start -->
 <section id="portfolio-work">
  <div class="container">
@@ -148,7 +148,7 @@ practice knowledge they have already acquired.<br>
 
        <h2 style="text-align:center;margin-bottom:40px;">
          <img src="/img/principles.png" alt="quotation">
-        Grands Principes
+        Great Principles
        </h2>
      </div>
    </div>
@@ -157,7 +157,7 @@ practice knowledge they have already acquired.<br>
        <div class="block">
            <div class="portfolio-contant">
              <ul id="portfolio-contant-active">
-               {% for p in site.data.principles %}
+               {% for p in site.data.en.principles %}
                <li class="mix {{ p.category }}">
                  <a href="#{{ p.ref }}">
                    <img src="{{ site.baseurl }}/img/principles/{{ p.image }}" alt="{{ p.title }}">
@@ -179,9 +179,9 @@ practice knowledge they have already acquired.<br>
 </section>
 {% endif %}
 
-{% if site.data.principles.size > 0 %}
+{% if site.data.en.principles.size > 0 %}
 <!-- Principles Details Start -->
-{% for p in site.data.principles %}
+{% for p in site.data.en.principles %}
 <section id="{{ p.ref }}">
  <div class="container">
      <div class="table-responsive table-borderless">
@@ -218,7 +218,7 @@ practice knowledge they have already acquired.<br>
    <div class="row">
      <div class="col-md-12">
        <div class="block">
-         <H1 class="animated fadeInUp">Stimuler et encourager la soif d'apprendre</h1>
+         <H1 class="animated fadeInUp">Stimulate and encourage the thirst for learning</h1>
        </div>
      </div>
    </div>
@@ -227,7 +227,7 @@ practice knowledge they have already acquired.<br>
 
 
 
-{% if site.data.team.size > 0 %}
+{% if site.data.en.team.size > 0 %}
 <!-- Team Start -->
 <section id="team">
  <div class="container">
@@ -236,7 +236,7 @@ practice knowledge they have already acquired.<br>
        <h2 style="text-align:center"><img src="img/testimonials/quote.png" alt="quotation"  style="width:50px;padding-right:10px;">Notre équipe</h2>
      </div>
    </div>
-   {% for tm in site.data.team %}
+   {% for tm in site.data.en.team %}
    <div class="row animated fadeInUp">
      {% assign num = forloop.index | modulo:2 %}
      <div class="col-md-3 col-sm-3 col-xs-3">
