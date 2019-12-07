@@ -27,7 +27,7 @@
   </section>
 {% endif %}
 
-
+{% if page.lang == "fr" %}
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -45,4 +45,23 @@
       </div>
     </div>
   </div>
+{% else %}
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="footer-manu">
+        <ul>
+          <li><a href="{{ site.baseurl }}/index.html#aboutus">About us</a></li>
+          <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
+          <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
+          <li>
+            <div class="fb-like" data-href="https://www.facebook.com/lifeschoolriviera" data-width="" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
+          </li>
+        </ul>
+      </div>
+      <p>Life School Riviera, live it differently !</p>
+    </div>
+  </div>
+</div>
+{% endif %}
 </footer>
