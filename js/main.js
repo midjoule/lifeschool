@@ -5,7 +5,7 @@ $(document).ready(function(){
 
 
 	$("#testimonial-slider").owlCarousel({
-	    paginationSpeed : 500,      
+	    paginationSpeed : 500,
 	    singleItem:true,
 	    autoPlay: 3000,
 	});
@@ -60,7 +60,7 @@ var scrollTimeOut = true,
 
         if(Math.abs(lastYPos - yPos) >= yPosDelta) {
             if (yPos > lastYPos && yPos > navHeight){
-                $('nav.navbar').hide(1000);
+                $('nav.navbar').hide(500);
             } else {
                 $('nav.navbar').show(500);
             }
@@ -73,7 +73,6 @@ $(window).scroll(function(e){
 });
 
 setInterval(function() {
-    if (scrollTimeOut) 
+    if (scrollTimeOut)
         setNavClass();
 }, 250);
-
