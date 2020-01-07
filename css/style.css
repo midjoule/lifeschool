@@ -16,6 +16,10 @@
    text-align: center;
  }
 
+ .caret {
+     border-width: 7px;
+ }
+
 .post-area {
   padding: 40px;
   width: 100%;
@@ -34,12 +38,12 @@
 }
 
 .with-bg {
- background-color: #EEEEEE;  
+ background-color: #EEEEEE;
  background-color: rgba(0, 0, 0, .3);
 }
 
-IMG.thumbnail {        
-  width: 80px; 
+IMG.thumbnail {
+  width: 80px;
   height: auto;
   overflow: hidden;
   border: 0px;

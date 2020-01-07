@@ -23,15 +23,14 @@
               {% assign links = site.data.en.navigation %}
              {% endif %}
 
-             {% for link in links %}
+          {% for link in links %}
              {% assign class = nil %}
-              <!-- page url : {{ page.url }} contains link.url : {{ link.url }}  replace fr : {{ page.url | replace: "/en/", "" }} replace en : {{ page.url | replace: "en", "fr" }} -->
              {% if page.url contains link.url %}
-             {% assign class = 'active' %}
+                {% assign class = 'active' %}
              {% endif %}
              {% if link.sublinks %}
              <li class="dropdown {{ class }}">
-                <a href="{{ site.baseurl | append: link.url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
+                <a href="{{ site.baseurl | append: link.url }}">{{ link.title }}</a><span class="caret dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></span>
                 <ul class="dropdown-menu">
                    {% for sublink in link.sublinks %}
                    {% if sublink.title == 'separator' %}
@@ -49,7 +48,7 @@
                 <a href="{{ site.baseurl | append: link.url }}">{{ link.title }}</a>
              </li>
              {% endif %}
-             {% endfor %}
+          {% endfor %}
              <li class="" style="padding-top:0px; padding-bottom:0px;">
                 {% if page.lang == "fr" %}
                   <a title="English" href="{{ site.baseurl }}en{{ page.url }}"><img src="{{ site.baseurl }}/img/flags/en.png" /></a>
