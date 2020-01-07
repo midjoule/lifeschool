@@ -45,15 +45,15 @@
              </li>
              {% else %}
              <li class="{{ class }}">
-                <a href="{{ site.baseurl | append: link.url }}">{{ link.title }}</a>
+                <a href="{{ site.baseurl | append: link.url }}" style="display:inline;">{{ link.title }}</a>
              </li>
              {% endif %}
           {% endfor %}
              <li class="" style="padding-top:0px; padding-bottom:0px;">
                 {% if page.lang == "fr" %}
-                  <a title="English" href="{{ site.baseurl }}en{{ page.url }}"><img src="{{ site.baseurl }}/img/flags/en.png" /></a>
+                  <a title="English" href="{{ site.baseurl }}en{{ page.url }}" style="display:inline"><img src="{{ site.baseurl }}/img/flags/en.png" /></a>
                 {% else %}
-                  <a title="Français" href="{{ site.baseurl }}{{ page.url | replace: "/en", "" }}"><img src="{{ site.baseurl }}/img/flags/fr.png" /></a>
+                  <a title="Français" href="{{ site.baseurl }}{{ page.url | replace: "/en", "" }}" style="display:inline"><img src="{{ site.baseurl }}/img/flags/fr.png" /></a>
                 {% endif %}
              </li>
           </ul>
