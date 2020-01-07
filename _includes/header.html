@@ -30,7 +30,7 @@
              {% endif %}
              {% if link.sublinks %}
              <li class="dropdown {{ class }}">
-                <table style="border:none;margin:0px;padding:0px;"><tr><td><a href="{{ site.baseurl | append: link.url }}">{{ link.title }}</a></td><td><span class="caret dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></span></td></<tr></table>
+                <a href="{{ site.baseurl | append: link.url }}">{{ link.title }}</a><span class="caret dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></span>
                 <ul class="dropdown-menu">
                    {% for sublink in link.sublinks %}
                    {% if sublink.title == 'separator' %}
