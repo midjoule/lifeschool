@@ -157,7 +157,7 @@ font header .navbar-default .navbar-nav li a:hover {
 
 #slider .img .heroeslocal {
   padding: 200px 0 380px 0;
-  position: relative;
+  position: relative; 
   margin-top: 100px;
   margin-bottom: 100px;
 }
