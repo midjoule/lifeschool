@@ -156,10 +156,11 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 img.heroeslocal  {
-  padding: 200px 0 380px 0;
+  padding: 50px 40em 0 0;
   position: relative;
   margin-top: 100px;
   margin-bottom: 100px;
+  transform: rotate(20deg) ;
 }
 
 #feature .block, #slider .block, #philo .block, #principles .block, #joy .block {
