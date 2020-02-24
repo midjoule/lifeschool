@@ -159,13 +159,14 @@ img.heroeslocal  {
   padding: 10px 50em;
   position: relative;
   transform: rotate(20deg) ;
+  transition: all .2s ease-in-out;
 }
 
 img.heroeslocal:hover  {
   padding: 10px 50em;
   position: relative;
   transform: rotate(20deg) ;
-  box-shadow: 10px 10px 5px rgb(255,130,160);
+  transform: scale(1.1);
 }
 
 #feature .block, #slider .block, #philo .block, #principles .block, #joy .block {
