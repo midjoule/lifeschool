@@ -8,9 +8,9 @@
     - title: Philosophie
       url: /index.html#philosophy
     - title: Grands principes
-      url: /index.html#portfolio-work   
+      url: /index.html#portfolio-work
     - title: Équipe
-      url: /index.html#team    
+      url: /index.html#team
 - title: L'École
   url: /school.html
   sublinks:
@@ -25,9 +25,9 @@
    #   url: /school.html#infos
     - title: Partenaires
       url: /school.html#partners
-    - title: separator      
+    - title: separator
     - title: Nous soutenir
-      url: /school.html#donate      
+      url: /school.html#donate
 - title: L'Atelier
   url: /studio.html
   sublinks:
@@ -39,3 +39,5 @@
   url: /blog.html
 - title: Contact
   url: /contact.html
+- title: Faire un don
+  url: /donate.html
