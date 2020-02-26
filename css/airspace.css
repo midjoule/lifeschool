@@ -156,13 +156,14 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #lh-projekt-widget {
-  position: sticky;
-  webkit-position: sticky;
-  top: 50px;
+  float:right;
+  position:static;
+  top: 60px;
+  z-index: 1;
 }
 
 #lh-projekt-widget:hover {
-  transform: scale(1.1);
+  transform: rotate(20deg);
 }
 
 #feature .block, #slider .block, #philo .block, #principles .block, #joy .block {
