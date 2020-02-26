@@ -155,14 +155,11 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-bottom: 100px;
 }
 
-div.box {
+#donate {
   float:right;
   top: 100px;
   z-index: 1;
-  box-shadow: 0 0 2px darkgreen,
-				0 0 5px rgba(0, 0, 0, 1),
-				inset 0 0 5px rgba(0, 0, 0, 1);
-	border-radius: 10px;
+  position:sticky;
 }
 
 #feature .block, #slider .block, #philo .block, #principles .block, #joy .block {
