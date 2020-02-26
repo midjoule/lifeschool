@@ -173,27 +173,9 @@ font header .navbar-default .navbar-nav li a:hover {
 	width: 350px;
 	height: 600px;
 	box-sizing: border-box;
-	padding: 15px;
+	padding: 5px;
 	position: relative;
 	overflow: hidden;
-}
-
-.box::before {
-	content: '';
-	position: absolute;
-	width: 250%;
-	height: 250%;
-	background: repeating-linear-gradient(
-			white 0%,
-			white 7.5px,
-			rgb(198,213,84) 7.5px,
-			rgb(198,213,84) 15px,
-			white 15px,
-			white 22.5px,
-			rgb(198,213,84) 22.5px,
-			rgb(198,213,84) 30px);
-	transform: translateX(-20%) translateY(-20%) rotate(-45deg);
-	animation: animate 20s linear infinite;
 }
 
 #lh-projekt-widget {
@@ -201,7 +183,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	background-color: white;
 	flex-direction: column;
 	box-sizing: border-box;
-	padding: 30px;
+	padding: 15px;
 	text-align: center;
 	font-family: sans-serif;
 	z-index: 2;
@@ -214,22 +196,6 @@ font header .navbar-default .navbar-nav li a:hover {
 				inset 0 0 5px rgba(0, 0, 0, 1);
 	border-radius: 10px;
 }
-
-
-@keyframes animate {
-	from {
-		background-position: 0;
-	}
-
-	to {
-		background-position: 0 450px;
-	}
-}
-
-
-
-
-
 
 
 
