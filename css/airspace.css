@@ -155,18 +155,13 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-bottom: 100px;
 }
 
-a.heroeslocal {
+#lh-projekt-widget {
   position: sticky;
   webkit-position: sticky;
   top: 50px;
 }
-img.heroeslocal  {
-  padding: 10px 50em;
-  transform: rotate(20deg) ;
-  transition: all .2s ease-in-out;
-}
 
-img.heroeslocal:hover  {
+#lh-projekt-widget:hover {
   transform: scale(1.1);
 }
 
