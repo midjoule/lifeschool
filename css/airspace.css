@@ -162,9 +162,79 @@ font header .navbar-default .navbar-nav li a:hover {
   z-index: 1;
 }
 
-#lh-projekt-widget:hover {
-  transform: rotate(20deg);
+#lh-projekt-widget {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: pink;
 }
+
+.box {
+	width: 300px;
+	height: 300px;
+	box-sizing: border-box;
+	padding: 15px;
+	position: relative;
+	overflow: hidden;
+}
+
+.box::before {
+	content: '';
+	position: absolute;
+	width: 150%;
+	height: 150%;
+	background: repeating-linear-gradient(
+			white 0%,
+			white 7.5px,
+			hotpink 7.5px,
+			hotpink 15px,
+			white 15px,
+			white 22.5px,
+			hotpink 22.5px,
+			hotpink 30px);
+	transform: translateX(-20%) translateY(-20%) rotate(-45deg);
+	animation: animate 20s linear infinite;
+}
+
+#lh-projekt-widget {
+	position: relative;
+	background-color: white;
+	flex-direction: column;
+	box-sizing: border-box;
+	padding: 30px;
+	text-align: center;
+	font-family: sans-serif;
+	z-index: 2;
+}
+
+.box,
+#lh-projekt-widget {
+	box-shadow: 0 0 2px deeppink,
+				0 0 5px rgba(0, 0, 0, 1),
+				inset 0 0 5px rgba(0, 0, 0, 1);
+	border-radius: 10px;
+}
+
+
+@keyframes animate {
+	from {
+		background-position: 0;
+	}
+
+	to {
+		background-position: 0 450px;
+	}
+}
+
+
+
+
+
+
+
+
+
 
 #feature .block, #slider .block, #philo .block, #principles .block, #joy .block {
   color: #E3E3E4;
