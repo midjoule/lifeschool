@@ -157,7 +157,6 @@ font header .navbar-default .navbar-nav li a:hover {
 
 .box {
   float:right;
-  position:static;
   top: 10px;
   z-index: 1;
 }
