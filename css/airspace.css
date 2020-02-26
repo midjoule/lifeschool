@@ -155,7 +155,7 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-bottom: 100px;
 }
 
-#lh-projekt-widget {
+.box {
   float:right;
   position:static;
   top: 60px;
@@ -167,12 +167,12 @@ font header .navbar-default .navbar-nav li a:hover {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: pink;
+	background-color: #333;
 }
 
 .box {
-	width: 300px;
-	height: 300px;
+	width: 290px;
+	height: 660px;
 	box-sizing: border-box;
 	padding: 15px;
 	position: relative;
