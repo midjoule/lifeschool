@@ -192,6 +192,17 @@ px      68    160    252    */
     font-size: 4vw;
     line-height: 9vw;
   }
+
+
+  #donate {
+    float:right;
+    top: 50px;
+    z-index: 1;
+    position:sticky;
+    margin-right:10px;
+    width:40%;
+    height:auto;
+  }
   /*--
 	wrapper Start
 --*/
