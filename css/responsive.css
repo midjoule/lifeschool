@@ -194,12 +194,7 @@ px      68    160    252    */
   }
 
 
-  #donate {
-    float:right;
-    top: 50px;
-    z-index: 1;
-    position:sticky;
-    margin-right:10px;
+  #donate img {
     width:40%;
     height:auto;
   }
