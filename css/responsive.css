@@ -193,11 +193,21 @@ px      68    160    252    */
     line-height: 9vw;
   }
 
+/* Donate through heroeslocal
+*/
+
+  #donate {
+    top: 10px;
+    z-index: 1;
+    position:sticky;
+    margin-right:5px;
+  }
 
   #donate img {
-    width:40%;
+    width:25%;
     height:auto;
   }
+
   /*--
 	wrapper Start
 --*/
