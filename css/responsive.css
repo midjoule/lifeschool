@@ -200,11 +200,11 @@ px      68    160    252    */
     top: 10px;
     z-index: 1;
     position:sticky;
-    margin-right:5px;
+    margin-right:10px;
   }
 
   #donate img {
-    width:25%;
+    width:45px;
     height:auto;
   }
 
