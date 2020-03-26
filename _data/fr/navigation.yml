@@ -25,13 +25,20 @@
    #   url: /school.html#infos
     - title: Partenaires
       url: /school.html#partners
-- title: L'Atelier
-  url: /studio.html
+- title: Infos Pratiques
+  url: /infos.html
   sublinks:
-    - title: Projets
-      url: /studio.html#projects
-    - title: Activités
-      url: /studio.html#projects
+    - title: Formulaire d'inscription
+      url: /infos.html#registration
+    - title: Frais d'inscription
+      url: /infos.html#fees
+#- title: L'Atelier
+#  url: /studio.html
+#  sublinks:
+#    - title: Projets
+#      url: /studio.html#projects
+#    - title: Activités
+#      url: /studio.html#projects
 - title: Blog
   url: /blog.html
 - title: Contact

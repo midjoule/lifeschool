@@ -51,9 +51,9 @@
           {% endfor %}
              <li class="" style="padding-top:0px; padding-bottom:0px;">
                 {% if page.lang == "fr" %}
-                  <a title="English" href="{{ site.baseurl }}en{{ page.url }}" style="display:inline"><img src="{{ site.baseurl }}/img/flags/en.png" /></a>
+                  <a title="English" href="{{ site.baseurl }}en{{ page.url }}" style="display:inline"><img src="{{ site.baseurl }}/img/flags/en.png" style="width:20px;height:auto;"/></a>
                 {% else %}
-                  <a title="Français" href="{{ site.baseurl }}{{ page.url | replace: "/en", "" }}" style="display:inline"><img src="{{ site.baseurl }}/img/flags/fr.png" /></a>
+                  <a title="Français" href="{{ site.baseurl }}{{ page.url | replace: "/en", "" }}" style="display:inline"><img src="{{ site.baseurl }}/img/flags/fr.png" style="width:20px;height:auto;"/></a>
                 {% endif %}
              </li>
           </ul>
