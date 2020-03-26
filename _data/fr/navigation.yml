@@ -28,10 +28,10 @@
 - title: Infos Pratiques
   url: /infos.html
   sublinks:
-    - title: Formulaire d'inscription
-      url: /infos.html#registration
     - title: Frais d'inscription
       url: /infos.html#fees
+    - title: Formulaire d'inscription
+      url: /infos.html#registration
 #- title: L'Atelier
 #  url: /studio.html
 #  sublinks:
