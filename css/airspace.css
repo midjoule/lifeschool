@@ -296,6 +296,29 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-top: 30px;
 }
 
+a.lightbox-200856314742352 {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 1px solid #f98e03;
+  color: #fff;
+  padding: 9pt 1pc 8px;
+  background: #f98e03;
+  font-family: inherit;
+  text-shadow: none;
+  box-shadow: none;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  transition: all,.1s,ease-in;
+  box-shadow: 0 2px 4px rgba(86,70,50,.1);
+}
+
 /*--
 	content Start
 --*/
