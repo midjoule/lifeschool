@@ -28,6 +28,13 @@
     - title: separator
     - title: Donate
       url: /en/school.html#donate
+- title: Practical Infos
+  url: /en/infos.html
+  sublinks:
+    - title: Application fees
+      url: /en/infos.html#fees
+    - title: Application form
+      url: /en/infos.html#registration
 - title: Workshop
   url: /en/studio.html
   sublinks:
