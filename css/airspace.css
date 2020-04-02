@@ -320,6 +320,11 @@ a.lightbox-200856314742352, a.lightbox-200882871449363 {
   box-shadow: 0 2px 4px rgba(86,70,50,.1);
 }
 
+div.schedule {
+  margin-top:1rem;
+  margin-bottom;0.5rem;
+}
+
 /*--
 	content Start
 --*/
