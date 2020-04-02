@@ -28,6 +28,8 @@
 - title: Infos Pratiques
   url: /infos.html
   sublinks:
+    - title: Horaires
+      url: /infos.html#schedule
     - title: Frais d'inscription
       url: /infos.html#fees
     - title: Formulaire d'inscription

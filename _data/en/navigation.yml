@@ -31,6 +31,8 @@
 - title: Practical Infos
   url: /en/infos.html
   sublinks:
+    - title: Schedule
+      url: /en/infos.html#schedule
     - title: Application fees
       url: /en/infos.html#fees
     - title: Application form
