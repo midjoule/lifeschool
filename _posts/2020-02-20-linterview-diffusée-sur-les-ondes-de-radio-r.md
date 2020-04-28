@@ -3,6 +3,7 @@ title: L'interview diffusée sur les ondes de Radio R
 description: Life School Riviera, une école ouverte sur le monde et porteuse d'espoir.
 author: " "
 image: /img/nathalie-radio-r.png
+video:
 ---
 Aujourd'hui, 12 personnes se tiennent derrière ce projet d'école. La fondatrice explique sur les ondes de Radio R son parcours et comment est né ce projet d'école. Une des motivations premières du projet est de donner:
 

@@ -18,4 +18,5 @@ collections:
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Autor", name: "author", widget: "string"}
       - {label: "Picture", name: "image", widget: "image"}
+      - {label: "Video", name: "video", widget: "string"}
       - {label: "Texte", name: "body", widget: "markdown"}
