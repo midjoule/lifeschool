@@ -18,5 +18,6 @@ collections:
       - {label: "Intro", name: "description", widget: "string"}
       - {label: "Autor", name: "author", widget: "string", required: false}
       - {label: "Picture", name: "image", widget: "image", required: false}
+      - {label: "Picture HREF", name: "imageUrl", widget: "string", required: false}
       - {label: "Video", name: "video", widget: "string", required: false}
       - {label: "Read More", name: "body", widget: "markdown"}
