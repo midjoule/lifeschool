@@ -53,10 +53,7 @@ section {
   margin-top: 1.8em;
 }
 
-a,
-a:active,
-a:focus,
-a:active {
+a:focus {
   text-decoration: none !important;
 }
 .section-title {

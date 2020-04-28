@@ -25,12 +25,6 @@ lang: en
     <div class="row">
 
       <div class="col-md-6">
-        <div class="block" style="align:center;">
-          <div class="fb-page" data-href="https://www.facebook.com/lifeschoolriviera/" data-tabs="timeline, events" data-width="500" data-height="1000" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/lifeschoolriviera/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/lifeschoolriviera/">Life School Riviera</a></blockquote></div>
-        </div>
-      </div>
-
-      <div class="col-md-6">
         <div class="block">
 
           {% assign i = 0 %}
@@ -47,6 +41,7 @@ lang: en
               </a>
             </p>
             <div id="post_{{ i }}" class="collapse">
+              <img src="{{ post.image }}" border=0 style="float:left;height:50px;">
               {{ post.content }}
 
               {% if post.video and post.video != blank %}
@@ -58,6 +53,12 @@ lang: en
           </div>
           {% endfor %}
 
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="block" style="align:center;">
+          <div class="fb-page" data-href="https://www.facebook.com/lifeschoolriviera/" data-tabs="timeline, events" data-width="500" data-height="1000" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/lifeschoolriviera/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/lifeschoolriviera/">Life School Riviera</a></blockquote></div>
         </div>
       </div>
 
