@@ -43,7 +43,7 @@ lang: en
             <div id="post_{{ i }}" class="collapse">
               {% if post.image and post.image != blank and post.imageUrl and post.imageUrl != blank %}
               <a href="{{post.imageUrl}}" target="_blank"><img src="{{ post.image }}" class="img-rounded post"></a>
-              {% elseif post.image and post.image != blank %}
+              {% elsif post.image and post.image != blank %}
               <img src="{{ post.image }}" class="img-rounded post">
               {% endif %}
 
