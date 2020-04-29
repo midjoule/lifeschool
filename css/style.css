@@ -36,6 +36,17 @@
   color: #0D0017;
 }
 
+IMG.post {
+  width: 80px;
+  height: auto;
+  overflow: hidden;
+  border: 0px;
+  float:left;
+  margin-right:10px;
+  margin-bottom:10px;"
+}
+
+
 .with-bg {
  background-color: #EEEEEE;
  background-color: rgba(0, 0, 0, .3);
@@ -47,6 +58,7 @@ IMG.thumbnail {
   overflow: hidden;
   border: 0px;
 }
+
 
 P.wrap {
  white-space:normal;
