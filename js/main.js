@@ -76,3 +76,10 @@ setInterval(function() {
     if (scrollTimeOut)
         setNavClass();
 }, 250);
+
+
+// resize the iframe by adding this statement in the iframe tag:
+//onload="resizeIframe(this)"
+function resizeIframe(obj) {
+  obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+}

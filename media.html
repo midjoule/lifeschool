@@ -50,7 +50,7 @@ lang: fr
 
               {% if post.video and post.video != blank %}
               <p>
-                <iframe width="560" height="315" src="{{ post.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" onload="resizeIframe(this)" src="{{ post.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </p>
               {% endif %}
             </div>
