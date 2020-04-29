@@ -5,6 +5,7 @@ description: Life School Riviera, une école ouverte sur le monde et porteuse
   comment est né ce projet d'école.
 author: " "
 image: /img/nathalie-radio-r.png
+imageUrl: https://radioreveil.ch/episode/le-potentiel-unique-de-chaque-enfant
 video: null
 ---
 Aujourd'hui, 12 personnes se tiennent derrière ce projet d'école. Une des motivations premières du projet est de donner:
