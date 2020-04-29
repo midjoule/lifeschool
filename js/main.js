@@ -60,9 +60,9 @@ var scrollTimeOut = true,
 
         if(Math.abs(lastYPos - yPos) >= yPosDelta) {
             if (yPos > lastYPos && yPos > navHeight){
-                $('nav.navbar').hide(500);
+                $('nav.navbar').hide(250);
             } else {
-                $('nav.navbar').show(500);
+                $('nav.navbar').show(250);
             }
             lastYPos = yPos;
         }
@@ -76,10 +76,3 @@ setInterval(function() {
     if (scrollTimeOut)
         setNavClass();
 }, 250);
-
-
-// resize the iframe by adding this statement in the iframe tag:
-//onload="resizeIframe(this)"
-function resizeIframe(obj) {
-  obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
-}

@@ -49,9 +49,9 @@ lang: fr
               {{ post.content }}
 
               {% if post.video and post.video != blank %}
-              <p>
-                <iframe width="100%" onload="resizeIframe(this)" src="{{ post.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </p>
+              <div class="video-container">
+                <iframe width="560" height="315" src="{{ post.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
               {% endif %}
             </div>
           </div>
