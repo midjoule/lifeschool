@@ -37,13 +37,14 @@
 }
 
 IMG.post {
-  width: 80px;
+  width: 13em;
   height: auto;
   overflow: hidden;
   border: 0px;
   float:left;
   margin-right:10px;
-  margin-bottom:10px;"
+  margin-bottom:10px;
+  margin-top: 5px;
 }
 
 
