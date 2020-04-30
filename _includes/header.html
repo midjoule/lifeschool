@@ -49,11 +49,11 @@
              </li>
              {% endif %}
           {% endfor %}
-             <li class="" style="padding-top:0px; padding-bottom:0px;">
+             <li>
                 {% if page.lang == "fr" %}
-                  <a title="English" href="{{ site.baseurl }}en{{ page.url }}" style="display:inline"><img src="{{ site.baseurl }}/img/flags/en.png" style="width:20px;height:auto;"/></a>
+                  <a title="English" href="{{ site.baseurl }}en{{ page.url }}" style="display:inline">EN</a>&nbsp;|&nbsp;FR
                 {% else %}
-                  <a title="Français" href="{{ site.baseurl }}{{ page.url | replace: "/en", "" }}" style="display:inline"><img src="{{ site.baseurl }}/img/flags/fr.png" style="width:20px;height:auto;"/></a>
+                  EN&nbsp;|&nbsp;<a title="Français" href="{{ site.baseurl }}{{ page.url | replace: "/en", "" }}" style="display:inline">FR</a>
                 {% endif %}
              </li>
           </ul>
