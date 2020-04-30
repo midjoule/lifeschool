@@ -51,9 +51,9 @@
           {% endfor %}
              <li>
                 {% if page.lang == "fr" %}
-                  <a title="English" href="{{ site.baseurl }}en{{ page.url }}" style="display:inline">EN</a>&nbsp;|&nbsp;FR
+                  <a title="English" href="{{ site.baseurl }}en{{ page.url }}" style="display:inline;">EN</a>&nbsp;|&nbsp;<b>FR</b>
                 {% else %}
-                  EN&nbsp;|&nbsp;<a title="Français" href="{{ site.baseurl }}{{ page.url | replace: "/en", "" }}" style="display:inline">FR</a>
+                  <b style="padding-left:26px;">EN</b>&nbsp;|&nbsp;<a title="Français" href="{{ site.baseurl }}{{ page.url | replace: "/en", "" }}" style="display:inline;">FR</a>
                 {% endif %}
              </li>
           </ul>
