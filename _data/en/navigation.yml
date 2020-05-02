@@ -41,10 +41,12 @@
   url: /en/studio.html
   sublinks:
     - title: Projets
-      url: /studio.html#projects
+      url: /en/studio.html#projects
     - title: Activités
-      url: /studio.html#projects
+      url: /en/studio.html#projects
 - title: Media
-  url: /media.html
+  url: /en/media.html
 - title: Contact
-  url: /contact.html
+  url: /en/contact.html
+- title: Donate
+  url: /en/donate.html
