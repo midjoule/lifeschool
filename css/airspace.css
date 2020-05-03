@@ -420,7 +420,7 @@ div.schedule {
 	Slider-work Start
 --*/
 #global-header {
-  background-image: url("../img/bg/slider-bg.jpg");
+  background-image: url("/img/bg/slider-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
