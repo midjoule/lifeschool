@@ -420,7 +420,9 @@ div.schedule {
 	Slider-work Start
 --*/
 #global-header {
-  background: url("../img/slider-bg.jpg") no-repeat center;
+  background-repeat: no-repead;
+  background-image: url("../img/bg/slider-bg.jpg");
+  background-position: center;
   background-size: contain;
   position: relative;
   background-attachment: fixed;
@@ -458,9 +460,6 @@ div.schedule {
   word-spacing: 3px;
 }
 
-#global-header .media {
-  background: url("../img/head-media.jpg") no-repeat center;
-}
 
 /*--
 	portfolio-work Start
