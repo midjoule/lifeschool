@@ -8,16 +8,6 @@ lang: fr
 
 <!-- Slider Start -->
 <section id="global-header" style="background-image: url(/img/bg/head-media.jpg)">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="block">
-          <h1>Restez connectés avec nous !</h1>
-          <p>Voici nos dernières nouvelles et des histoires intéressantes à propos de notre école !</p>
-        </div>
-      </div>
-    </div>
-  </div>
 </section>
 
 <section id="blog-posts">
@@ -49,10 +39,7 @@ lang: fr
               {{ post.content }}
 
               {% if post.video and post.video != blank %}
-              {% assign video = post.video
-              {% assign video = video | replace: "https://youtu.be/", "https://www.youtube.com/embed/" %}
-              {% assign video = video | replace: "https://www.youtube.com/watch?v=", "https://www.youtube.com/embed/" %}
-
+              {% assign video = post.video | replace: "https://youtu.be/", "https://www.youtube.com/embed/" | replace: "https://www.youtube.com/watch?v=", "https://www.youtube.com/embed/" %}
               <div class="video-container">
                 <iframe width="560" height="315" src="{{ video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
