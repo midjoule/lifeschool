@@ -164,7 +164,9 @@ font header .navbar-default .navbar-nav li a:hover {
 
 #donate img {
   height:auto;
+  width:15vw;
 }
+
 #donate:hover {
   transform: scale(1.1);
 }

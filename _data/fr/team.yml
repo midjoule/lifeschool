@@ -24,15 +24,15 @@
   image:  img/testimonials/melanie.jpg
 - name: Nathalie
   title: Responsable du projet
-  testimonial: « Nous croyons dans le potentiel de tous les élèves et souhaitons leur permettre d'apprendre en ayant du plaisir, dans un environement sain, performant et sécurisant. »
+  testimonial: Nous croyons dans le potentiel de tous les élèves et souhaitons leur permettre d'apprendre en ayant du plaisir, dans un environement sain, performant et sécurisant.
   image: img/testimonials/nathalie.jpg
 - name: Joël
   title: Enseignant ACM
-  testimonial: « Je rêve d’une école "atelier" qui permette à chacun d’apprendre au travers de sa créativité. Une école où l’ imagination et l’expérimentation sont possibles.<br />Albert Einstein l’a si bien résumé&#58; "La créativité, c’est l’intelligence qui s’amuse."
+  testimonial: Je rêve d’une école "atelier" qui permette à chacun d’apprendre au travers de sa créativité. Une école où l’ imagination et l’expérimentation sont possibles.<br />Albert Einstein l’a si bien résumé&#58; "La créativité, c’est l’intelligence qui s’amuse."
   image: img/testimonials/joel.jpg
 - name: Julien
   title: Responsable IS/IT
-  testimonial: « Je suis impatient de voir ce projet naître et constater tout l'impact positif qu'il aura à la fois sur les enfants, les enseignants, les parents et la société. »
+  testimonial: Je suis impatient de voir ce projet naître et constater tout l'impact positif qu'il aura à la fois sur les enfants, les enseignants, les parents et la société.
   image: img/testimonials/julien.jpg
 - name: Pierre-André
   title:
