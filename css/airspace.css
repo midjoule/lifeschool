@@ -850,7 +850,7 @@ footer {
   padding-top: 48px;
   padding-bottom: 55px;
 }
-footer p {
+footer span {
     font-size: 2rem;
     line-height: 25px;
     color: rgb(147,78,152);
