@@ -1,46 +1,46 @@
 - title: Présentation
-  url: /
+  url: /index
   sublinks:
     - title: A propos de nous
-      url: /index.html#aboutus
+      url: /index#aboutus
     - title: Vision, Mission, Valeurs
-      url: /index.html#vision
+      url: /index#vision
     - title: Philosophie
-      url: /index.html#philosophy
+      url: /index#philosophy
     - title: Grands principes
-      url: /index.html#portfolio-work
+      url: /index#portfolio-work
     - title: Équipe
-      url: /index.html#team
+      url: /index#team
 - title: L'École
-  url: /school.html
+  url: /school
   sublinks:
     - title: Fondements
-      url: /school.html#foundations
+      url: /school#foundations
    # - title: Classes et Programme
-   #   url: /school.html#classes
+   #   url: /school#classes
    # - title: Méthodes
-   #   url: /school.html#methods
+   #   url: /school#methods
     - title: separator
    # - title: Infos Pratiques
-   #   url: /school.html#infos
+   #   url: /school#infos
     - title: Partenaires
-      url: /school.html#partners
+      url: /school#partners
 - title: Infos Pratiques
-  url: /infos.html
+  url: /infos
   sublinks:
     - title: Horaires
-      url: /infos.html#schedule
+      url: /infos#schedule
     - title: Frais d'inscription
-      url: /infos.html#fees
+      url: /infos#fees
     - title: Formulaire d'inscription
-      url: /infos.html#registration
+      url: /infos#registration
 #- title: L'Atelier
-#  url: /studio.html
+#  url: /studio
 #  sublinks:
 #    - title: Projets
-#      url: /studio.html#projects
+#      url: /studio#projects
 #    - title: Activités
-#      url: /studio.html#projects
+#      url: /studio#projects
 - title: Media
   url: /media
 - title: Contact
