@@ -1,45 +1,45 @@
 - title: Introduction
-  url: /en/
+  url: /en/index
   sublinks:
     - title: About us
-      url: /en/index.html#aboutus
+      url: /en/index#aboutus
     - title: Vision, Mission, Values
-      url: /en/index.html#vision
+      url: /en/index#vision
     - title: Philosophy
-      url: /en/index.html#philosophy
+      url: /en/index#philosophy
     - title: Principles
-      url: /en/index.html#portfolio-work
+      url: /en/index#portfolio-work
     - title: Team
-      url: /en/index.html#team
+      url: /en/index#team
 - title: School
-  url: /en/school.html
+  url: /en/school
   sublinks:
     - title: Foundations
-      url: /en/school.html#foundations
+      url: /en/school#foundations
    # - title: Classes et Programme
-   #   url: /school.html#classes
+   #   url: /school#classes
    # - title: Méthodes
-   #   url: /school.html#methods
+   #   url: /school#methods
     - title: separator
    # - title: Infos Pratiques
-   #   url: /school.html#infos
+   #   url: /school#infos
     - title: Partners
-      url: /en/school.html#partners
+      url: /en/school#partners
     - title: separator
     - title: Donate
-      url: /en/school.html#donate
+      url: /en/school#donate
 - title: Practical Infos
-  url: /en/infos.html
+  url: /en/infos
   sublinks:
     - title: Schedule
-      url: /en/infos.html#schedule
+      url: /en/infos#schedule
     - title: Application fees
-      url: /en/infos.html#fees
+      url: /en/infos#fees
     - title: Application form
-      url: /en/infos.html#registration
+      url: /en/infos#registration
 - title: Media
-  url: /en/media.html
+  url: /en/media
 - title: Contact
-  url: /en/contact.html
+  url: /en/contact
 - title: Donate
-  url: /en/donate.html
+  url: /en/donate
