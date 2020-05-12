@@ -233,11 +233,11 @@ lang: fr
       </div>
     </div>
     {% for tm in site.data.fr.team %}
-    <div class="row animated fadeInUp">
+    <div class="row">
       {% assign num = forloop.index | modulo:2 %}
       <div class="col-md-3 col-sm-3 col-xs-3">
        {% if tm.image.size != 0 %}
-        <img src="{{ tm.image }}" class="img-rounded img-responsive pull-right" alt="{{ tm.image.size }}" style="margin-top:15px;width:90px">
+        <img src="{{ tm.image }}" class="img-rounded img-responsive pull-right animated fadeInUp" alt="{{ tm.image.size }}" style="margin-top:15px;width:90px">
        {% endif %}
       </div>
       <div class="col-md-6 col-sm-9 col-xs-9">
