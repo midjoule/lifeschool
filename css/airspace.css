@@ -152,6 +152,10 @@ font header .navbar-default .navbar-nav li a:hover {
   position: relative;
 }
 
+#slider {
+  padding: 200px 0 180px 0;
+}
+
 #donate {
   float:right;
   top: 100px;
