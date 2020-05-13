@@ -242,13 +242,12 @@ lang: fr
     </div>
     {% for tm in site.data.fr.team %}
     {% assign num = forloop.index | modulo:2 %}
-    Num = {{ num }}
     {% if num == 1 %}
     <div class="row">
     {% endif %}
         <div class="col-md-2 col-sm-2 col-xs-2">
        {% if tm.image.size != 0 %}
-        <img src="{{ tm.image }}" class="img-rounded img-responsive pull-right animated fadeInUp" alt="{{ tm.image.size }}" style="margin-top:15px;width:90px">
+        <img src="{{ tm.image }}" class="img-rounded img-responsive pull-right animated fadeInUp" alt="{{ tm.image.size }}" style="margin-top:15px;width:90px;display:block;margin-bottom:15px;">
         <footer class="blockquote-footer">{{ tm.name }}</footer>
        {% endif %}
       </div>
@@ -257,7 +256,9 @@ lang: fr
           <p class="mb-0">{{ tm.testimonial }}</p>
         </blockquote>
       </div>
+    {% if num == 1 %}
     </div>
+    {% endif %}
     {% endfor %}
   </div>
 </section>
