@@ -243,7 +243,7 @@ lang: fr
     {% for tm in site.data.fr.team %}
     {% assign num = forloop.index | modulo:2 %}
     Num = {{ num }}
-    {% if num = 1 %}
+    {% if num == 1 %}
     <div class="row">
     {% endif %}
         <div class="col-md-2 col-sm-2 col-xs-2">
