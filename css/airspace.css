@@ -24,7 +24,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Multicolore', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 h2 {
   font-size: xx-large;
@@ -174,10 +174,10 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #feature .block h1, #slider .block h1, #philo .block h1, #principles .block h1, #joy .block h1 {
-  /*font-family: 'Carter One', cursive;*/
+  font-family: 'Multicolore', sans-serif;
   font-weight: 400;
   font-size: 4rem;
-  color: floralwhite;
+  color: white;
   letter-spacing: 0.05em;
   padding: 1em;
   line-height: 2em;
