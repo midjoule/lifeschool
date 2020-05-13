@@ -9,33 +9,83 @@
 
 <url>
   <loc>https://www.lifeschool-riviera.ch/</loc>
-  <lastmod>2019-05-11T12:03:57+00:00</lastmod>
+  <lastmod>2020-05-13T15:36:23+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.lifeschool-riviera.ch/index.html</loc>
-  <lastmod>2019-05-11T12:03:57+00:00</lastmod>
+  <lastmod>2020-05-13T15:36:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.lifeschool-riviera.ch/school/</loc>
-  <lastmod>2019-05-11T12:03:57+00:00</lastmod>
+  <loc>https://www.lifeschool-riviera.ch/school</loc>
+  <lastmod>2020-05-13T15:36:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.lifeschool-riviera.ch/studio/</loc>
-  <lastmod>2019-05-11T12:03:57+00:00</lastmod>
+  <loc>https://www.lifeschool-riviera.ch/infos</loc>
+  <lastmod>2020-05-13T15:36:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.lifeschool-riviera.ch/blog/</loc>
-  <lastmod>2019-05-11T12:03:57+00:00</lastmod>
+  <loc>https://www.lifeschool-riviera.ch/media</loc>
+  <lastmod>2020-05-13T15:36:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.lifeschool-riviera.ch/contact/</loc>
-  <lastmod>2019-05-11T12:03:57+00:00</lastmod>
+  <loc>https://www.lifeschool-riviera.ch/contact</loc>
+  <lastmod>2020-05-13T15:36:23+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.lifeschool-riviera.ch/donate</loc>
+  <lastmod>2020-05-13T15:36:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.lifeschool-riviera.ch/en/</loc>
+  <lastmod>2020-05-13T15:36:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.lifeschool-riviera.ch/en/school</loc>
+  <lastmod>2020-05-13T15:36:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.lifeschool-riviera.ch/media/fondements.pdf</loc>
+  <lastmod>2020-05-13T15:36:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.lifeschool-riviera.ch/en/infos</loc>
+  <lastmod>2020-05-13T15:36:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.lifeschool-riviera.ch/contact.html</loc>
+  <lastmod>2020-05-13T15:36:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.lifeschool-riviera.ch/media/LSR%20-%20Tarifs%20annuels%202020-2021%20des%20%C3%A9colages.pdf</loc>
+  <lastmod>2020-05-13T15:36:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.lifeschool-riviera.ch/en/media</loc>
+  <lastmod>2020-05-13T15:36:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.lifeschool-riviera.ch/en/contact</loc>
+  <lastmod>2020-05-13T15:36:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.lifeschool-riviera.ch/en/donate</loc>
+  <lastmod>2020-05-13T15:36:23+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
