@@ -5,15 +5,6 @@
  * The original style.css is now called airspace.css
  *
  */
-
-@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600);
-@import url(//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
-@import url(//fonts.googleapis.com/css?family=Volkhov:400italic);
-@import url('https://fonts.googleapis.com/css?family=Carter+One&display=swap');
-/* var text-decoration */
-/*--
-	Common Css
---*/
 body {
   font-family: 'Avenir', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -61,7 +52,7 @@ a:focus {
 }
 
 .section-title p {
-  font-family: 'Volkhov', serif;
+  font-family: 'Avenir', serif;
   font-style: italic;
   font-size: larger;
   color: #666;
@@ -191,7 +182,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #feature .block p, #slider .block p, #philo .block p, #principles .block p, #joy .block p {
   font-size: large;
   line-height: 2em;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Avenir', sans-serif;
   font-weight: 300;
   letter-spacing: 0.5em;
 }
@@ -704,7 +695,7 @@ div.schedule {
   padding-left: 90px;
 }
 #slider-contact .block h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Avenir', sans-serif;
   font-weight: 100;
   font-size: 45px;
   line-height: 60px;
@@ -714,7 +705,7 @@ div.schedule {
 #slider-contact .block p {
   font-size: 23px;
   line-height: 40px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Avenir', sans-serif;
   font-weight: 300;
   letter-spacing: 1px;
   word-spacing: 3px;
