@@ -25,6 +25,19 @@ lang: en
 </section>
 
 <!-- Wrapper Start -->
+<section id="presentation">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 col-sm-12">
+        <h2>Presentation</h2>
+        <p>Life School Riviera is an innovative and progressive private school. It was born out of the desire to reveal each child's potential, talents and identity by offering quality teaching, tailor-made, adapted to the child's rhythm and learning profile. The heart of our school is to teach and transmit  essential values, appreciation of others and sense of excellence. The school will open at the beginning of the school year 2020, in a green setting in Saint-Légier.
+          Registration is open from 1H to 7H.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Wrapper Start -->
 <section id="aboutus">
  <div class="container">
    <div class="row">
@@ -231,31 +244,34 @@ practice knowledge they have already acquired.<br>
 
 
 
-{% if site.data.en.team.size > 0 %}
+{% if site.data.fr.team.size > 0 %}
 <!-- Team Start -->
 <section id="team">
- <div class="container">
-   <div class="row">
-     <div class="col-md-12">
-       <h2 style="text-align:center"><img src="/img/testimonials/quote.png" alt="quotation"  style="width:50px;padding-right:10px;">Notre équipe</h2>
-     </div>
-   </div>
-   {% for tm in site.data.en.team %}
-   <div class="row animated fadeInUp">
-     {% assign num = forloop.index | modulo:2 %}
-     <div class="col-md-3 col-sm-3 col-xs-3">
-      {% if tm.image.size != 0 %}
-       <img src="{{ tm.image }}" class="img-rounded img-responsive pull-right" alt="{{ tm.image.size }}" style="margin-top:15px;width:90px">
-      {% endif %}
-     </div>
-     <div class="col-md-6 col-sm-9 col-xs-9">
-       <blockquote class="blockquote">
-         <p class="mb-0">{{ tm.testimonial }}</p>
-         <footer class="blockquote-footer">{{ tm.name }}</footer>
-       </blockquote>
-     </div>
-   </div>
-   {% endfor %}
- </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 style="text-align:center"><img src="/img/testimonials/quote.png" alt="quotation"  style="width:50px;padding-right:10px;">Our team</h2>
+      </div>
+    </div>
+    {% for tm in site.data.fr.team %}
+    {% assign num = forloop.index | modulo:2 %}
+    {% if num == 1 %}
+    <div class="row">
+    {% endif %}
+        <div class="col-md-2 col-sm-4 col-xs-4">
+       {% if tm.image.size != 0 %}
+        <img src="{{ tm.image }}" class="img-rounded img-responsive pull-right animated fadeInUp" title="{{ tm.name }}" style="margin-top:15px;width:90px;display:block;margin-bottom:15px;">
+       {% endif %}
+      </div>
+      <div class="col-md-4 col-sm-8 col-xs-8">
+        <blockquote class="blockquote">
+          <p class="mb-0">{{ tm.testimonial }}</p>
+        </blockquote>
+      </div>
+    {% if num == 0 %}
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
 </section>
 {% endif %}
