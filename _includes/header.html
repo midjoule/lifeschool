@@ -11,12 +11,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/index.html">
-{% if page.lang == "fr" %}
+          <a class="navbar-brand" href="/{{ page.lang | replace: 'fr', '' }}">
             <img src="{{ site.baseurl }}/img/logo.png" alt="Logo">
-{% else %}
-            <img src="{{ site.baseurl }}/img/logo.png" alt="Logo">
-{% endif %}
           </a>
         </div>
         <div id="bs-example-navbar-collapse-1" class="navbar-collapse collapse">
