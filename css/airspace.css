@@ -172,7 +172,6 @@ font header .navbar-default .navbar-nav li a:hover {
   font-family: 'Multicolore', sans-serif;
   font-weight: 400;
   font-size: 4rem;
-  color: white;
   letter-spacing: 0.05em;
   padding: 1em;
   line-height: 2em;
@@ -924,4 +923,12 @@ nav li.active a {
 
 .brand-green {
   color: rgb(29,255,195) ;
+}
+
+.brand-darkblue {
+  color: rgb(39,84,166) ;
+}
+
+.brand-red {
+  color: rgb(238,12,39) ;
 }
