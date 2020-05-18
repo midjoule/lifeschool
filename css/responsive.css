@@ -146,6 +146,8 @@ px      68    160    252    344    436    528    620    712    */
   #features-contact .block ul li {
     width: 49%;
   }
+
+
   /*---------------------------------------------
 					contact close
 -----------------------------------------------*/
@@ -412,9 +414,10 @@ px      68    160    252    */
   text-align: center;
 }
 
-#slider, #feature, #philo {
-  padding: 19em 0 6em 0;
+
+
 }
+
 /*---------------------------------------------
 					Titles and homepage close
 -----------------------------------------------*/
@@ -430,7 +433,3 @@ px      68    160    252    344    436    */
 	Overrides styles for devices with a
 	device-pixel-ratio of 2+, such as iPhone 4.
 -----------------------------------------------    */
-
-.blockquote {
-  min-height: 140px;
-}

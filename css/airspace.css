@@ -139,7 +139,7 @@ font header .navbar-default .navbar-nav li a:hover {
   -moz-background-size: 100% auto;
   -o-background-size: 100% auto;
   background-size: 100% auto;
-  padding: 100px 0 180px 0;
+  padding: 12vw 0 12vw 0;
   position: relative;
 }
 
@@ -748,6 +748,11 @@ div.schedule {
   font-family: 'Avenir', sans-serif;
   font-size: 18px;
 }
+
+.blockquote {
+  min-height: 140px;
+}  
+
 /*--
 	wrapper-contact Start
 --*/
