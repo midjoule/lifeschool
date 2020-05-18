@@ -751,7 +751,7 @@ div.schedule {
 
 .blockquote {
   min-height: 140px;
-}  
+}
 
 /*--
 	wrapper-contact Start
@@ -891,4 +891,37 @@ nav a {
 }
 nav li.active a {
     color: #ffffff;
+}
+
+
+/*--
+	brand colors
+--*/
+
+.brand-yellow {
+  color: rgb(255,230,11) ;
+}
+
+.brand-cyan {
+  color: rgb(13,248,255) ;
+}
+
+.brand-rose {
+  color: rgb(255,130,160) ;
+}
+
+.brand-orange {
+  color: rgb(255,154,23) ;
+}
+
+.brand-blue {
+  color: rgb(0,139,219) ;
+}
+
+.brand-magenta {
+  color: rgb(219,0,107) ;
+}
+
+.brand-green {
+  color: rgb(29,255,195) ;
 }
