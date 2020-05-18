@@ -418,13 +418,7 @@ px      68    160    252    */
 /*---------------------------------------------
 					Titles and homepage close
 -----------------------------------------------*/
-/*--
-	footer Start
---*/
-  footer .footer-manu {
-    display: none;
-  }
-}
+
 /*		Wide Mobile Layout: 480px.
 		Gutters: 24px.
 		Outer margins: 22px.
@@ -436,3 +430,7 @@ px      68    160    252    344    436    */
 	Overrides styles for devices with a
 	device-pixel-ratio of 2+, such as iPhone 4.
 -----------------------------------------------    */
+
+.blockquote {
+  min-height: 140px;
+}
