@@ -90,7 +90,7 @@ IMG.team-member {
   backface-visibility: hidden;
 }
 
-DIV.member-name {
+DIV.member-name-box {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -110,8 +110,8 @@ DIV.member-name {
 }
 
 .member-name {
-  background-color: #4CAF50;
-  color: white;
+  background-color: rgb(255,130,160);
+  color: black;
   font-size: 16px;
   padding: 16px 32px;
 }
