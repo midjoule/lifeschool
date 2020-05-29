@@ -73,6 +73,50 @@ IMG.thumbnail {
   border: 0px;
 }
 
+/* team members with overlay effect
+*/
+
+DIV.team-container {
+}
+
+IMG.team-member {
+  margin-top:15px;
+  width:90px;
+  display:block;
+  margin-bottom:15px;
+  opacity: 1;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+DIV.member-name {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.team-container:hover .image {
+  opacity: 0.3;
+}
+
+.team-container:hover .member-name-box {
+  opacity: 1;
+}
+
+.member-name {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+/* end of team-member styles */
 
 P.wrap {
  white-space:normal;
