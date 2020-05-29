@@ -101,7 +101,7 @@ DIV.member-name-box {
   text-align: center;
 }
 
-.team-container:hover .image {
+.team-container:hover .team-member {
   opacity: 0.3;
 }
 
