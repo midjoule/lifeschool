@@ -169,6 +169,7 @@ px      68    160    252    */
   }
   h2 {
     font-size: 18px;
+    white-space: nowrap;
   }
   p {
     font-size: small;
