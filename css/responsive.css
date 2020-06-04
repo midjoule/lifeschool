@@ -415,6 +415,10 @@ px      68    160    252    */
   text-align: center;
 }
 
+	
+.section-title p {
+  font-size: larger;
+}
 
 
 }
