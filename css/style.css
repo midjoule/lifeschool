@@ -101,19 +101,16 @@ DIV.member-name-box {
   text-align: center;
 }
 
-.team-container:hover .team-member {
-  opacity: 0.3;
-}
-
-.team-container:hover .member-name-box {
-  opacity: 1;
+.team-container:hover .member-name {
+  display: block;
 }
 
 .member-name {
-  background-color: rgb(255,130,160);
-  color: black;
+  display:none;
   font-size: 16px;
-  padding: 16px 32px;
+  padding: 20px;
+  text-align:center;
+  width: 100%
 }
 
 /* end of team-member styles */
