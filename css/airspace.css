@@ -53,8 +53,8 @@ a:focus {
 
 .section-title p {
   font-family: 'Avenir', serif;
-  font-style: italic;
-  font-size: x-large;
+  font-weight: bold;
+  font-size: large;
   color: #666;
   white-space: normal;
 }

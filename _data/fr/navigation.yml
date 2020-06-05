@@ -3,10 +3,10 @@
   sublinks:
     - title: A propos de nous
       url: /index#aboutus
-    - title: Vision, Mission, Valeurs
+    - title: Vision, Mission, Philosophie
       url: /index#vision
-    - title: Philosophie
-      url: /index#philosophy
+    - title: Valeurs
+      url: /index#values
     - title: Grands principes
       url: /index#portfolio-work
     - title: Équipe
