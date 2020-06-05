@@ -114,7 +114,7 @@ lang: fr
 <section id="philosophy">
   <div class="container">
     <div class="row">
-      <div class="col-md-9 col-md-offset-2 col-sm-12">
+      <div class="col-md-8 col-md-offset-2 col-sm-12">
         <h2>Philosophie</h2>
         <p>Nous voulons encourager chaque élève et chaque enseignant à valoriser l’importance et la réputation de l’autre et de sa famille au travers du respect et du service.</p>
         <p>Nous voulons offrir un enseignement de qualité qui permet aux enfants de viser l’excellence en donnant le meilleur d’eux-mêmes mais sans se comparer. L’excellence fait partie de notre philosophie mais pas au détriment des êtres humains.</p>
@@ -184,7 +184,8 @@ lang: fr
 {% for p in site.data.fr.principles %}
 <section id="{{ p.ref }}">
   <div class="container">
-      <div class="table-responsive table-borderless">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 col-sm-12">
         <table class="table">
             <tbody>
                 <tr>
@@ -206,6 +207,7 @@ lang: fr
             </tbody>
           </table>
        </div>
+     </div>
    </div>
 </section>
 {% endfor %}
