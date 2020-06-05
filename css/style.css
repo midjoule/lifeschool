@@ -90,32 +90,26 @@ IMG.team-member {
   backface-visibility: hidden;
 }
 
-DIV.member-name-box {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.team-container:hover .team-member {
-  opacity: 0.3;
-}
-
-.team-container:hover .member-name-box {
-  opacity: 1;
+.team-container:hover .member-name {
+  animation-name: reveal_text;
+  animation-duration: 10s;
 }
 
 .member-name {
-  background-color: rgb(255,130,160);
-  color: black;
   font-size: 16px;
-  padding: 16px 32px;
+  padding: 10px;
+  text-align:center;
+  width: 90px;
+  float: right;
+  color: white;
 }
 
+
+@keyframes reveal_text {
+  0% {color: white;}
+  50% {color: black;}
+  100% {color: black;}
+}
 /* end of team-member styles */
 
 P.wrap {
