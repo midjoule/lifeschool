@@ -29,7 +29,9 @@ lang: fr
                 <tr>
                   <td style="border:none;">
                     <p class="wrap">{{ p.intro }}</p>
+                    {% if p.link != blank %}
                     <p class="wrap"><a href="{{ p.link }}" target="_new">En savoir plus...</a></p>
+                    {% endif %}
                   </td>
                 </tr>
             </tbody>
