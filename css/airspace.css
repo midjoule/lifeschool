@@ -894,8 +894,13 @@ nav li.active a {
 
 
 /*--
-	brand colors
+	brand colors and fonts
 --*/
+
+.brand-font {
+  font-family : 'Multicolore', sans-serif;
+  text-transform: uppercase;
+}
 
 .brand-yellow {
   color: rgb(255,230,11) ;
