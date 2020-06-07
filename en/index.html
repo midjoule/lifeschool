@@ -240,7 +240,7 @@ practice knowledge they have already acquired.<br>
 
 
 
-{% if site.data.fr.team.size > 0 %}
+{% if site.data.en.team.size > 0 %}
 <!-- Team Start -->
 <section id="team">
   <div class="container">
@@ -249,7 +249,7 @@ practice knowledge they have already acquired.<br>
         <h2 style="text-align:center"><img src="/img/testimonials/quote.png" alt="quotation"  style="width:50px;padding-right:10px;">Our team</h2>
       </div>
     </div>
-    {% for tm in site.data.fr.team %}
+    {% for tm in site.data.en.team %}
     {% assign num = forloop.index | modulo:2 %}
     {% if num == 1 %}
     <div class="row">
