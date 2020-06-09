@@ -438,3 +438,19 @@ px      68    160    252    344    436    */
 	Overrides styles for devices with a
 	device-pixel-ratio of 2+, such as iPhone 4.
 -----------------------------------------------    */
+
+@media only screen and (min-width: 1024px) {
+	#slider {
+	  padding: 200px 0 580px 0;
+	  background-position: center 70px ;
+	}
+}
+
+
+
+@media only screen and (min-width: 1280px) {
+	#slider {
+	  padding: 200px 0 1200px 0;
+	  background-position: center 70px ;
+	}
+}
