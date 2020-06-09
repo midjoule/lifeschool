@@ -4,7 +4,6 @@
  @font-face{
   font-family:'Multicolore';
   src: url('/fonts/multicolore.eot') format('eot'),
-    url('/fonts/multicolore.woff') format('woff'),
     url('/fonts/multicolore.ttf') format('truetype'),
     url('/fonts/multicolore.svg') format('svg');
   font-weight:normal;
