@@ -1,8 +1,6 @@
 - title: Présentation
   url: /index
   sublinks:
-    - title: A propos de nous
-      url: /index#aboutus
     - title: Vision, Mission, Philosophie
       url: /index#vision
     - title: Valeurs
@@ -14,6 +12,8 @@
 - title: L'École
   url: /school
   sublinks:
+    - title: A propos de nous
+      url: /index#aboutus
     - title: Fondements
       url: /school#foundations
    # - title: Classes et Programme
