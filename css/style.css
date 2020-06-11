@@ -16,6 +16,10 @@
    text-align: center;
  }
 
+.larger {
+   font-size: larger;
+}
+
  .caret {
      border-width: 7px;
  }
@@ -163,6 +167,11 @@ NAV.hide-nav {
     display:none;
 }
 
+
+.navbar-nav>.active>a {
+    background-color: none;
+    color: rgb(219,0,107) ;
+}
 
 /* Youtube Video */
 div.youtube {
