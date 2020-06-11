@@ -41,19 +41,21 @@ lang: fr
     </div>
 
     <div class="row">
-      <div class="table-responsive table-borderless">
-        <table class="table">
-            <tbody>
-                <tr>
-                  <td style="border:none;">
-                    <p class="wrap">{{ p.intro }}</p>
-                    {% if p.link != blank %}
-                    <p class="wrap"><a href="{{ p.link }}" target="_new">En savoir plus...</a></p>
-                    {% endif %}
-                  </td>
-                </tr>
-            </tbody>
-        </table>
+      <div class="col-12 col-md-8 col-md-offset-2 col-sm-12">
+        <div class="table-responsive table-borderless">
+          <table class="table">
+              <tbody>
+                  <tr>
+                    <td style="border:none;">
+                      <p class="wrap">{{ p.intro }}</p>
+                      {% if p.link != blank %}
+                      <p class="wrap"><a href="{{ p.link }}" target="_new">En savoir plus...</a></p>
+                      {% endif %}
+                    </td>
+                  </tr>
+              </tbody>
+          </table>
+        </div>
       </div>
     </div>
   </div>
