@@ -88,6 +88,12 @@ header .navbar-default .navbar-nav li a {
   padding: 10px 6px 10px 26px;
   font-size: 15px;
 }
+
+.navbar-nav>.active>a {
+    background-color: none;
+    color: rgb(219,0,107) ;
+}
+
 font header .navbar-default .navbar-nav li a:hover {
   color: #000;
 }
