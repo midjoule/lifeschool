@@ -13,7 +13,7 @@
   url: /school
   sublinks:
     - title: A propos de nous
-      url: /index#aboutus
+      url: /school#aboutus
     - title: Fondements
       url: /school#foundations
    # - title: Classes et Programme
