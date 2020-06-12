@@ -167,9 +167,9 @@ NAV.hide-nav {
     display:none;
 }
 
-#navbar .navbar-nav>.active>a {
-    background-color: none;
-    color: rgb(219,0,107) ;
+header .navbar-default .navbar-nav>.active>a {
+    background-color: #FFFFFF;
+    color: rgb(219,0,107);
 }
 
 
