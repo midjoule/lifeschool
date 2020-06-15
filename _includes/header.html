@@ -2,7 +2,7 @@
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v4.0"></script>
 <!-- Header Start -->
 <header>
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-expand-md">
       <div class="container-fluid">
         <div id="navbar" class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" aria-controls="navbar">
@@ -24,28 +24,26 @@
              {% endif %}
 
           {% for link in links %}
-             {% assign class = nil %}
+             {% assign active_class = nil %}
              {% if page.url contains link.url %}
-                {% assign class = 'active' %}
+                {% assign active_class = 'active' %}
              {% endif %}
              {% if link.sublinks %}
-             <li class="dropdown {{ class }}">
-                <a href="{{ site.baseurl | append: link.url }}" style="display:inline;">{{ link.title }}</a><span class="caret dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></span>
-                <ul class="dropdown-menu">
+             <li class="nav-item dropdown {{ active_class }}">
+                <a class="nav-link dropdown-toggle" href="{{ site.baseurl | append: link.url }}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ link.title }}</a><span class="caret dropdown-toggle"></span>
+                <div class="dropdown-menu">
                    {% for sublink in link.sublinks %}
                    {% if sublink.title == 'separator' %}
-                   <li role="separator" class="divider"></li>
-                   {% else %}
-                   <li>
-                      <a href="{{ site.baseurl | append: sublink.url }}">{{ sublink.title }}</a>
-                   </li>
-                   {% endif %}
+                     <li role="separator" class="divider"></li>
+                     {% else %}
+                       <a class="dropdown-item" href="{{ site.baseurl | append: sublink.url }}">{{ sublink.title }}</a>
+                     {% endif %}
                    {% endfor %}
-                </ul>
+                </div>
              </li>
              {% else %}
-             <li class="{{ class }}">
-                <a href="{{ site.baseurl | append: link.url }}" style="display:inline;">{{ link.title }}</a>
+             <li class="nav-item {{ active_class }}">
+                <a class="nav-link" href="{{ site.baseurl | append: link.url }}">{{ link.title }}</a>
              </li>
              {% endif %}
           {% endfor %}
