@@ -76,3 +76,9 @@ setInterval(function() {
     if (scrollTimeOut)
         setNavClass();
 }, 250);
+
+/*toggle menu on mouseover event
+*/
+$('body').on('mouseover mouseout', '.dropdown', function(e) {
+    $(e.target).dropdown('toggle');
+});
