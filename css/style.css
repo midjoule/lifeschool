@@ -167,10 +167,9 @@ NAV.hide-nav {
     display:none;
 }
 //nav.navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus
-#collapsibleNavbar ul li .active>a:hover, .navbar-nav>.active>a {
+ul.navbar-nav > li.active > a.nav-link.dropdown-toggle {
     background-color: transparent;
     color: rgb(219,0,107);
-    font-size: small;
 }
 
 
