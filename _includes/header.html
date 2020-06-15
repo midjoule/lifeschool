@@ -2,7 +2,7 @@
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v4.0"></script>
 <!-- Header Start -->
 <header>
-    <nav class="navbar fixed-top navbar-expand-md navbar-toggleable-md navbar-light bg-light justify-content-end">
+    <nav class="navbar fixed-top navbar-expand-md navbar-toggleable-md navbar-light bg-light">
 
       <a class="navbar-brand" href="/{{ page.lang | replace: 'fr', '' }}">
         <img src="{{ site.baseurl }}/img/logo.png" alt="Logo">
@@ -13,7 +13,7 @@
       </button>
 
         <div id="collapsibleNavbar" class="collapse navbar-collapse">
-          <ul class="navbar-nav navbar-right brand-font">
+          <ul class="navbar-nav justify-content-end">
              {% if page.lang == "fr" %}
               {% assign links = site.data.fr.navigation %}
              {% else %}
