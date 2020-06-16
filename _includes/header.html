@@ -13,7 +13,7 @@
       </button>
 
         <div id="collapsibleNavbar" class="collapse navbar-collapse">
-          <ul class="navbar-nav justify-content-end">
+          <ul class="navbar-nav mr-auto">
              {% if page.lang == "fr" %}
               {% assign links = site.data.fr.navigation %}
              {% else %}
@@ -43,18 +43,22 @@
              </li>
              {% endif %}
           {% endfor %}
-
-          {% if page.lang == "fr" %}
-             <li class="nav-item">              
+            </ul>
+            
+            <ul class="navbar-nav">             
+            {% if page.lang == "fr" %}
+              <li class="nav-item">              
                 <a class="nav-link" title="English" href="{{ site.baseurl }}en{{ page.url }}">en</a>
-             </li>
-             <li class="navbar-text bold">&nbsp;|&nbsp;fr</li>
-          {% else %}
-             <li class="navbar-text bold">en&nbsp;|&nbsp;</li>
-             <li class="nav-item">
-               <a title="Français" href="{{ site.baseurl }}{{ page.url | replace: "/en", "" }}" class="nav-link">fr</a>
-             </li>
-          {% endif %}
+              </li>
+              <li class="navbar-text">|</li>
+              <li class="navbar-text bold">fr</li>
+            {% else %}
+              <li class="navbar-text bold">en</li>
+              <li class="navbar-text">|</li>
+              <li class="nav-item">
+                <a class="nav-link" title="Français" href="{{ site.baseurl }}{{ page.url | replace: "/en", "" }}">fr</a>
+              </li>
+            {% endif %}
           </ul>
         </div><!--/.nav-collapse -->
       </div>
