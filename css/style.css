@@ -172,6 +172,10 @@ ul.navbar-nav > li.active > a.nav-link.dropdown-toggle {
     color: rgb(219,0,107);
 }
 
+.dropdown:hover .dropdown-menu {
+   display: block !important;
+}
+
 
 /* Youtube Video */
 div.youtube {
