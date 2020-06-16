@@ -48,14 +48,12 @@
             <ul class="navbar-nav">             
             {% if page.lang == "fr" %}
               <li class="nav-item">              
-                <a class="nav-link" title="English" href="{{ site.baseurl }}en{{ page.url }}">en</a>
+                <a class="nav-link" title="English" href="{{ site.baseurl }}en{{ page.url }}">en</a> 
+                <span class="navbar-text">|&nbsp;<b>fr</b></span>
               </li>
-              <li class="navbar-text">|</li>
-              <li class="navbar-text bold">fr</li>
             {% else %}
-              <li class="navbar-text bold">en</li>
-              <li class="navbar-text">|</li>
               <li class="nav-item">
+                <span class="navbar-text">|&nbsp;<b>fr</b></span>
                 <a class="nav-link" title="Français" href="{{ site.baseurl }}{{ page.url | replace: "/en", "" }}">fr</a>
               </li>
             {% endif %}
