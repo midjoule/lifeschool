@@ -48,13 +48,13 @@
             <ul class="navbar-nav">             
             {% if page.lang == "fr" %}
               <li class="nav-item">              
-                <a class="nav-link" title="English" href="{{ site.baseurl }}en{{ page.url }}">en</a> 
+                <a class="nav-link" style="display:inline;" title="English" href="{{ site.baseurl }}en{{ page.url }}">en</a> 
                 <span class="navbar-text">|&nbsp;<b>fr</b></span>
               </li>
             {% else %}
               <li class="nav-item">
                 <span class="navbar-text">|&nbsp;<b>en</b></span>
-                <a class="nav-link" title="Français" href="{{ site.baseurl }}{{ page.url | replace: "/en", "" }}">fr</a>
+                <a class="nav-link" style="display:inline;" title="Français" href="{{ site.baseurl }}{{ page.url | replace: "/en", "" }}">fr</a>
               </li>
             {% endif %}
           </ul>
