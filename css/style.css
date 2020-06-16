@@ -166,16 +166,16 @@ footer.blockquote-footer {
 NAV.hide-nav {
     display:none;
 }
-//nav.navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus
-ul.navbar-nav > li.active > a.nav-link.dropdown-toggle {
-    background-color: transparent;
+
+
+#collapsibleNavbar li.nav-item {
+    font-size: large;
+    font-weight: bold;
+}
+
+#collapsibleNavbar li.nav-item.active>a {
     color: rgb(219,0,107);
 }
-
-.dropdown:hover .dropdown-menu {
-   display: block !important;
-}
-
 
 /* Youtube Video */
 div.youtube {
