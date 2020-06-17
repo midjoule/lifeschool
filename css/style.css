@@ -211,12 +211,13 @@ iframe.youtube {
 }
 
 
-@media only screen and (min-width:769px) {
+@media only screen and (min-width:992px) {
 
 /* to make the top menu dropdowns clickable 
 */
 .dropdown:hover .dropdown-menu {
     display: block;
+    margin-top:-5px;
   }
   .dropdown-submenu {
     position: relative !important;
