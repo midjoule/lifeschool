@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>jQuery Formula Plugin Example</title>
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+<style>
+body { background-color:#f7f7f7;}
+.container { margin:150px auto;}
+</style>
+</head>
+
+<body>
+<div id="jquery-script-menu">
+<div class="jquery-script-center">
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+<div class="container">
+  <h1>jQuery Formula Plugin Example</h1>
+  <hr />
+  <form role="form">
+    <div class="row">
+      <div class="span4">
+        <label >Field 1
+        </label>
+        <input type="text" class="form-control" data-variavel="field1"   >
+      </div>
+      <div class="span4">
+        <label >Field 2
+        </label>
+        <input type="text" class="form-control" data-variavel="field2"    >
+      </div>
+
+      <div class="span4">
+        <label >Result = ( #field1# + #field2#)
+        </label>
+        <input type="text" class="form-control" data-formula="#field1# + #field2#"   >
+      </div>
+
+      <div class="span4">
+        <label >Result = #field1# * #field2#
+        </label>
+        <input type="text" class="form-control" data-formula="#field1# * #field2#"   >
+      </div>
+    </div>
+
+  </form>
+  </div>
+<script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>
+<script src="jquery.formula.js"></script>
+</body>
+</html>
