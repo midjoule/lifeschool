@@ -553,7 +553,7 @@ div.schedule {
 }
 #portfolio-work .block .portfolio-contant ul li a {
   display: block;
-  color: #fff;
+  color: black;
 }
 #portfolio-work .block .portfolio-contant ul li a h2 {
   font-size: 1.5vw;
@@ -581,7 +581,7 @@ div.schedule {
   bottom: 0;
   right: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: #f8f9fa;
   opacity: 0;
   -webkit-transition: .3s all;
   -o-transition: .3s all;
