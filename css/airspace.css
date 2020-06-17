@@ -20,8 +20,8 @@ h6 {
 h2 {
   font-size: xx-large;
   font-weight: 400;
-  /*margin-top: 50px;*/
-  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 h3 {
   font-size: x-large;
@@ -71,7 +71,7 @@ header .navbar {
   border: 0px;
 }
 header .navbar-brand {
-  padding-top: 15px;
+  padding-top: 10px;
 }
 header .navbar-default {
   background: none;
@@ -132,7 +132,7 @@ font header .navbar-default .navbar-nav li a:hover {
 /* common title overlays
 */
 
-#slider, #feature, #philo, #principles, #joy {
+#slider, #feature, #philo, #principles, #joy, #contact-header {
   background-attachment: fixed;
   background-position: center ;
   background-repeat: no-repeat ;
@@ -147,6 +147,11 @@ font header .navbar-default .navbar-nav li a:hover {
 
 #slider {
   padding: 70vw 0 0 0;
+  background-position: center 70px ;
+}
+
+#contact-header {
+  padding: 40vw 0 0 0;
   background-position: center 70px ;
 }
 
@@ -548,7 +553,7 @@ div.schedule {
 }
 #portfolio-work .block .portfolio-contant ul li a {
   display: block;
-  color: #fff;
+  color: black;
 }
 #portfolio-work .block .portfolio-contant ul li a h2 {
   font-size: 1.5vw;
@@ -576,7 +581,7 @@ div.schedule {
   bottom: 0;
   right: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: #f8f9fa;
   opacity: 0;
   -webkit-transition: .3s all;
   -o-transition: .3s all;
@@ -891,9 +896,6 @@ nav li {
 }
 nav a {
     text-decoration: none;
-}
-nav li.active a {
-    color: #ffffff;
 }
 
 

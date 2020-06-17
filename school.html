@@ -13,7 +13,7 @@ lang: fr
 <section id="aboutus">
   <div class="container">
     <div class="row">
-      <div class="col-12 col-md-8 col-md-offset-2 col-sm-12">
+      <div class="col-12 col-md-8 offset-md-2 col-sm-12">
         <div class="block">
           <div class="section-title">
             <h2>A propos de nous</h2>
@@ -23,7 +23,30 @@ lang: fr
         </div>
       </div><!-- .col-md-7 close -->
     </div>
+
+    <div class="row">
+      <div class="col-12 col-md-8 offset-md-2 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h2>L'équipe pédagogique</h2>
+          </div>
+          <p class="mb-0">Notre équipe est formée d’une dizaine de spécialistes de l’enseignement, enseignants, logopédiste, psychologue, mais aussi de parents, intimement convaincus par les principes fondamentaux et les valeurs chrétiennes de l’école. Chacun, selon leur coeur et leurs compétences, apporte de la justesse et de la profondeur au projet. Nous nous sommes inspirés de diverses méthodes et pédagogies internationales pour créer un programme d’enseignement complet, cohérent et capable de s’adapter selon les besoins des enfants. Notre équipe de contributeurs évolue en fonction de leurs disponibilités et des spécialités que nous recherchons.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-md-8 offset-md-2 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h2>Des enseignants de qualité</h2>
+          </div>
+          <p class="mb-0">Nos enseignants sont soigneusement sélectionnés pour leurs valeurs et les compétences spécifiques qu’ils apportent à l’école. Nous proposons aux élèves de bénéficier d’enseignants spécialisés pour certaines matières dès la 1H (à partir de la 7H à l’école publique) et d’enseignants spécialisés ponctuels si l’enfant  a des besoins spécifiques en logopédie ou autres. Tout au long de l’année, nous organisons des formations sur des thèmes innovants pour permettre aux enseignants d’aller plus loin dans leurs pratiques d’enseignements.</p>
+        </div>
+      </div>
+    </div>
   </div>
+  
 </section>
 
 
@@ -32,7 +55,7 @@ lang: fr
 <section id="{{ p.id }}">
   <div class="container">
     <div class="row">
-      <div class="col-12 col-md-8 col-md-offset-2 col-sm-12">
+      <div class="col-12 col-md-8 offset-md-2 col-sm-12">
         <h2 style="text-align:center;margin-bottom:40px;">
           <img src="{{ p.icon }}" alt="quotation">
          {{ p.title }}
@@ -41,7 +64,7 @@ lang: fr
     </div>
 
     <div class="row">
-      <div class="col-12 col-md-8 col-md-offset-2 col-sm-12">
+      <div class="col-12 col-md-8 offset-md-2 col-sm-12">
         <div class="table-responsive table-borderless">
           <table class="table">
               <tbody>
@@ -67,7 +90,7 @@ lang: fr
 <section id="partners">
   <div class="container">
     <div class="row">
-      <div class="col-12 col-md-8 col-md-offset-2 col-sm-12">
+      <div class="col-12 col-md-8 offset-md-2 col-sm-12">
         <h2 style="text-align:center;margin-bottom:40px;">
           <img src="/img/school/partners.png" alt="quotation">
          Nos Partenaires
@@ -80,7 +103,7 @@ lang: fr
 <!-- Principles Details Start -->
 {% for p in site.data.fr.partners %}
     <div class="row">
-      <div class="col-12 col-md-8 col-md-offset-2 col-sm-12">
+      <div class="col-12 col-md-8 offset-md-2 col-sm-12">
         <div class="table-responsive table-borderless">
           <table class="table">
               <tbody>
