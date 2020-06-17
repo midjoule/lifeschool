@@ -897,9 +897,6 @@ nav li {
 nav a {
     text-decoration: none;
 }
-nav li.active a {
-    color: #ffffff;
-}
 
 
 /*--
