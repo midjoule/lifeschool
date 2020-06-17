@@ -132,7 +132,7 @@ font header .navbar-default .navbar-nav li a:hover {
 /* common title overlays
 */
 
-#slider, #feature, #philo, #principles, #joy {
+#slider, #feature, #philo, #principles, #joy, #contact-header {
   background-attachment: fixed;
   background-position: center ;
   background-repeat: no-repeat ;
@@ -149,6 +149,12 @@ font header .navbar-default .navbar-nav li a:hover {
   padding: 70vw 0 0 0;
   background-position: center 70px ;
 }
+
+#contact-header {
+  padding: 65vw 0 0 0;
+  background-position: center 70px ;
+}
+
 
 #donate {
   float:right;
