@@ -145,12 +145,15 @@ font header .navbar-default .navbar-nav li a:hover {
   position: relative;
 }
 
-#slider, #contact-header {
+#slider {
   padding: 70vw 0 0 0;
   background-position: center 70px ;
 }
 
-
+#contact-header {
+  padding: 40vw 0 0 0;
+  background-position: center 70px ;
+}
 
 #donate {
   float:right;
