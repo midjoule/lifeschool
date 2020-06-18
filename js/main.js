@@ -74,9 +74,6 @@ $(window).on("load resize", function() {
         $this.find($dropdownMenu).removeClass(showClass);
       }
     );
-		$dropdown.first().click(function() {
-      location.href = $(this).href;
-    });
   } else {
     $dropdown.off("mouseenter mouseleave");
   }
