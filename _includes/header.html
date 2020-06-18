@@ -2,63 +2,63 @@
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v4.0"></script>
 <!-- Header Start -->
 <header>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/{{ page.lang | replace: 'fr', '' }}">
+      <img src="{{ site.baseurl }}/img/logo.png" alt="Logo">
+    </a>
 
-      <a class="navbar-brand" href="/{{ page.lang | replace: 'fr', '' }}">
-        <img src="{{ site.baseurl }}/img/logo.png" alt="Logo">
-      </a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <div id="collapsibleNavbar" class="collapse navbar-collapse">
+      <ul class="navbar-nav mr-auto">
+         {% if page.lang == "fr" %}
+          {% assign links = site.data.fr.navigation %}
+         {% else %}
+          {% assign links = site.data.en.navigation %}
+         {% endif %}
 
-        <div id="collapsibleNavbar" class="collapse navbar-collapse">
-          <ul class="navbar-nav mr-auto">
-             {% if page.lang == "fr" %}
-              {% assign links = site.data.fr.navigation %}
-             {% else %}
-              {% assign links = site.data.en.navigation %}
-             {% endif %}
+      {% for link in links %}
+         {% assign active_class = nil %}
+         {% if page.url contains link.url %}
+            {% assign active_class = 'active' %}
+         {% endif %}
+         {% if link.sublinks %}
+         <li class="nav-item dropdown {{ active_class }}">
+            <a class="nav-link dropdown-toggle" href="{{ site.baseurl | append: link.url }}" data-toggle="dropdown">{{ link.title }}</a>
+            <div class="dropdown-menu">
+               {% for sublink in link.sublinks %}
+               {% if sublink.title == 'separator' %}
+                 {% else %}
+                   <a class="dropdown-item" href="{{ site.baseurl | append: sublink.url }}">{{ sublink.title }}</a>
+                 {% endif %}
+               {% endfor %}
+            </div>
+         </li>
+         {% else %}
+         <li class="nav-item {{ active_class }}">
+            <a class="nav-link" href="{{ site.baseurl | append: link.url }}">{{ link.title }}</a>
+         </li>
+         {% endif %}
+      {% endfor %}
+        </ul>
 
-          {% for link in links %}
-             {% assign active_class = nil %}
-             {% if page.url contains link.url %}
-                {% assign active_class = 'active' %}
-             {% endif %}
-             {% if link.sublinks %}
-             <li class="nav-item dropdown {{ active_class }}">
-                <a class="nav-link dropdown-toggle" href="{{ site.baseurl | append: link.url }}" data-toggle="dropdown">{{ link.title }}</a>
-                <div class="dropdown-menu">
-                   {% for sublink in link.sublinks %}
-                   {% if sublink.title == 'separator' %}
-                     {% else %}
-                       <a class="dropdown-item" href="{{ site.baseurl | append: sublink.url }}">{{ sublink.title }}</a>
-                     {% endif %}
-                   {% endfor %}
-                </div>
-             </li>
-             {% else %}
-             <li class="nav-item {{ active_class }}">
-                <a class="nav-link" href="{{ site.baseurl | append: link.url }}">{{ link.title }}</a>
-             </li>
-             {% endif %}
-          {% endfor %}
-            </ul>
-            
-            <ul class="navbar-nav">             
-            {% if page.lang == "fr" %}
-              <li class="nav-item">              
-                <a class="nav-link" style="display:inline;" title="English" href="{{ site.baseurl }}en{{ page.url }}">en</a> 
-                <span class="navbar-text">|&nbsp;<b>fr</b></span>
-              </li>
-            {% else %}
-              <li class="nav-item">
-                <span class="navbar-text"><b>en</b>&nbsp;|</span>
-                <a class="nav-link" style="display:inline;" title="Français" href="{{ site.baseurl }}{{ page.url | replace: "/en", "" }}">fr</a>
-              </li>
             {% endif %}
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
     </nav>
+        <ul class="navbar-nav">
+        {% if page.lang == "fr" %}
+          <li class="nav-item">
+            <a class="nav-link" style="display:inline;" title="English" href="{{ site.baseurl }}en{{ page.url }}">en</a>
+            <span class="navbar-text">|&nbsp;<b>fr</b></span>
+          </li>
+        {% else %}
+          <li class="nav-item">
+            <span class="navbar-text"><b>en</b>&nbsp;|</span>
+            <a class="nav-link" style="display:inline;" title="Français" href="{{ site.baseurl }}{{ page.url | replace: "/en", "" }}">fr</a>
+          </li>
+        {% endif %}
+      </ul>
+    </div><!--/.nav-collapse -->
+  </nav>
 </header><!-- header close -->
