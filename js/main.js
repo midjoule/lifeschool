@@ -72,6 +72,12 @@ $(window).on("load resize", function() {
         $this.find($dropdownMenu).removeClass(showClass);
       }
     );
+		$dropdown.click(
+			function() {
+				const $this = $(this);
+				location.href = $this.href;
+			}
+		);
   } else {
     $dropdown.off("mouseenter mouseleave");
   }
