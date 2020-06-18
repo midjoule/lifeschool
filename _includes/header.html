@@ -19,15 +19,17 @@
           {% assign links = site.data.en.navigation %}
          {% endif %}
 
+      {% assign i = 0 %}
       {% for link in links %}
          {% assign active_class = nil %}
          {% if page.url contains link.url %}
             {% assign active_class = 'active' %}
          {% endif %}
          {% if link.sublinks %}
+         {% assign i = i | plus: 1 %}
          <li class="nav-item dropdown {{ active_class }}">
-            <a class="nav-link dropdown-toggle" href="{{ site.baseurl | append: link.url }}" data-toggle="dropdown">{{ link.title }}</a>
-            <div class="dropdown-menu">
+            <a class="nav-link dropdown-toggle" href="{{ site.baseurl | append: link.url }}" id="navbarDropdown{{i}}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ link.title }}</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown{{i}}">
                {% for sublink in link.sublinks %}
                {% if sublink.title == 'separator' %}
                  {% else %}

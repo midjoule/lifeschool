@@ -51,19 +51,28 @@ $(document).ready(function(){
 
 /*toggle menu on mouseover event
 */
-jQuery(function($) {
-  if ($(window).width() > 769) {
-    $('.navbar .dropdown').hover(function() {
-      $(this).find('.dropdown-menu').first().stop(true, true).delay(250).slideDown();
+const $dropdown = $(".dropdown");
+const $dropdownToggle = $(".dropdown-toggle");
+const $dropdownMenu = $(".dropdown-menu");
+const showClass = "show";
 
-    }, function() {
-      $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideUp();
-
-    });
-
-    $('.navbar .dropdown > a').click(function() {
-      location.href = this.href;
-    });
-
+$(window).on("load resize", function() {
+  if (this.matchMedia("(min-width: 992px)").matches) {
+    $dropdown.hover(
+      function() {
+        const $this = $(this);
+        $this.addClass(showClass);
+        $this.find($dropdownToggle).attr("aria-expanded", "true");
+        $this.find($dropdownMenu).addClass(showClass);
+      },
+      function() {
+        const $this = $(this);
+        $this.removeClass(showClass);
+        $this.find($dropdownToggle).attr("aria-expanded", "false");
+        $this.find($dropdownMenu).removeClass(showClass);
+      }
+    );
+  } else {
+    $dropdown.off("mouseenter mouseleave");
   }
 });
