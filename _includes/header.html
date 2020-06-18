@@ -2,7 +2,7 @@
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v4.0"></script>
 <!-- Header Start -->
 <header>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-expand-md navbar-toggleable-md navbar-light" id="menu">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
 
       <a class="navbar-brand" href="/{{ page.lang | replace: 'fr', '' }}">
         <img src="{{ site.baseurl }}/img/logo.png" alt="Logo">
@@ -13,7 +13,7 @@
       </button>
 
         <div id="collapsibleNavbar" class="collapse navbar-collapse">
-          <ul class="navbar-nav navbar-right brand-font">
+          <ul class="navbar-nav mr-auto">
              {% if page.lang == "fr" %}
               {% assign links = site.data.fr.navigation %}
              {% else %}
@@ -43,13 +43,20 @@
              </li>
              {% endif %}
           {% endfor %}
-             <li>
-                {% if page.lang == "fr" %}
-                  <a title="English" href="{{ site.baseurl }}en{{ page.url }}" style="display:inline;padding-right:0px;">en</a>&nbsp;|&nbsp;<b>fr</b>
-                {% else %}
-                  <b style="padding-left:26px;">en</b>&nbsp;|&nbsp;<a title="Français" href="{{ site.baseurl }}{{ page.url | replace: "/en", "" }}" style="display:inline;padding:0px;">fr</a>
-                {% endif %}
-             </li>
+            </ul>
+            
+            <ul class="navbar-nav">             
+            {% if page.lang == "fr" %}
+              <li class="nav-item">              
+                <a class="nav-link" style="display:inline;" title="English" href="{{ site.baseurl }}en{{ page.url }}">en</a> 
+                <span class="navbar-text">|&nbsp;<b>fr</b></span>
+              </li>
+            {% else %}
+              <li class="nav-item">
+                <span class="navbar-text"><b>en</b>&nbsp;|</span>
+                <a class="nav-link" style="display:inline;" title="Français" href="{{ site.baseurl }}{{ page.url | replace: "/en", "" }}">fr</a>
+              </li>
+            {% endif %}
           </ul>
         </div><!--/.nav-collapse -->
       </div>
