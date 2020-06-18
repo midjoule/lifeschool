@@ -50,6 +50,7 @@ $(document).ready(function(){
 
 
 /*toggle menu on mouseover event
+- inspired by : https://webdesign.tutsplus.com/tutorials/how-to-make-the-bootstrap-navbar-dropdown-work-on-hover--cms-33840
 - check also : https://stackoverflow.com/questions/48820404/bootstrap-4-keeping-parent-of-dropdown-a-clickable-link
 */
 const $dropdown = $(".dropdown");
@@ -74,7 +75,7 @@ $(window).on("load resize", function() {
       }
     );
 		$dropdown.first().click(function() {
-      location.href = this.href;
+      location.href = $(this).href;
     });
   } else {
     $dropdown.off("mouseenter mouseleave");
