@@ -75,7 +75,7 @@ $(window).on("load resize", function() {
 		$dropdown.click(
 			function() {
 				const $this = $(this);
-				location.href = $this.href;
+				location.href = $this.find($dropdownToggle).href;
 			}
 		);
   } else {
