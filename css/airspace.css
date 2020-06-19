@@ -30,6 +30,7 @@ h3 {
 p {
   font-size: medium;
   line-height: 1.5em;
+  text-align:justify;
 }
 br {
   line-height: 250%;
