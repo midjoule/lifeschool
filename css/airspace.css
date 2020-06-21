@@ -20,8 +20,9 @@ h6 {
 h2 {
   font-size: xx-large;
   font-weight: 400;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  text-align:center;
+  margin-top: 60px;
+  margin-bottom: 40px;
 }
 h3 {
   font-size: x-large;
@@ -48,6 +49,11 @@ section {
 a:focus {
   text-decoration: none !important;
 }
+
+.nav-link:focus, .nav-link:hover {
+	font-weight: bold;
+}
+
 .section-title {
   margin-bottom: 40px;
 }
