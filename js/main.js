@@ -72,9 +72,14 @@ $(window).on("load resize", function() {
         $this.removeClass(showClass);
         $this.find($dropdownToggle).attr("aria-expanded", "false");
         $this.find($dropdownMenu).removeClass(showClass);
-      }
+      },
     );
+    $("a.dropdown-toggle").click(
+      function () {
+        location.href = this.href;
+      }
+    );	  
   } else {
-    $dropdown.off("mouseenter mouseleave");
+    $dropdown.off("mouseenter mouseleave click");
   }
 });
