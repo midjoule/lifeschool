@@ -37,6 +37,9 @@ $(document).ready(function(){
 		  });
 		}
 
+	
+	// Scrool to section
+	$('section').onscroll(function(){window.scrollTo(0, window.scrollY-70);});
 
 	// Counter
 
