@@ -425,6 +425,11 @@ header .navbar-brand img {
   font-size: larger;
 }
 
+	
+header ul.navbar-nav {
+  font-size: 3.5vw;
+}
+	
 footer, footer span {
     font-size: 3.5vw;
 }
