@@ -18,18 +18,18 @@ h6 {
   font-family: 'Multicolore', sans-serif;
 }
 h2 {
-  font-size: xx-large;
+  font-size: 3vw;
   font-weight: 400;
   text-align:center;
   margin-top: 60px;
   margin-bottom: 40px;
 }
 h3 {
-  font-size: x-large;
+  font-size: 2.5vw;
   font-weight: 300;
 }
 p {
-  font-size: medium;
+  font-size: 2vw;
   line-height: 1.5em;
   text-align:justify;
 }
@@ -61,7 +61,7 @@ a:focus {
 .section-title p {
   font-family: 'Avenir', serif;
   font-weight: bold;
-  font-size: large;
+  font-size: 2.3vw;
   color: #666;
   white-space: normal;
 }
@@ -93,9 +93,11 @@ header .navbar-default .navbar-nav {
 header .navbar-default .navbar-nav li a {
   color: #333333;
   padding: 10px 6px 10px 26px;
-  font-size: 15px;
 }
 
+header ul.navbar-nav {
+  font-size:1.5vw;
+}
 
 font header .navbar-default .navbar-nav li a:hover {
   color: #000;
