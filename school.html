@@ -50,6 +50,45 @@ lang: fr
 </section>
 
 
+{% if site.data.fr.team.size > 0 %}
+<!-- Team Start -->
+<section id="team">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 style="text-align:center"><img src="/img/testimonials/quote.png" alt="quotation"  style="width:50px;padding-right:10px;">Notre équipe</h2>
+      </div>
+    </div>
+    {% for tm in site.data.fr.team %}
+    {% assign num = forloop.index | modulo:2 %}
+    {% if num == 1 %}
+    <div class="row">
+    {% endif %}
+      <div class="col-12 col-md-6">
+        <div class="row">
+          <div class="col-4 col-md-4 team-container">
+           {% if tm.image.size != 0 %}
+            <table><tr><td><img src="{{ tm.image }}" class="rounded img-fluid pull-right animated fadeInUp team-member"></td></tr>
+              <tr><td><div class="member-name">{{ tm.name }}</div></td></tr></table>
+           {% endif %}
+          </div>
+          <div class="col-8 col-md-8">
+            <blockquote class="blockquote">
+              <p class="mb-0">{{ tm.testimonial }}</p>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    {% if num == 0 %}
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+
+
 {% if site.data.fr.school.size > 0 %}
 {% for p in site.data.fr.school %}
 <section id="{{ p.id }}">
