@@ -55,10 +55,11 @@ lang: fr
 
 {% if site.data.fr.team.size > 0 %}
 <!-- Team Start -->
-<section id="team">
+<section>
   <div class="container-fluid">
     <div class="row">
       <div class="col">
+        <a name="team" class="anchor"></a>
         <h2 style="text-align:center"><img src="/img/testimonials/quote.png" alt="quotation"  style="width:50px;padding-right:10px;">Notre équipe</h2>
       </div>
     </div>
@@ -94,10 +95,11 @@ lang: fr
 
 {% if site.data.fr.school.size > 0 %}
 {% for p in site.data.fr.school %}
-<section id="{{ p.id }}">
+<section>
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 col-md-8 offset-md-2 col-sm-12">
+        <a name="{{ p.id }}" class="anchor"></a>
         <h2 style="text-align:center;margin-bottom:40px;">
           <img src="{{ p.icon }}" alt="quotation">
          {{ p.title }}
@@ -129,10 +131,11 @@ lang: fr
 {% endif %}
 
 
-<section id="partners">
+<section>
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 col-md-8 offset-md-2 col-sm-12">
+        <a name="partners" class="anchor"></a>
         <h2 style="text-align:center;margin-bottom:40px;">
           <img src="/img/school/partners.png" alt="quotation">
          Nos Partenaires
