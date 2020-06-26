@@ -168,12 +168,13 @@ px      68    160    252    */
     padding-left: 0px;
   }
   h2 {
-    font-size: 18px;
+    font-size: 5vw;
+    line-height : 7vw;
     white-space: normal;
   }
   p {
-    font-size: small;
-    line-height: 4vh ;
+    font-size: 3vw;
+    line-height: 5vw ;
   }
   header .navbar-default .navbar-toggle {
     margin-top: 20px;
@@ -422,7 +423,8 @@ header .navbar-brand img {
 
 	
 .section-title p {
-  font-size: larger;
+  font-size: 5vw;
+  line-height: 6vw;
 }
 
 	
