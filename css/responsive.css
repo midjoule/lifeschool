@@ -427,6 +427,9 @@ header .navbar-brand img {
   line-height: 6vw;
 }
 
+section a.anchor {
+    top: -50px;
+}
 	
 header ul.navbar-nav {
   font-size: 3.5vw;
