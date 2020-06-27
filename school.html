@@ -115,7 +115,7 @@ lang: fr
                   <tr>
                     <td style="border:none;">
                       <p class="wrap">{{ p.intro }}</p>
-                      {% unless p.link == blank %}
+                      {% if p.link and p.link.size > 0 %}
                       <p class="wrap"><a href="{{ p.link }}" target="_new">En savoir plus...</a></p>
                       {% endunless %}
                     </td>
