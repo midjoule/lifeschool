@@ -145,11 +145,16 @@ font header .navbar-default .navbar-nav li a:hover {
   background: url("../img/bg/painted girl.webp") no-repeat;
 }
 
+#team {
+  background: url("../img/bg/team spirit.webp") no-repeat;
+}
+
+
 
 /* common title overlays
 */
 
-#slider, #feature, #philo, #principles, #joy, #contact-header {
+#slider, #feature, #philo, #principles, #joy, #contact-header, #team {
   background-attachment: fixed;
   background-position: center ;
   background-repeat: no-repeat ;
