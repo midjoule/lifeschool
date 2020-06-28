@@ -819,13 +819,13 @@ div.schedule {
   font-size: 25px;
 }
 
-.google-map{
+.google-maps{
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
     height:0;
 }
-.google-map iframe{
+.google-maps iframe{
     left:0;
     top:0;
     height:100%;
