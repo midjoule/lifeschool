@@ -632,7 +632,7 @@ div.schedule {
   display: none;
 }
 
-#portfolio-work H2, P {
+#portfolio-work H2, #portfolio-work P {
   text-align: center;
 }
 /*--
