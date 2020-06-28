@@ -818,14 +818,21 @@ div.schedule {
   margin-right: 25px;
   font-size: 25px;
 }
-.google-map {
-  position: relative;
+
+.google-map{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
 }
-.google-map #map {
-  width: 100%;
-  height: 300px;
-  background-color: #ff432e;
+.google-map iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
+
 #contact-box {
   padding-top: 35px;
   padding-bottom: 58px;
