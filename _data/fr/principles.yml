@@ -4,60 +4,60 @@
   ref: personalized teaching
   subtitle: Au rythme de l'enfant
   summary: Programme adapté à chaque enfant lui permettant d’évoluer constamment
-  desc: Chaque enfant sera accompagné dans son individualité et sa globalité, en tenant compte de ses points forts et ses points faibles, son profil d’apprentissage, ses talents et ses aspirations. Un apprentissage personnalisé permet d’avancer à son rythme et de passer à quelque chose de nouveau quand les compétences sont acquises, sans devoir se comparer. Méthodes d’apprentissage séquencé en périodes individuelles pour le français, les maths, l’anglais et l’allemand avec des objectifs précis pour chaque enfant selon son niveau et son rythme. L’enfant accompagné par un enseignant devient acteur de ses apprentissages.
+  desc: Nous accompagnons chaque enfant selon son rythme, son profil d’apprentissage, sa personnalité, ses talents et ses points à améliorer. Un apprentissage personnalisé permet à l’enfant d’apprendre sans stress, sans pression et sans comparaison. Cela permet également de valoriser ses dons et de développer des compétences insoupçonnées. L’enfant accompagné par un enseignant devient acteur de ses apprentissages. Nous nous sommes inspirés de diverses méthodes et pédagogies internationales pour créer un programme d’enseignement complet, cohérent et capable de s’adapter selon les besoins des enfants.
 - title: Apprentissage des langues par immersion
   category: Pedagogy
   image: languages.png
   ref: languages
-  subtitle: Apprendre en pratiquant
-  summary: Apprendre les langues dans le quotidien, de manière pratique et ludique
-  desc: Notre pays a une grande influence germanophone et il est important pour les jeunes adultes de bien maîtriser cette langue. L’anglais quant à lui est indispensable pour des études universitaires, pour travailler dans les multinationales et pour découvrir le monde. Les techniques d’apprentissages (français, math, géographie, sciences, histoire) seront données en français. De nombreux cours pratiques tels que l’éducation physique, la chorale, la cuisine, la couture, ateliers à choix seront donnés en anglais et en allemand pour permettre une pratique active des langues.
+  subtitle: De manière pratique et ludique dès la 1H
+  summary: Apprendre les langues dans le quotidien, de manière pratique et ludique, dès la 1H
+  desc: Notre pays a une grande influence germanophone. Il est indispensable pour les jeunes adultes de bien maîtriser cette langue. L’anglais quant à lui est indispensable pour des études universitaires, pour travailler dans des multinationales et pour découvrir le monde. Nous proposons une pratique active des langues tant sur les enseignements académiques que sur les pratiques sportives, culturelles et manuelles.
 - title: Classes Multi-âges
   category: Pedagogy
   image: multi ages.png
   ref: multi-ages
-  subtitle: Collaborer les uns avec les autres
+  subtitle: Favoriser solidarité et partage entre enfants
   summary: Favoriser solidarité et partage entre enfants
-  desc: Le mélange des âges permet aux enfants de se guider les uns-les autres dans leur exploration du monde. Les enfants du même âge n’ont pas forcément le même rythme, la même maturité et les mêmes intérêts en même temps. L’avantage des classes multi-âges est expérimenté principalement lors de travaux ou d’enseignements de groupes. Ils échangent leurs expériences et leurs connaissances de manière naturelle progressive et adaptée. Ils s’enseignent et se placent naturellement en position d’apprentissage sans s’en rendre compte.
-- title: Duo d'enseignants
-  image: duo.png
+  desc: Lors de travaux ou d’enseignements en groupe, le mélange des âges permet aux enfants de se guider les uns-les autres. Les plus grands adoptent une posture d’accompagnant envers les plus jeunes. Ils échangent leurs expériences et leurs connaissances de manière plus naturelle. Ce système d’organisation favorise l’intégration, l’entraide, l’autonomie tout en réduisant l’agressivité, la compétition et la comparaison. 
+- title: Donner du sens
+  image: sense.png
   category: Classroom
-  ref: duo
-  subtitle: 1 enseignant et 1 aide à l'intégration
-  summary: Un enseignant diplômé ainsi qu’une aide à l’intégration
-  desc: 15 élèves maximum par classe, accompagnés de 2 adultes. Bénéfices&#58; répondre plus rapidement aux besoins des élèves, soulager la charge des enseignants, avoir un vis-à-vis en tant qu’enseignant.
+  ref: sens
+  subtitle: Donner du sens
+  summary: Donner du sens aux apprentissages
+  desc: Les enseignants permettent aux élèves de construire leur savoir en s’appuyant sur des expériences vécues pour pouvoir s'approprier, puis réinvestir ces aptitudes et outils dans la vie de tous les jours.
 - title: PER
   image: per.png
   ref: per
   category: Curriculum
   subtitle: Cursus selon le Plan d'Etude Romand
   summary: Cursus scolaire selon le plan d’étude romand
-  desc: Le PER servira de base et de guide. Le temps et les résultats ne devraient pas être un facteur de stress, ni pour les enseignants, ni pour les enfants, ni pour les parents. Nos enseignants seront encouragés à prendre le temps avec leurs élèves, à considérer les objectifs personnels de chaque enfant et ne pas se focaliser sur les objectifs à atteindre pour toute la classe. Nous voulons placer l’enfant au centre de l’apprentissage et non la pédagogie.
+  desc: Nous nous engageons à respecter les objectifs du Plan d’Étude Romand dans notre calendrier scolaire. Le temps et les résultats ne devraient pas être un facteur de stress, que ce soit pour les enseignants, les enfants et les parents. Nos enseignants seront encouragés à prendre le temps nécessaires avec leurs élèves, à considérer les objectifs personnels de chaque enfant sans se focaliser sur les objectifs à atteindre pour toute la classe.
 - title: Devoirs en classe
-  subtitle: Davantage de temps de qualité en famille
+  subtitle: Devoirs effectués pendant les heures de cours
   image: homework.png
   ref: homework
   category: Method
   summary: Devoirs effectués pendant les heures de cours
-  desc: Le temps à la maison devrait être consacré aux jeux, au sport, à la détente, à la culture ou à l’étude d’autres matières selon le centre d’intérêt de chaque enfant (musique, langues, animaux, cuisine, visite de lieux culturels, etc.). Les seuls devoirs à domicile seront de préparer des exposés, révisions de vocabulaire ou de lire des livres recommandés ou suggérés par l’élève en accord avec les enseignants.
+  desc: Le temps à la maison devrait être consacré aux jeux, au sport, à la détente, à la culture ou à l’étude d’autres matières selon le centre d’intérêt de chaque enfant. Les seuls devoirs à domicile seront de préparer des exposés, la révision d’éléments à mémoriser ou de lire des livres suggérés par l’enseignant ou choisi par l’élève.
 - title: Evaluations sans note
   subtitle: Fini la comparaison et la compétition
   image: examination.png
   ref: no mark
   category: Method
   summary: Appréciation des acquis sans compétition
-  desc: Nous privilégions un système scolaire basé sur un tableau de compétences que l’élève remplit sous la supervision de son professeur. Chaque enfant évalue régulièrement ses connaissances par rapport à un sujet avec son professeur. Lorsque l’enfant a compris et assimilé une matière, il peut passer à autre chose. L’enfant peut donc apprendre à son rythme et constater sa progression par lui-même (avec le suivi de son professeur). Les progrès et les besoins des enfants sont communiqués régulièrement aux parents.
-- title: Cours en mouvement
-  subtitle: Optimisation des processus cérébraux et sociaux
+  desc: Nous intégrons le mouvement, pendant et en dehors des périodes de cours, par des exercices de stimulation et de relaxation. De ce fait, les élèves sont plus concentrés et plus réceptifs en classe et prennent plus de plaisir à participer au quotidien scolaire.
+- title: Apprendre en mouvement
+  subtitle: Optimiser les processus cérébraux et sociaux
   image: move.png
   ref: move
   category: Method
   summary: Apprentissage en mouvement et ludique
   desc: Lorsque le mouvement est introduit pendant l’apprentissage scolaire, tant les élèves que les enseignants sont plus réceptifs et plus concentrés en classe et prennent plus de plaisir à participer au quotidien scolaire.
-- title: Familles
-  subtitle: Collaboration parents / école
-  image: students group.png
+- title: Classes flexibles
+  subtitle: Concept d'aménagement modulable
+  image: flexible.png
   ref: collaboration
   category: Relation
-  summary: Communication régulière avec les familles
-  desc: L’école, en collaboration avec les familles, établira des repères solides et transmettra des valeurs essentielles et porteuses de vie. Nous souhaitons encourager les parents et les enseignants à établir un contact régulier afin de pourvoir aider l’enfant à progresser. Nous voulons encourager la culture de la confiance, à savoir que les parents reconnaissent que les enseignants sont des spécialistes qui ont comme but de faire progresser leurs enfants dans un climat serein.
+  summary: Concept d'aménagement modulable
+  desc: Fini les pupitres alignés, les élèves immobiles sur une chaise pendant des heures. La classe flexible est un concept d’aménagement modulaire où les enfants sont libres d’apprendre sur différents supports et assises où ils sont le plus à l’aise. Ce concept favorise le mouvement, facilite la collaboration, stimule l’attention à la tâche et les capacités d’apprentissage.
