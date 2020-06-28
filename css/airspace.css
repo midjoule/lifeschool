@@ -66,13 +66,17 @@ a:focus {
   margin-bottom: 4vw;
 }
 
+.section-title h2 {
+  text-align:left;
+}
+
 .section-title p {
   font-family: 'Avenir', serif;
   font-weight: bold;
   font-size: 2.3vw;
   color: #666;
   white-space: normal;
-  text-align: center;
+  text-align: left;
 }
 
 /*--
@@ -626,6 +630,10 @@ div.schedule {
 }
 #portfolio-work .block .mix {
   display: none;
+}
+
+#portfolio-work H2, P {
+  text-align: center;
 }
 /*--
 	wrapper-work Start
