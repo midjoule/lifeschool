@@ -178,8 +178,17 @@ px      68    160    252    */
     line-height : 7vw;
     white-space: normal;
   }
+	
+  h3 {
+    font-size: 2vw;
+    font-weight: 300;
+  }
+	
+  div.schedule {
+    font-size: 3.5vw;
+  }
   p {
-    font-size: 3vw;
+    font-size: 3.5vw;
     line-height: 5vw ;
   }
   header .navbar-default .navbar-toggle {
