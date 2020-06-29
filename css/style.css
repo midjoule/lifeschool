@@ -32,14 +32,6 @@
   border-bottom: 1px dotted #ddd;
 }
 
-.post-area a:link, .post-area a:visited {
-  font-size: medium;
-}
-
-.post-area a:hover {
-  color: #0D0017;
-}
-
 IMG.post {
   width: 13em;
   height: auto;
