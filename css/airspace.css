@@ -161,7 +161,7 @@ font header .navbar-default .navbar-nav li a:hover {
 
 #slider, #feature, #philo, #principles, #joy, #contact-header, #team {
   background-attachment: fixed;
-  background-position: center ;
+  background-position: center 70px ;
   background-repeat: no-repeat ;
   background-size: cover ;
   -webkit-background-size: 100% auto;
