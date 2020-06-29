@@ -450,7 +450,7 @@ div.schedule {
 --*/
 #global-header {
   background: url("/img/bg/slider-bg.jpg") no-repeat top;
-  min-height: 30vw;
+  min-height: 40vw;
   background-size: 100% auto;
   position: relative;
   background-attachment: fixed;
