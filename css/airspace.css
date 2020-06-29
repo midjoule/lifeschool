@@ -819,20 +819,6 @@ div.schedule {
   font-size: 25px;
 }
 
-.google-maps{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-}
-.google-maps iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-}
-
 #contact-box {
   padding-top: 35px;
   padding-bottom: 58px;
