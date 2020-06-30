@@ -191,6 +191,15 @@ px      68    160    252    */
     font-size: 3.5vw;
     line-height: 5vw ;
   }
+	
+.post-area a {
+  font-size: 3vw;
+}
+
+.post-area a:hover {
+  font-weight: bold;
+}
+	
   header .navbar-default .navbar-toggle {
     margin-top: 20px;
     margin-bottom: 20px;
