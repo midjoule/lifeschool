@@ -152,6 +152,7 @@ font header .navbar-default .navbar-nav li a:hover {
 
 #team {
   background: url("../img/bg/team spirit.webp") no-repeat;
+  margin-top: 7vw;
 }
 
 
@@ -877,8 +878,9 @@ div.schedule {
 footer {
   background: #F5F5F5;
   text-align: center;
-  padding-top: 48px;
-  padding-bottom: 55px;
+  padding-top: 3vw;
+  padding-bottom: 4vw;
+  margin-top: 5vw;
   font-size: 2vw;
 }
 footer span {
