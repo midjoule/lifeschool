@@ -493,8 +493,21 @@ footer, footer span {
     font-size: 3vw;
   }
 
-}
+  h2 {
+    margin-bottom: 7vw;		
+  }
+  
+  header ul.navbar-nav {
+	  font-size: 5vw;
+	}
 
+  .navbar-brand img {
+	  width: 200px;
+	}
+  IMG.team-member {
+	  margin-top: 2px;
+	}
+}
 
 /*---------------------------------------------
 Generic responsive classes
