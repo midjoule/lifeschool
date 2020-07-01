@@ -14,6 +14,8 @@
   sublinks:
     - title: A propos de nous
       url: /school#aboutus
+    - title: Notre équipe
+      url: /school#team
     - title: Familles
       url: /school#families
    # - title: Classes et Programme
