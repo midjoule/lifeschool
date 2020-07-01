@@ -438,7 +438,7 @@ header .navbar-brand img {
 }
 
 #portfolio-work .block .portfolio-contant ul li {
-  width: 27%;
+  width: 30%;
   overflow: hidden;
   margin: 6px;
   position: relative;
@@ -518,6 +518,10 @@ footer, footer span {
 	
 	.section-title p {
 		font-size: 4vw;
+	}
+	
+	#portfolio-work .block .portfolio-contant ul li {
+  		width: 28%;	
 	}
 }
 
