@@ -123,7 +123,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start
 --*/
 #slider {
-  background-image: url("../img/bg/photographer.webp") no-repeat;
+  background-image: url("../img/bg/photographer.webp");
   margin-top: 0px;
 }
 
@@ -131,27 +131,27 @@ font header .navbar-default .navbar-nav li a:hover {
 	philosophy Start
 --*/
 #philo {
-  background-image: url("../img/bg/modeling clay.webp") no-repeat;
+  background-image: url("../img/bg/modeling clay.webp");
 }
 
 /*--
 	Feature Start
 --*/
 #feature {
-  background-image: url("../img/bg/unique child.webp") no-repeat;
+  background-image: url("../img/bg/unique child.webp") ;
 }
 
 
 #principles {
-  background-image: url("../img/bg/child playing hoop.webp") no-repeat;
+  background-image: url("../img/bg/child playing hoop.webp");
 }
 
 #joy {
-  background-image: url("../img/bg/painted girl.webp") no-repeat;
+  background-image: url("../img/bg/painted girl.webp");
 }
 
 #team {
-  background-image: url("../img/bg/team spirit.webp") no-repeat;
+  background-image: url("../img/bg/team spirit.webp");
   margin-top: 7vw;
 }
 
