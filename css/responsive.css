@@ -166,7 +166,7 @@ header ul.navbar-nav {
 ---------------------------------------------
 cols    1     2      3
 px      68    160    252    */
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 500px) and (max-width: 767px) {
   /*---------------------------------------------
 					Index Start
 -----------------------------------------------*/
@@ -180,21 +180,21 @@ px      68    160    252    */
   }
 	
   h3 {
-    font-size: 2vw;
+    font-size: 3vw;
     font-weight: 300;
   }
 	
   div.schedule {
-    font-size: 3.5vw;
+    font-size: 4vw;
   }
   p {
     font-size: 4vw;
     line-height: 6vw ;
   }
 	
-.post-area a {
-  font-size: 3vw;
-}
+  .post-area a {
+    font-size: 3vw;
+  }
 
 .post-area a:hover {
   font-weight: bold;
@@ -464,6 +464,37 @@ footer, footer span {
 }
 	
 }
+
+
+/* Only for mobile phones
+*/
+@media only screen and (max-width: 499px) {
+
+  h2 {
+    font-size: 6vw;
+    line-height : 8vw;
+    white-space: normal;
+  }
+	
+  h3 {
+    font-size: 5vw;
+    font-weight: 300;
+  }
+	
+  div.schedule {
+    font-size: 4vw;
+  }
+  p {
+    font-size: 4vw;
+    line-height: 6vw ;
+  }
+	
+  .post-area a {
+    font-size: 3vw;
+  }
+
+}
+
 
 /*---------------------------------------------
 Generic responsive classes
