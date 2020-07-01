@@ -160,7 +160,7 @@ font header .navbar-default .navbar-nav li a:hover {
 /* common title overlays
 */
 
-#slider, #feature, #philo, #principles, #joy, #contact-header, #team {
+section.bgImage {
   background-attachment: fixed;
   background-position: center 70px ;
   background-repeat: no-repeat ;
@@ -171,6 +171,8 @@ font header .navbar-default .navbar-nav li a:hover {
   background-size: 100% auto;
   padding: 20vw 0 20vw 0;
   position: relative;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
 }
 
 #slider {
