@@ -879,8 +879,8 @@ div.schedule {
 footer {
   background: #F5F5F5;
   text-align: center;
-  padding-top: 3vw;
-  padding-bottom: 4vw;
+  padding-top: 1vw;
+  padding-bottom: 0vw;
   margin-top: 5vw;
   font-size: 1.5vw;
 }
@@ -893,7 +893,7 @@ footer a {
   color: #595959;
 }
 footer .footer-manu {
-  padding-bottom: 25px;
+  padding-bottom: 2vw;
 }
 footer .footer-manu ul {
   margin: 0px;
