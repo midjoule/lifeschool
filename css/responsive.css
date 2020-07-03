@@ -523,6 +523,14 @@ footer, footer span {
 	#portfolio-work .block .portfolio-contant ul li {
   		width: 28%;	
 	}
+	
+	.post-area h2 {
+		font-size: 3.5vw;
+		margin-top: 0vw;
+		margin-bottom: 2vw;
+		line-height: 4.5vw;
+	}
+	
 }
 
 /*---------------------------------------------
