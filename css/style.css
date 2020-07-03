@@ -210,3 +210,12 @@ iframe.youtube {
 	width: 100%;
 	height: 100%;
 }
+
+
+/* School - Partner logo
+*/
+
+partner IMG {
+	width:30%;
+	margin: 0 5vw 2vw 0;
+}
