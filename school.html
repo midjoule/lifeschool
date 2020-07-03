@@ -137,28 +137,13 @@ lang: fr
 {% if site.data.fr.partners.size > 0 %}
 <!-- Principles Details Start -->
 {% for p in site.data.fr.partners %}
-    <div class="row">
-      <div class="col-12 col-md-8 offset-md-2 col-sm-12">
-        <div class="table-responsive table-borderless">
-          <table class="table">
-              <tbody>
-                  <tr>
-                    <td style="width:30%">
-                      <a href="{{ p.website }}" target="_new">
-                        <img src="{{ p.logo }}" title="{{ p.name }}" style="width:100%">
-                      </a>
-                    </td>
-                    <td style="width:70%">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td colspan=2 style="border:none;">
-                      <p class="wrap">{{ p.description }}</p>
-                    </td>
-                  </tr>
-              </tbody>
-          </table>
-        </div>
+    <div class="row partner">
+      <div class="col-12 col-md-8 offset-md-2 col-sm-12">      
+        <a href="{{ p.website }}" target="_new">
+          <img src="{{ p.logo }}" class="float-left" title="{{ p.name }}">
+        </a>
+
+        <p class="wrap">{{ p.description }}</p>
       </div>
     </div>
 {% endfor %}
