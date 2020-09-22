@@ -14,12 +14,13 @@
   sublinks:
     - title: A propos de nous
       url: /school#aboutus
-    - title: Nos pédagogies
-      url: /school#pedagogies
     - title: Notre équipe
       url: /school#team
     - title: Familles
       url: /school#families
+    - title: separator
+    - title: Nos pédagogies
+      url: /school#pedagogies
     - title: separator
     - title: Partenaires
       url: /school#partners
