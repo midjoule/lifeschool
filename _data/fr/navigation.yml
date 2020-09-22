@@ -12,15 +12,15 @@
 - title: L'École
   url: /school
   sublinks:
+    - title: Nos pédagogies
+      url: /school#pedagogies
+    - title: separator
     - title: A propos de nous
       url: /school#aboutus
     - title: Notre équipe
       url: /school#team
     - title: Familles
       url: /school#families
-    - title: separator
-    - title: Nos pédagogies
-      url: /school#pedagogies
     - title: separator
     - title: Partenaires
       url: /school#partners
