@@ -24,6 +24,18 @@
      border-width: 7px;
  }
 
+.mb-m {
+	margin-bottom:4vw;
+}
+
+.mb-s {
+	margin-bottom:2vw;
+}
+
+.mb-l {
+	margin-bottom:6vw;
+}
+
 .post-area {
   padding: 40px;
   width: 100%;
