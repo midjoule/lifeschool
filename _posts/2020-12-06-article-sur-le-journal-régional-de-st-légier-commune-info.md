@@ -1,5 +1,5 @@
 ---
-title: Article sur le journal régional de St-Légier (Comm'une Info)
+title: Article paru dans le journal régional de St-Légier (Comm'une Info)
 description: Notre association Life School Riviera s'intègre d'avantage dans la
   vie du village.
 author: ""
