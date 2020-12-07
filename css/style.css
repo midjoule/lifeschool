@@ -234,3 +234,20 @@ iframe.youtube {
 	width:30%;
 	margin: 0 5vw 2vw 0;
 }
+
+
+/* Modals 
+*/
+modal-body p {
+  font-size: 1vw;
+  line-height: 1.5em;
+  text-align:justify;
+}
+
+modal-header h1 {
+  font-size: 1.5vw;
+}
+
+modal-body h2 {
+  font-size: 1.3vw;
+}
