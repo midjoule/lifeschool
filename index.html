@@ -123,8 +123,8 @@ lang: fr
 <!-- Principles Details Start -->
 {% for p in site.data.fr.principles %}
   <!-- Modal {{ p.category }}-->
-  <div class="modal fade" id="mod{{ p.category }}" tabindex="-1" role="dialog" aria-labelledby="mod{{ p.category }}Label" aria-hidden="true">
-    <div class="modal-dialog" role="document">
+  <div class="modal fade bd-example-modal-lg" id="mod{{ p.category }}" tabindex="-1" role="dialog" aria-labelledby="mod{{ p.category }}Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="mod{{ p.category }}Label">{{ p.title }}</h5>
@@ -133,10 +133,8 @@ lang: fr
           </button>
         </div>
         <div class="modal-body">
-          <div class="section-title">
-            <h4>{{ p.summary }}</h4>
-            <p>{{ p.desc }}</p>
-          </div>
+          <h4>{{ p.summary }}</h4>
+          <p>{{ p.desc }}</p>
         </div>
       </div>
     </div>
