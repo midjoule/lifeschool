@@ -98,7 +98,7 @@ lang: fr
               <ul id="portfolio-contant-active">
                 {% for p in site.data.fr.principles %}
                 <li class="mix {{ p.category }}">
-                  <a href="#{{ p.ref }}">
+                  <a href="#{{ p.ref }}" data-toggle="modal" data-target="#exampleModal">
                     <img src="{{ site.baseurl }}/img/principles/{{ p.image }}" alt="{{ p.title }}">
                     <div class="overly">
                       <div class="position-center">
@@ -120,9 +120,6 @@ lang: fr
 
 
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Launch demo modal
-</button>
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
