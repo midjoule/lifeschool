@@ -1,6 +1,7 @@
 - title: Enseignement sur mesure
   category: Pedagogy
   image: finger print.png
+  class: brand-magenta
   ref: personalized teaching
   subtitle: Au rythme de l'enfant
   summary: Programme adapté à chaque enfant lui permettant d’évoluer constamment
@@ -8,6 +9,7 @@
 - title: Apprentissage des langues par immersion
   category: Pedagogy
   image: languages.png
+  class: brand-violet
   ref: languages
   subtitle: De manière pratique et ludique dès la 1P Harmos
   summary: Apprendre les langues dans le quotidien, de manière pratique et ludique, dès la 1H
@@ -15,6 +17,7 @@
 - title: Classes Multi-âges
   category: Pedagogy
   image: multi ages.png
+  class: brand-green
   ref: multi-ages
   subtitle: Favoriser solidarité et partage entre enfants
   summary: Favoriser solidarité et partage entre enfants
@@ -22,42 +25,48 @@
 - title: Donner du sens
   image: sense.png
   category: Classroom
+  class: brand-cyan
   ref: sens
   subtitle: Donner du sens
   summary: Donner du sens aux apprentissages
   desc: Les enseignants permettent aux élèves de construire leur savoir en s’appuyant sur des expériences vécues pour pouvoir s'approprier, puis réinvestir ces aptitudes et outils dans la vie de tous les jours.
 - title: PER
   image: per.png
-  ref: per
   category: Curriculum
+  class: brand-darkblue
+  ref: per
   subtitle: Cursus selon le Plan d'Etude Romand
   summary: Cursus scolaire selon le plan d’étude romand
   desc: Nous nous engageons à respecter les objectifs du Plan d’Étude Romand dans notre calendrier scolaire. Le temps et les résultats ne devraient pas être un facteur de stress, que ce soit pour les enseignants, les enfants et les parents. Nos enseignants seront encouragés à prendre le temps nécessaires avec leurs élèves, à considérer les objectifs personnels de chaque enfant sans se focaliser sur les objectifs à atteindre pour toute la classe.
 - title: Devoirs en classe
   subtitle: Devoirs effectués pendant les heures de cours
   image: homework.png
-  ref: homework
   category: Method
+  class: brand-yellow
+  ref: homework
   summary: Devoirs effectués pendant les heures de cours
   desc: Le temps à la maison devrait être consacré aux jeux, au sport, à la détente, à la culture ou à l’étude d’autres matières selon le centre d’intérêt de chaque enfant. Les seuls devoirs à domicile seront de préparer des exposés, la révision d’éléments à mémoriser ou de lire des livres suggérés par l’enseignant ou choisi par l’élève.
 - title: Evaluations sans note
   subtitle: Appréciation des acquis sans compétition
   image: examination.png
-  ref: no mark
   category: Method
+  class: brand-rose
+  ref: no mark
   summary: Appréciation des acquis sans compétition
   desc: Nous privilégions un système d’évaluation plus respectueux et moins compétitif. Lorsque l’élève a compris et assimilé une connaissance, il la valide avec son enseignant et remplit un tableau de compétences. L’enfant peut donc apprendre à son rythme et constater sa progression par lui-même. Les progrès des enfants sont régulièrement communiqués aux parents.
 - title: Apprendre en mouvement
   subtitle: Optimiser les processus cérébraux et sociaux
   image: move.png
-  ref: move
   category: Method
+  class: brand-orange
+  ref: move
   summary: Optimiser les processus cérébraux et sociaux
   desc: Nous intégrons le mouvement pendant et en dehors des périodes de cours par des exercices de stimulation et de relaxation. De ce fait, les élèves sont plus concentrés et plus réceptifs en classe et prennent plus de plaisir à participer au quotidien scolaire.
 - title: Classes flexibles
   subtitle: Concept d'aménagement modulable
   image: flexible.png
-  ref: collaboration
   category: Relation
+  class: brand-red
+  ref: collaboration
   summary: Concept d'aménagement modulable
   desc: Fini les pupitres alignés, les élèves immobiles sur une chaise pendant des heures. La classe flexible est un concept d’aménagement modulaire où les enfants sont libres d’apprendre sur différents supports et assises où ils sont le plus à l’aise. Ce concept favorise le mouvement, facilite la collaboration, stimule l’attention à la tâche et les capacités d’apprentissage.
