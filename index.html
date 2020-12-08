@@ -104,7 +104,7 @@ lang: fr
               <ul id="portfolio-contant-active">
                 {% for p in site.data.fr.principles %}
                 <li class="mix {{ p.category }}">
-                  <a href="#{{ p.ref }}" data-toggle="modal" data-target="#mod{{ p.category }}">
+                  <a href="#{{ p.ref }}" data-toggle="modal" data-target="#mod{{ p.ref }}">
                     <img src="{{ site.baseurl }}/img/principles/{{ p.image }}" alt="{{ p.title }}">
                     <div class="overly">
                       <div class="position-center">
@@ -128,12 +128,12 @@ lang: fr
 {% if site.data.fr.principles.size > 0 %}
 <!-- Principles Details Start -->
 {% for p in site.data.fr.principles %}
-  <!-- Modal {{ p.category }}-->
-  <div class="modal fade bd-example-modal-lg" id="mod{{ p.category }}" tabindex="-1" role="dialog" aria-labelledby="mod{{ p.category }}Label" aria-hidden="true">
+  <!-- Modal {{ p.ref }}-->
+  <div class="modal fade bd-example-modal-lg" id="mod{{ p.ref }}" tabindex="-1" role="dialog" aria-labelledby="mod{{ p.ref }}Label" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title" id="mod{{ p.category }}Label">{{ p.title }}</h5>
+          <h1 class="modal-title" id="mod{{ p.ref }}Label">{{ p.title }}</h5>
           <button type="button" class="close {{ p.class }}" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
