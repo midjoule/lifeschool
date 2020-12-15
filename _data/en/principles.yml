@@ -1,6 +1,7 @@
 - title: Customised Teaching
   category: Pedagogy
   image: finger print.png
+  class: brand-magenta
   ref: customized_teaching
   subtitle: At the child's rhythm
   summary: Program adapted to each child allowing them to constantly progress
@@ -8,27 +9,31 @@
 - title: Language learning by immersion
   category: Pedagogy
   image: languages.png
+  class: brand-violet
   ref: languages
   subtitle: Learning by practicing
-  summary: Learn languages ​​in everyday life, in a practical and fun way
-  desc: Our country has a great German-speaking influence and it is important for young adults to have a good command of this language. English is essential for university studies, to work in multinational companies and to discover the world. French, Maths, Geography, Science and History will be taught in French. Many practical classes such as physical education, choir, cooking, sewing, and practical workshops will be given in English and German to enable active language practice.
+  summary: Learn languages in everyday life, in a practical and fun way
+  desc: Our country has a great German-speaking influence. It is important for young adults to have a good command of this language. English is essential for university studies, to work in multinational companies and to discover the world. French, Maths, Geography, Science and History will be taught in French. Many practical classes such as physical education, choir, cooking, sewing, and practical workshops will be given in English and German to enable active language practice.
 - title: Multi-age classes
   category: Pedagogy
   image: multi ages.png
+  class: brand-green
   ref: multi_ages
   subtitle: Collaborate with each other
   summary: Foster solidarity and sharing between children
   desc: The mixture of ages allows children to guide one another in their exploration of the world. Children of the same age do not necessarily have the same rhythm, the same maturity and the same interests at the same time. The advantage of multi-age classes is experienced mainly during group lessons. They exchange their experiences and knowledge in a natural and progressive way. They teach each other and naturally place themselves in a learning position without realising it.
-- title: Teaching duo
-  image: duo.png
+- title: Donner du sens
+  image: sense.png
   category: Classroom
-  ref: duo
-  subtitle: 1 teacher and 1 integration assistant
-  summary: A qualified teacher as well as a teaching assistant
-  desc: 15 students maximum per class, accompanied by 2 adults. Benefits&#58; Respond more quickly to the needs of students, enable differentiated learning and more tailored teaching and support and can ease the burden of teachers by using a collaborative approach.
+  class: brand-cyan
+  ref: sense
+  subtitle: Donner du sens
+  summary: Donner du sens aux apprentissages
+  desc: Les enseignants permettent aux élèves de construire leur savoir en s’appuyant sur des expériences vécues pour pouvoir s'approprier, puis réinvestir ces aptitudes et outils dans la vie de tous les jours.
 - title: PER
   image: per.png
   ref: per
+  class: brand-darkblue
   category: Curriculum
   subtitle: School curriculum using the Romand Study Plan
   summary: School curriculum using the Romand Study Plan
@@ -37,6 +42,7 @@
   subtitle: More quality time with the family
   image: homework.png
   ref: no_homework
+  class: brand-yellow
   category: Method
   summary: Individual study to be completed during class hours
   desc: The time at home should be devoted to games, sport, relaxation, culture or the study of other subjects according to the interest of each child (music, languages, animals, cooking, visit of cultural places, etc.). The only homework will be to prepare presentations, revise vocabulary or to read books recommended to them or suggested by the student in agreement with the teachers.
@@ -44,6 +50,7 @@
   subtitle: No more comparison and competition
   image: examination.png
   ref: no_mark
+  class: brand-rose
   category: Method
   summary: Appraisal of achievements without competition
   desc: We favour a school system based on skills that the student fulfills under the supervision of their teacher. Each child regularly evaluates their understanding of a topic with the teacher. When the child has understood and assimilated knowledge in a subject/topic area, they can move on. The child can learn at their own pace and clearly sees their progress with the teacher. We seek to highlight and praise progression in our students. Achievements, areas to work on and the needs of the children are communicated regularly to parents.
@@ -51,13 +58,15 @@
   subtitle: Optimization of brain and social processes
   image: move.png
   ref: move
+  class: brand-orange
   category: Method
   summary: Get moving to heighten learning!
   desc: We recognise that children all learn in different ways. When children are allowed to move during class time, in order to further explore a topic, learning comes alive for both students and teachers.
-- title: Families
-  subtitle: Parent / school collaboration
-  image: students group.png
-  ref: collaboration
+- title: Classes flexibles
+  subtitle: Concept d'aménagement modulable
+  image: flexible.png
   category: Relation
-  summary: Regular communication with families
-  desc: The school, in collaboration with each family, will establish solid benchmarks and transmit essential and life-giving values.  We want to encourage parents and teachers to establish regular contact so that we can help the child to progress, both academically and socially. We want to encourage a culture of trust, whereby parents recognise that teachers are specialists in their subjects, professionals in their conduct and whose goal is to help their children achieve in a calm and caring environment.
+  class: brand-red
+  ref: collaboration
+  summary: Concept d'aménagement modulable
+  desc: Fini les pupitres alignés, les élèves immobiles sur une chaise pendant des heures. La classe flexible est un concept d’aménagement modulaire où les enfants sont libres d’apprendre sur différents supports et assises où ils sont le plus à l’aise. Ce concept favorise le mouvement, facilite la collaboration, stimule l’attention à la tâche et les capacités d’apprentissage.
