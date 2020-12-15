@@ -1,7 +1,7 @@
 - title: Customised Teaching
   category: Pedagogy
   image: finger print.png
-  ref: personalized teaching
+  ref: customized_teaching
   subtitle: At the child's rhythm
   summary: Program adapted to each child allowing them to constantly progress
   desc: Each child will be accompanied in their individuality and competences, taking into account their strengths and weaknesses, their learning profile, talents and aspirations. Personalised learning allows you to progress at your own pace and move on to something new when skills are learned, without comparing yourself to others. In French, Maths, English and German there will be specific targets for each child according to his level and pace. The child accompanied by a teacher becomes a player in their own learning.
@@ -15,7 +15,7 @@
 - title: Multi-age classes
   category: Pedagogy
   image: multi ages.png
-  ref: multi-ages
+  ref: multi_ages
   subtitle: Collaborate with each other
   summary: Foster solidarity and sharing between children
   desc: The mixture of ages allows children to guide one another in their exploration of the world. Children of the same age do not necessarily have the same rhythm, the same maturity and the same interests at the same time. The advantage of multi-age classes is experienced mainly during group lessons. They exchange their experiences and knowledge in a natural and progressive way. They teach each other and naturally place themselves in a learning position without realising it.
@@ -36,14 +36,14 @@
 - title: Homework in classroom
   subtitle: More quality time with the family
   image: homework.png
-  ref: homework
+  ref: no_homework
   category: Method
   summary: Individual study to be completed during class hours
   desc: The time at home should be devoted to games, sport, relaxation, culture or the study of other subjects according to the interest of each child (music, languages, animals, cooking, visit of cultural places, etc.). The only homework will be to prepare presentations, revise vocabulary or to read books recommended to them or suggested by the student in agreement with the teachers.
 - title: Progression without comparison
   subtitle: No more comparison and competition
   image: examination.png
-  ref: no mark
+  ref: no_mark
   category: Method
   summary: Appraisal of achievements without competition
   desc: We favour a school system based on skills that the student fulfills under the supervision of their teacher. Each child regularly evaluates their understanding of a topic with the teacher. When the child has understood and assimilated knowledge in a subject/topic area, they can move on. The child can learn at their own pace and clearly sees their progress with the teacher. We seek to highlight and praise progression in our students. Achievements, areas to work on and the needs of the children are communicated regularly to parents.
