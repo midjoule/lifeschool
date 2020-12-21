@@ -484,7 +484,7 @@ footer, footer span {
   div.schedule {
     font-size: 4vw;
   }
-  p {
+  p,ul {
     font-size: 4vw;
     line-height: 6vw ;
   }
