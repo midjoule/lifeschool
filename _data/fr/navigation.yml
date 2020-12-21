@@ -12,6 +12,8 @@
 - title: L'École
   url: /school
   sublinks:
+    - title: Nos classes
+      url: /school#classes
     - title: Pédagogies
       url: /school#pedagogies
     - title: separator
