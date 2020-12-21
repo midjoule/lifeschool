@@ -502,7 +502,7 @@ footer, footer span {
 	  font-size: 5vw;
 	}
 
-  
+
 	.navbar-brand img {
 	  width: 200px;
 	}
@@ -510,27 +510,27 @@ footer, footer span {
 	IMG.team-member {
 	  margin-top: 2px;
 	}
-	
+
 	footer {
 	  font-size: 3.5vw;
 	}
 
-	
+
 	.section-title p {
 		font-size: 4vw;
 	}
-	
+
 	#portfolio-work .block .portfolio-contant ul li {
-  		width: 28%;	
+		width: 28%;	
 	}
-	
+
 	.post-area h2 {
 		font-size: 3.5vw;
 		margin-top: 0vw;
 		margin-bottom: 2vw;
 		line-height: 4.5vw;
 	}
-	
+
 	.partner IMG {
 		width:50%;
 	}	
@@ -551,6 +551,11 @@ footer, footer span {
 	  font-size: 3vw;
 	  line-height: 4vw;
 	}	
+
+	#global-header {
+	  min-height: 40vw;
+	}
+	
 	
 	
 }
