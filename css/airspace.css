@@ -43,6 +43,11 @@ ul {
   	list-style: none;
 }
 
+ul.list{
+	list-style-type: disc;
+  	margin-left: 2em;
+}
+
 section {
   margin-top: 1.8em;
   position: relative;
