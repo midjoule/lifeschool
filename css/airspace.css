@@ -46,6 +46,7 @@ ul {
 ul.list{
 	list-style-type: disc;
   	margin-left: 2em;
+	margin-bottom:1rem;
 }
 
 section {
