@@ -127,34 +127,10 @@ font header .navbar-default .navbar-nav li a:hover {
 -----------------------------------------------*/
 
 /*--
-	Slider Start
+	Top background
 --*/
 #slider {
-  background-image: url("../img/bg/photographer.webp");
   margin-top: 0px;
-}
-
-/*--
-	philosophy Start
---*/
-#philo {
-  background-image: url("../img/bg/modeling clay.webp");
-}
-
-/*--
-	Feature Start
---*/
-#feature {
-  background-image: url("../img/bg/unique child.webp") ;
-}
-
-
-#principles {
-  background-image: url("../img/bg/child playing hoop.webp");
-}
-
-#joy {
-  background-image: url("../img/bg/painted girl.webp");
 }
 
 #team {
