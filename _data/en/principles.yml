@@ -22,14 +22,14 @@
   subtitle: Collaborate with each other
   summary: Foster solidarity and sharing between children
   desc: The mixture of ages allows children to guide one another in their exploration of the world. Children of the same age do not necessarily have the same rhythm, the same maturity and the same interests at the same time. The advantage of multi-age classes is experienced mainly during group lessons. They exchange their experiences and knowledge in a natural and progressive way. They teach each other and naturally place themselves in a learning position without realising it.
-- title: Donner du sens
+- title: Give sense to learning
   image: sense.png
   category: Classroom
   class: brand-cyan
   ref: sense
-  subtitle: Donner du sens
-  summary: Donner du sens aux apprentissages
-  desc: Les enseignants permettent aux élèves de construire leur savoir en s’appuyant sur des expériences vécues pour pouvoir s'approprier, puis réinvestir ces aptitudes et outils dans la vie de tous les jours.
+  subtitle: Give sense
+  summary: Give sense to learning
+  desc: Teachers will allow students to build their knowledge by relying on real life experiences to make learning relevant so that students will be able to identify with these skills and then reinvest them in their daily lives.
 - title: PER
   image: per.png
   ref: per
@@ -62,11 +62,11 @@
   category: Method
   summary: Get moving to heighten learning!
   desc: We recognise that children all learn in different ways. When children are allowed to move during class time, in order to further explore a topic, learning comes alive for both students and teachers.
-- title: Classes flexibles
-  subtitle: Concept d'aménagement modulable
+- title: Flexible classes
+  subtitle: Modular design concept
   image: flexible.png
   category: Relation
   class: brand-red
   ref: collaboration
-  summary: Concept d'aménagement modulable
-  desc: Fini les pupitres alignés, les élèves immobiles sur une chaise pendant des heures. La classe flexible est un concept d’aménagement modulaire où les enfants sont libres d’apprendre sur différents supports et assises où ils sont le plus à l’aise. Ce concept favorise le mouvement, facilite la collaboration, stimule l’attention à la tâche et les capacités d’apprentissage.
+  summary: Modular design concept
+  desc: No more desks lined up or students motionless on chairs for hours. The flexible class is a modular design concept where children are free to learn using different media and sit where they are most comfortable which stimulates collaboration, attention and learning skills. 
