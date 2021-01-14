@@ -1,33 +1,33 @@
 - title: Introduction
   url: /en/index
   sublinks:
-    - title: About us
-      url: /en/index#aboutus
-    - title: Vision, Mission, Values
+    - title: Vision, Mission, Philosophy
       url: /en/index#vision
-    - title: Philosophy
-      url: /en/index#philosophy
-    - title: Principles
-      url: /en/index#portfolio-work
-    - title: Team
-      url: /en/index#team
+    - title: Values
+      url: /en/index#values
+    - title: Foundations
+      url: /en/index#foundations
+    - title: Benefits
+      url: /en/index#benefits
 - title: School
   url: /en/school
   sublinks:
-    - title: Foundations
-      url: /en/school#foundations
-   # - title: Classes et Programme
-   #   url: /school#classes
-   # - title: Méthodes
-   #   url: /school#methods
+    - title: Our classes
+      url: /en/school#classes
+    - title: Neurosciences
+      url: /en/school#neuroscience
+    - title: Pedagogies
+      url: /en/school#pedagogies
     - title: separator
-   # - title: Infos Pratiques
-   #   url: /school#infos
+    - title: About us
+      url: /en/school#aboutus
+    - title: Our team
+      url: /en/school#team
+    - title: Families
+      url: /en/school#families
+    - title: separator
     - title: Partners
       url: /en/school#partners
-    - title: separator
-    - title: Donate
-      url: /en/school#donate
 - title: Practical Infos
   url: /en/infos
   sublinks:
