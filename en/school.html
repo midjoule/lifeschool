@@ -227,8 +227,8 @@ lang: en
 </section>
 {% endif %}
 
- <!-- Slider Start -->
-<section id="team" class="bgImage"></section>
+ <!-- background image -->
+<section class="bgImage" style="background-image: url('/img/bg/team spirit-{{ page.lang }}.webp');margin-top: 7vw;"></section> 
   
 <section>
   <div class="container-fluid">
@@ -282,9 +282,9 @@ lang: en
     </div>
 
 
-{% if site.data.fr.partners.size > 0 %}
+{% if site.data.en.partners.size > 0 %}
 <!-- Principles Details Start -->
-{% for p in site.data.fr.partners %}
+{% for p in site.data.en.partners %}
     <div class="row partner">
       <div class="col-12 col-md-8 offset-md-2 col-sm-12">      
         <a href="{{ p.website }}" target="_new">
