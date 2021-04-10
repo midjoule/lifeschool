@@ -9,20 +9,4 @@
 - name: Pierre-André
   title:
   testimonial: Si le programme scolaire n'est pas adapté à l'élève, il faut adapter le programme à l'élève. C'est ce que cette école se propose de faire.
-  image: /img/testimonials/pierre-andre.jpg  
-- name: Fabienne
-  title: Enseignante
-  testimonial: "Tous les enfants ont du génie, le tout c’est de le faire apparaître." Charlie Chaplin
-  image: /img/testimonials/fabienne.jpg
-- name: Nathalie
-  title: Responsable du projet
-  testimonial: Nous croyons dans le potentiel de tous les élèves et souhaitons leur permettre d'apprendre en ayant du plaisir, dans un environement sain, performant et sécurisant.
-  image: /img/testimonials/nathalie.jpg
-- name: Julien
-  title: Responsable IS/IT
-  testimonial: Je suis impatient de voir ce projet naître et constater tout l'impact positif qu'il aura à la fois sur les enfants, les enseignants, les parents et la société.
-  image: /img/testimonials/julien.jpg  
-- name: Joël
-  title: Enseignant ACM
-  testimonial: Je rêve d’une école "atelier" qui permette à chacun d’apprendre au travers de sa créativité. Une école où l’ imagination et l’expérimentation sont possibles. Albert Einstein l’a si bien résumé&#58; "La créativité, c’est l’intelligence qui s’amuse."
-  image: /img/testimonials/joel.jpg
+  image: /img/testimonials/pierre-andre.jpg
