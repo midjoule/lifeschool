@@ -40,14 +40,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                {% if sublink.title == 'separator' %}
                <div class="dropdown-divider"></div>
                {% else %}
-               <a class="dropdown-item" href="{{ site.baseurl | append: sublink.url }}" data-toggle="collapse" data-target="#collapsibleNavbar">{{ sublink.title }}</a>
+               <a class="dropdown-item" href="{{ site.baseurl | append: sublink.url }}">{{ sublink.title }}</a>
                {% endif %}
              {% endfor %}
             </div>
          </li>
          {% else %}
          <li class="nav-item {{ active_class }}">
-            <a class="nav-link" href="{{ site.baseurl | append: link.url }}"  data-toggle="collapse" data-target="#collapsibleNavbar">{{ link.title }}</a>
+            <a class="nav-link" href="{{ site.baseurl | append: link.url }}">{{ link.title }}</a>
          </li>
          {% endif %}
       {% endfor %}
