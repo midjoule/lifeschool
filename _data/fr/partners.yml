@@ -1,3 +1,7 @@
+- name: Forts Ensemble
+  description: "Forts Ensemble, c'est plus de collaboration, d'efficacité et de performance". La mission de Marie Legrand, docteur en sciences de l'éducation, est de vous accompagner dans la recherche de solutions innovantes et pragmatiques pour relever les défis auxquels vous êtes confrontés. Life School Riviera a le privilège de collaborer avec cette professionnelle, spécialiste de l'apprentissage et de l'ingénierie pédagogique.
+  logo: /img/school/partners/fortsensemble.png
+  website: https://fortsensemble.ch/
 - name: Pédago'Vie
   description: Après 13 ans d'enseignement dans le secondaire en France, Guillaume Bousquet a lancé Pédago'Vie, une activité de conseil et de formation pédagogique pour permettre à tout individu de développer son plein potentiel ! Conférencier, conseiller pédagogique, formateur, et coach, Guillaume propose des outils concrets et pratiques pour favoriser les apprentissages et aider les enseignants et les parents dans leur mission de transmettre le savoir et éduquer.
   logo: /img/school/partners/pedagovie.png
@@ -6,7 +10,3 @@
   description: Nous sommes membres du réseau Instruire.ch depuis juin 2020. Nous partageons les mêmes valeurs et la même foi que ses membres.
   logo: /img/school/partners/instruire.ch.png
   website: http://www.instruire.ch
-- name: Forts Ensemble
-  description: "Forts Ensemble, c'est plus de collaboration, d'efficacité et de performance". La mission de Marie Legrand, docteur en sciences de l'éducation, est de vous accompagner dans la recherche de solutions innovantes et pragmatiques pour relever les défis auxquels vous êtes confrontés. Life School Riviera a le privilège de collaborer avec cette professionnelle, spécialiste de l'apprentissage et de l'ingénierie pédagogique.
-  logo: /img/school/partners/fortsensemble.png
-  website: https://fortsensemble.ch/
