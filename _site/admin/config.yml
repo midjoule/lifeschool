@@ -1,0 +1,23 @@
+backend:
+  name: github
+  repo: midjoule/lifeschool
+  branch: master
+
+#publish_mode: editorial_workflow
+
+media_folder: "img"
+
+collections:
+  - name: "Articles"
+    label: "Articles"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields: # The fields for each document, usually in front matter
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Intro", name: "description", widget: "string"}
+      - {label: "Autor", name: "author", widget: "string", required: false}
+      - {label: "Picture", name: "image", widget: "image", required: false}
+      - {label: "Picture HREF", name: "imageUrl", widget: "string", required: false}
+      - {label: "Video", name: "video", widget: "string", required: false}
+      - {label: "Read More", name: "body", widget: "markdown"}

@@ -1,0 +1,25 @@
+{
+  "name": "lifeschool",
+  "version": "1.0.0",
+  "description": "Website for Life School Riviera",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/midjoule/lifeschool.git"
+  },
+  "keywords": [
+    "school",
+    "jekyll",
+    "ruby",
+    "riviera"
+  ],
+  "author": "Julien Dumoulin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/midjoule/lifeschool/issues"
+  },
+  "homepage": "https://github.com/midjoule/lifeschool#readme"
+}

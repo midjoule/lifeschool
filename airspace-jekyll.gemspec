@@ -10,9 +10,9 @@ Gem::Specification.new do |spec|
   spec.homepage      = "http://example.com"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(_layouts|_includes|_sass|LICENSE|README)/i}) }
-
-  spec.add_development_dependency "jekyll", "~> 3.2"
-  spec.add_development_dependency "bundler", "~> 2.0.1"
-  spec.add_development_dependency "rake", "~> 12.3.3"
+  #spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(_layouts|_includes|_sass|LICENSE|README)/i}) }
+  spec.files           = Dir['LICENSE.md', 'README.md', 'lib//*', 'bin//*']
+  spec.add_development_dependency "jekyll", "~> 4.2.2"
+  spec.add_development_dependency "bundler", "~> 2.3.9"
+  spec.add_development_dependency "rake", "~> 13.0.6"
 end
