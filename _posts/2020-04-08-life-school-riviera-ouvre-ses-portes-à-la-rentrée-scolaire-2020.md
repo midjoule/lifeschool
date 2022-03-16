@@ -1,6 +1,6 @@
 ---
-title: Life School Riviera ouvre ses portes à la rentrée scolaire 2021.
-description: Des informations toutes fraîches quant à l'ouverture de notre école.
+title: Life School Riviera a ouvert ses portes à la rentrée scolaire 2021.
+description: Voici des informations relatives à l'ouverture de notre école.
 video: https://youtube.com/embed/6J_hankijqs
 ---
-Life School Riviera ouvrira ses portes à la rentrée scolaire 2021. Les inscriptions sont ouvertes ! Vous pouvez en savoir plus en cliquant sur le menu *Info Pratiques*.
+Life School Riviera a ouvert ses portes à la rentrée scolaire 2021. Nous avons accueilli 15 enfants dans notre école pour cette 1ère édition, ce qui est remarquable pour une école qui débute.
