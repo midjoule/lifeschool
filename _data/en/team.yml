@@ -1,19 +1,11 @@
-- name: Audrey
-  title:
-  testimonial: Our children are true explorers, little budding scientists who are eager to discover the world! Our school offers them a rich and benevolent living and discovery space so that they flourish, are free to think for themselves and to be proactive in their lives.
-  image: /img/testimonials/audrey.jpg
 - name: Esther
   title: Experte en communication
   testimonial:  I am convinced of the relevance and the necessity of Life School Riviera. Today, more than ever, we need a school that transmits true heart-felt values and equips our children to become leaders so that they bring solutions to our society of tomorrow.
   image: /img/testimonials/esther.jpg
-- name: Pierre-André
-  title:
-  testimonial: If the school program is not suitable for the student, the program must be adapted to the student. This is what this school intends to do.
-  image: /img/testimonials/pierre-andre.jpg  
 - name: Fabienne
   title: Enseignante
   testimonial: « All children have genius, the trick is to show it. » Charlie Chaplin
-  image: /img/testimonials/fabienne.jpg  
+  image: /img/testimonials/fabienne.jpg
 - name: Nathalie
   title: Responsable du projet
   testimonial: We believe in the potential of all students and want to allow them to learn while having fun, in a healthy, efficient and safe environment.
@@ -21,11 +13,11 @@
 - name: Julien
   title: Responsable IS/IT
   testimonial: I can't wait to see this project take shape and see all the positive impact it will have on children, teachers, parents and society.
-  image: /img/testimonials/julien.jpg  
+  image: /img/testimonials/julien.jpg
 - name: Joël
   title: Enseignant ACM
   testimonial: I dream of a « workshop » school that allows everyone to learn through their creativity. A school where imagination and experimentation are possible. Albert Einstein summed it up so well&#58; « Creativity is intelligence that has fun. »
-  image: /img/testimonials/joel.jpg  
+  image: /img/testimonials/joel.jpg
 - name: Mélanie
   title:
   testimonial: All too often, learning is seen as ‘obligatory’ by students, but sometimes also by parents, when it comes time for homework. Our school aims to redefine learning in a positive way, by placing pleasure at the heart of it. Thus, in our teaching, we want to come as close as possible to the needs of the child and the natural functioning of the brain, in order to make learning motivating, accessible and fulfilling.
@@ -34,10 +26,6 @@
   title:
   testimonial: Sometimes the most powerful way of teaching is when the students are so engrossed in the fun tasks that don’t realise they are learning. Students work and learn best when they feel appreciated, safe and valued for the unique people that they are. That is what this school aims to give them…. in which case… they can't fail!
   image: /img/testimonials/wendy.jpg
-- name: Nadia
-  title: Teacher
-  testimonial: « Tell me and I forget, teach me and I may remember, involve me and I learn », Benjamin Franklin. This is a quote that particularly touches me. I look forward to allowing each student to engage in their learning in a personalised way, using various techniques and projects. I am also keen to make these children understand that they are unique and precious.
-  image: /img/testimonials/nadia.jpg
 - name: Carine
   title:
   testimonial: « Be you tiful »&#58; you are wonderfully made !

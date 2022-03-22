@@ -11,8 +11,8 @@
   image: languages.png
   class: brand-violet
   ref: languages
-  subtitle: De manière pratique et ludique dès la 1P Harmos
-  summary: Apprendre les langues dans le quotidien, de manière pratique et ludique, dès la 1H
+  subtitle: De manière pratique et ludique dès la 4H
+  summary: Apprendre les langues dans le quotidien, de manière pratique et ludique, dès la 4H
   desc: Notre pays a une grande influence germanophone. Il est indispensable pour les jeunes adultes de bien maîtriser cette langue. L’anglais quant à lui est indispensable pour des études universitaires, pour travailler dans des multinationales et pour découvrir le monde. Nous proposons une pratique active des langues tant sur les enseignements académiques que sur les pratiques sportives, culturelles et manuelles.
 - title: Classes Multi-âges
   category: Pedagogy
@@ -21,7 +21,7 @@
   ref: multi_ages
   subtitle: Favoriser solidarité et partage entre enfants
   summary: Favoriser solidarité et partage entre enfants
-  desc: Lors de travaux ou d’enseignements en groupe, le mélange des âges permet aux enfants de se guider les uns-les autres. Les plus grands adoptent une posture d’accompagnant envers les plus jeunes. Ils échangent leurs expériences et leurs connaissances de manière plus naturelle. Ce système d’organisation favorise l’intégration, l’entraide, l’autonomie tout en réduisant l’agressivité, la compétition et la comparaison. 
+  desc: Lors de travaux ou d’enseignements en groupe, le mélange des âges permet aux enfants de se guider les uns-les autres. Les plus grands adoptent une posture d’accompagnant envers les plus jeunes. Ils échangent leurs expériences et leurs connaissances de manière plus naturelle. Ce système d’organisation favorise l’intégration, l’entraide, l’autonomie tout en réduisant l’agressivité, la compétition et la comparaison.
 - title: Donner du sens
   image: sense.png
   category: Classroom
