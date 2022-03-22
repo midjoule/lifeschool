@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/midjoule/lifeschool/issues"
   },
-  "homepage": "https://github.com/midjoule/lifeschool#readme"
+  "homepage": "https://github.com/midjoule/lifeschool#readme",
+  "dependencies": {
+    "netlify-cli": "^8.14.1"
+  }
 }

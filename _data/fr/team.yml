@@ -1,15 +1,7 @@
-- name: Audrey
-  title:
-  testimonial: Nos enfants sont de véritables explorateurs, de petits scientifiques en herbe qui ne demandent qu'à découvrir le monde ! Notre école leur offre un espace de vie et de découverte riche et bienveillant pour qu'ils s'épanouissent, soient libres de penser par eux-mêmes et acteurs de leur vie.
-  image: /img/testimonials/audrey.jpg
 - name: Esther
   title: Experte en communication
   testimonial:  Je suis convaincue de la pertinence et de la nécessité de Life School Riviera. Aujourd'hui, nous avons plus que besoin d'une école qui transmette des vraies valeurs de coeur et équipe nos enfants à devenir des leaders pour qu'ils apportent des solutions à notre société de demain.
   image: /img/testimonials/esther.jpg
-- name: Pierre-André
-  title:
-  testimonial: Si le programme scolaire n'est pas adapté à l'élève, il faut adapter le programme à l'élève. C'est ce que cette école se propose de faire.
-  image: /img/testimonials/pierre-andre.jpg
 - name: Fabienne
   title: Enseignante
   testimonial: « Tous les enfants ont du génie, le tout c’est de le faire apparaître. » Charlie Chaplin
@@ -19,7 +11,7 @@
   testimonial: Nous croyons dans le potentiel de tous les élèves et souhaitons leur permettre d'apprendre en ayant du plaisir, dans un environement sain, performant et sécurisant.
   image: /img/testimonials/nathalie.jpg
 - name: Julien
-  title: Responsable IS/IT
+  title: Responsable IS/IT, membre du conseil
   testimonial: Je suis impatient de voir ce projet naître et constater tout l'impact positif qu'il aura à la fois sur les enfants, les enseignants, les parents et la société.
   image: /img/testimonials/julien.jpg
 - name: Joël
@@ -34,11 +26,27 @@
   title:
   testimonial: Parfois, le moyen d’enseignement le plus efficace est lorsque les élèves sont tellement absorbés par les tâches amusantes qu’ils ne réalisent pas qu’ils apprennent. Les élèves travaillent et apprennent mieux lorsqu'ils se sentent appréciés, en sécurité et estimés pour les personnes uniques qu'ils sont. C'est ce que cette école entend leur offrir…. auquel cas… ils ne peuvent pas échouer!
   image: /img/testimonials/wendy.jpg
-- name: Nadia
+- name: Anne-Marie
   title: Enseignante
-  testimonial: « Dis-moi et j'oublie, enseigne-moi et je me rappelle, implique-moi et j'apprends » voici une citation de Benjamin Franklin qui me touche particulièrement. Je me réjouis de permettre à chaque élève de s'investir dans ses apprentissages de manière personnalisée, à l'aide de divers techniques et projets. J'ai aussi à coeur de faire comprendre à ces enfants qu'ils sont uniques et précieux.
-  image: /img/testimonials/nadia.jpg
+  testimonial:
+  image: /img/testimonials/anne-marie.jpg
+- name: Veronica
+  title: Enseignante
+  testimonial:
+  image: /img/testimonials/veronica.jpg
+- name: Sylvain
+  title: Enseignant
+  testimonial:
+  image: /img/testimonials/sylvain.jpg
 - name: Carine
   title:
   testimonial: « Be you tiful » &#58; you are wonderfully made !
   image: /img/testimonials/carine.jpg
+- name: Philippe
+  title: Membre du conseil
+  testimonial:
+  image: /img/testimonials/philippe.jpg
+- name: Thierry
+  title: Membre du conseil
+  testimonial:
+  image: /img/testimonials/thierry.jpg
