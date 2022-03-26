@@ -73,7 +73,7 @@ IMG.post {
 	height:60px;
 	bottom:40px;
 	right:40px;
-	background-color:#0C9;
+	background-color:rgb(255,130,160);
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
@@ -81,7 +81,8 @@ IMG.post {
 }
 
 .float-content{
-	margin-top:22px;
+	margin-top:5px;
+  width:45px;
 }
 
 /*for youtube video embeded*/
