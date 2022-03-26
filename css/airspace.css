@@ -437,6 +437,7 @@ div.schedule {
   position: relative;
   background-attachment: fixed;
   background-position: center 75px;
+  z-index: 10;
 }
 /*#global-header:before {
   content: "";
