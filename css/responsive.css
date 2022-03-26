@@ -151,12 +151,12 @@ px      68    160    252    344    436    528    620    712    */
   /*---------------------------------------------
 					contact close
 -----------------------------------------------*/
-	
-	
+
+
 header ul.navbar-nav {
   font-size: 2.3vw;
-}	
-	
+}
+
   /*------------------*/
 }
 /*		Mobile Layout: 320px.
@@ -178,12 +178,12 @@ px      68    160    252    */
     line-height : 7vw;
     white-space: normal;
   }
-	
+
   h3 {
     font-size: 3vw;
     font-weight: 300;
   }
-	
+
   div.schedule {
     font-size: 4vw;
   }
@@ -191,7 +191,7 @@ px      68    160    252    */
     font-size: 4vw;
     line-height: 6vw ;
   }
-	
+
   .post-area a {
     font-size: 3vw;
   }
@@ -199,16 +199,16 @@ px      68    160    252    */
 .post-area a:hover {
   font-weight: bold;
 }
-	
+
   header .navbar-default .navbar-toggle {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-	
+
 header .navbar-brand img {
   width: 200px;
   height: auto;
-}	
+}
 
   #slider .block {
     padding-left: 0px;
@@ -445,7 +445,7 @@ header .navbar-brand img {
   text-align: center;
 }
 
-	
+
 .section-title p {
   font-size: 5vw;
   line-height: 6vw;
@@ -454,15 +454,16 @@ header .navbar-brand img {
 section a.anchor {
     top: -75px;
 }
-	
+
 header ul.navbar-nav {
   font-size: 3.5vw;
 }
-	
+
 footer, footer span {
     font-size: 3.5vw;
 }
-	
+
+
 }
 
 
@@ -475,12 +476,12 @@ footer, footer span {
     line-height : 8vw;
     white-space: normal;
   }
-	
+
   h3 {
     font-size: 5vw;
     font-weight: 300;
   }
-	
+
   div.schedule {
     font-size: 4vw;
   }
@@ -488,16 +489,16 @@ footer, footer span {
     font-size: 4vw;
     line-height: 6vw ;
   }
-	
+
   .post-area a {
     font-size: 3vw;
   }
 
   h2 {
-    margin-bottom: 7vw;		
+    margin-bottom: 7vw;
   }
-  
-  
+
+
 	header ul.navbar-nav {
 	  font-size: 5vw;
 	}
@@ -521,7 +522,7 @@ footer, footer span {
 	}
 
 	#portfolio-work .block .portfolio-contant ul li {
-		width: 28%;	
+		width: 28%;
 	}
 
 	.post-area h2 {
@@ -533,9 +534,9 @@ footer, footer span {
 
 	.partner IMG {
 		width:50%;
-	}	
+	}
 
-	/* Modals 
+	/* Modals
 	*/
 	.modal-body p {
 	  font-size: 2.5vw;
@@ -550,14 +551,31 @@ footer, footer span {
 	.modal-body h2 {
 	  font-size: 3vw;
 	  line-height: 4vw;
-	}	
+	}
 
 	#global-header {
 	  min-height: 40vw;
 	}
-	
-	
-	
+
+  /*we are hiring - bottom right corner floating icon*/
+  .float{
+  	position:fixed;
+  	width:60px;
+  	height:60px;
+  	bottom:10px;
+  	right:10px;
+  	background-color:rgb(29,255,195);
+  	border-radius:50px;
+  	text-align:center;
+  	box-shadow: 2px 2px 3px #999;
+    z-index:1 ; /*otherwise it's not clickable*/
+  }
+
+  .float-content{
+  	margin-top:5px;
+    width:45px;
+  }
+
 }
 
 /*---------------------------------------------
@@ -577,4 +595,3 @@ Generic responsive classes
     width:100%;
     position:absolute;
 }
-
