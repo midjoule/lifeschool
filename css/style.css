@@ -71,13 +71,13 @@ IMG.post {
 	position:fixed;
 	width:60px;
 	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:rgb(255,130,160);
-	color:#FFF;
+	top:100px;
+	left:40px;
+	background-color:rgb(29,255,195);
 	border-radius:50px;
 	text-align:center;
 	box-shadow: 2px 2px 3px #999;
+  z-index:1 ; /*otherwise it's not clickable*/
 }
 
 .float-content{

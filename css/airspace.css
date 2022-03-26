@@ -150,6 +150,7 @@ section.bgImage {
   position: relative;
   margin-top: 4vw;
   margin-bottom: 4vw;
+  z-index: 10; /*show on top of the rest*/
 }
 
 #slider {
@@ -542,7 +543,7 @@ div.schedule {
   transition: all 0.4s ease-in-out;
 }
 #portfolio-work .block .portfolio-contant ul li {
-  width: 31%; 
+  width: 31%;
   overflow: hidden;
   margin: 6px;
   position: relative;
@@ -949,4 +950,4 @@ nav a {
 
 .brand-violet {
   color: rgb(127,55,137) ;
-}	
+}
