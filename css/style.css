@@ -66,24 +66,6 @@ IMG.post {
   margin-top: 5px;
 }
 
-/*we are hiring - bottom right corner floating icon*/
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	top:100px;
-	left:40px;
-	background-color:rgb(29,255,195);
-	border-radius:50px;
-	text-align:center;
-	box-shadow: 2px 2px 3px #999;
-  z-index:1 ; /*otherwise it's not clickable*/
-}
-
-.float-content{
-	margin-top:5px;
-  width:45px;
-}
 
 /*for youtube video embeded*/
 .video-container {

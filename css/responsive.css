@@ -560,10 +560,33 @@ footer, footer span {
   /*we are hiring - bottom right corner floating icon*/
   .float{
   	position:fixed;
-  	width:60px;
-  	height:60px;
+  	width:50px;
+  	height:50px;
   	bottom:10px;
   	right:10px;
+  	background-color:rgb(29,255,195);
+  	border-radius:40px;
+  	text-align:center;
+  	box-shadow: 2px 2px 3px #999;
+    z-index:1 ; /*otherwise it's not clickable*/
+  }
+
+  .float-content{
+  	margin-top:4px;
+    width:35px;
+  }
+
+}
+
+
+@media only screen and (min-width: 500px) {
+  /*we are hiring - bottom right corner floating icon*/
+  .float{
+  	position:fixed;
+  	width:60px;
+  	height:60px;
+  	top:100px;
+  	left:40px;
   	background-color:rgb(29,255,195);
   	border-radius:50px;
   	text-align:center;
@@ -575,7 +598,6 @@ footer, footer span {
   	margin-top:5px;
     width:45px;
   }
-
 }
 
 /*---------------------------------------------
