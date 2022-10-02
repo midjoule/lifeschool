@@ -1,7 +1,3 @@
-- name: Esther
-  title: Experte en communication
-  testimonial:  Je suis convaincue de la pertinence et de la nécessité de Life School Riviera. Aujourd'hui, nous avons plus que besoin d'une école qui transmette des vraies valeurs de coeur et équipe nos enfants à devenir des leaders pour qu'ils apportent des solutions à notre société de demain.
-  image: /img/testimonials/esther.jpg
 - name: Fabienne
   title: Enseignante
   testimonial: « Tous les enfants ont du génie, le tout c’est de le faire apparaître. » Charlie Chaplin
@@ -18,14 +14,6 @@
   title: Enseignant ACM
   testimonial: Je rêve d’une école « atelier » qui permette à chacun d’apprendre au travers de sa créativité. Une école où l’ imagination et l’expérimentation sont possibles. Albert Einstein l’a si bien résumé&#58; "La créativité, c’est l’intelligence qui s’amuse."
   image: /img/testimonials/joel.jpg
-- name: Mélanie
-  title:
-  testimonial: Bien trop souvent, l'apprentissage est vu comme quelque chose de contraignant par les élèves, mais parfois aussi par les parents, quand vient le moment des devoirs. Notre école se propose de redéfinir l'apprentissage de manière positive, en plaçant le plaisir au coeur de celui-ci. Ainsi, nous souhaitons, dans notre enseignement, aller au plus près des besoins de l'enfant et du fonctionnement naturel du cerveau, afin de rendre l'apprentissage motivant, accessible et épanouissant.
-  image: /img/testimonials/melanie.jpg
-- name: Wendy
-  title:
-  testimonial: Parfois, le moyen d’enseignement le plus efficace est lorsque les élèves sont tellement absorbés par les tâches amusantes qu’ils ne réalisent pas qu’ils apprennent. Les élèves travaillent et apprennent mieux lorsqu'ils se sentent appréciés, en sécurité et estimés pour les personnes uniques qu'ils sont. C'est ce que cette école entend leur offrir…. auquel cas… ils ne peuvent pas échouer!
-  image: /img/testimonials/wendy.jpg
 - name: Carine
   title:
   testimonial: « Be you tiful » &#58; you are wonderfully made !
