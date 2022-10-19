@@ -1,3 +1,15 @@
+- name: Natacha P
+  title: Enseignante et responsable pédagogique
+  testimonial: Travailler à LSR c'est la chance de pouvoir accompagner chaque élève personnellement dans ses apprentissages. C'est aussi l'opportunité de proposer aux élèves des projets collectifs et personnels afin de leur permettre d'intégrer des notions vues en cours dans des réalisations concrètes.
+  image: /img/testimonials/natachap.jpg
+- name: Nerida
+  title: Enseignante d'anglais
+  testimonial: At LSR students develop a positive sense of their own identity and value, laying the foundations for them to develop characters of integrity.
+  image: /img/testimonials/nerida.jpg
+- name: Natacha N
+  title: Enseignante d'éducation physique
+  testimonial:  L'école Life School Riviera est un lieu propice dans lequel les atouts et les difficultés des élèves sont davantage considérés afin de leur offrir un enseignement au plus près de leurs besoins.
+  image: /img/testimonials/natachan.jpg
 - name: Fabienne
   title: Enseignante
   testimonial: « Tous les enfants ont du génie, le tout c’est de le faire apparaître. » Charlie Chaplin
