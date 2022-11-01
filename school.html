@@ -202,8 +202,7 @@ lang: fr
         <div class="row">
           <div class="col-4 col-md-4 team-container">
            {% if tm.image.size != 0 %}
-            <table width="100%"><tr><td><img src="{{ tm.image }}" class="rounded img-fluid float-right animated fadeInUp team-member"></td></tr>
-              <tr><td><div class="member-name">{{ tm.name }}, {{ tm.title }}</div></td></tr></table>
+            <table width="100%"><tr><td><img src="{{ tm.image }}" data-toggle="tooltip" title="{{ tm.name }}, {{ tm.title }}" data-placement="bottom" class="rounded img-fluid float-right animated fadeInUp team-member"></td></tr></table>
            {% endif %}
           </div>
           <div class="col-8 col-md-7">
