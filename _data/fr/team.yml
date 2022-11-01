@@ -21,7 +21,7 @@
 - name: Edna
   title: Enseignante d'allemand
   testimonial: Life School Riviera est un endroit enrichissant qui respecte et favorise l'individualité de chaque enfant en apprenant l'allemand à travers le jeu. L'élève arrive à mieux retenir grâce à la bonne humeur.
-  image:
+  image: /img/testimonials/quote.png
 - name: Dorotha
   title: Enseignante de sciences
   testimonial: Aujourd’hui, la science atteint une connaissance du monde inégalée. Mes élèves y participent par l’observation de la nature, l’expérimentation et le partage des dernières découvertes scientifiques.
@@ -29,7 +29,7 @@
 - name: Sylvain
   title: Enseignant ACM
   testimonial:
-  image:
+  image: /img/testimonials/quote.png
 - name: Fabienne
   title: Responsable pédagogique 4-6P
   testimonial: « Tous les enfants ont du génie, le tout c’est de le faire apparaître. » Charlie Chaplin

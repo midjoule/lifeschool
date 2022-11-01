@@ -1,20 +1,52 @@
+- name: Natacha P
+  title: Enseignante et responsable pédagogique
+  testimonial: Travailler à LSR c'est la chance de pouvoir accompagner chaque élève personnellement dans ses apprentissages. C'est aussi l'opportunité de proposer aux élèves des projets collectifs et personnels afin de leur permettre d'intégrer des notions vues en cours dans des réalisations concrètes.
+  image: /img/testimonials/natachap.jpg
+- name: Nerida
+  title: Enseignante d'anglais
+  testimonial: At LSR students develop a positive sense of their own identity and value, laying the foundations for them to develop characters of integrity.
+  image: /img/testimonials/nerida.jpg
+- name: Eva
+  title: Enseignante principale 4-6P
+  testimonial:  L'école Life School Riviera est un lieu propice dans lequel les atouts et les difficultés des élèves sont davantage considérés afin de leur offrir un enseignement au plus près de leurs besoins.
+  image: /img/testimonials/eva.jpg
+- name: Natacha N
+  title: Enseignante d'éducation physique
+  testimonial:  L'école Life School Riviera est un lieu propice dans lequel les atouts et les difficultés des élèves sont davantage considérés afin de leur offrir un enseignement au plus près de leurs besoins.
+  image: /img/testimonials/natachan.jpg
+- name: Noël
+  title: Enseignant de mathématiques
+  testimonial: Notre école est un lieu propice pour l’apprentissage de vos enfants. Les responsables et l’équipe enseignante travaillent incessamment pour un meilleur avenir de vos enfants.
+  image: /img/testimonials/noel.jpg
+- name: Edna
+  title: Enseignante d'allemand
+  testimonial: Life School Riviera est un endroit enrichissant qui respecte et favorise l'individualité de chaque enfant en apprenant l'allemand à travers le jeu. L'élève arrive à mieux retenir grâce à la bonne humeur.
+  image: /img/testimonials/quote.png
+- name: Dorotha
+  title: Enseignante de sciences
+  testimonial: Aujourd’hui, la science atteint une connaissance du monde inégalée. Mes élèves y participent par l’observation de la nature, l’expérimentation et le partage des dernières découvertes scientifiques.
+  image: /img/testimonials/dorotha.jpg
+- name: Sylvain
+  title: Enseignant ACM
+  testimonial:
+  image: /img/testimonials/quote.png
 - name: Fabienne
-  title: Enseignante
-  testimonial: « All children have genius, the trick is to show it. » Charlie Chaplin
+  title: Responsable pédagogique 4-6P
+  testimonial: « Tous les enfants ont du génie, le tout c’est de le faire apparaître. » Charlie Chaplin
   image: /img/testimonials/fabienne.jpg
 - name: Nathalie
-  title: Responsable du projet
-  testimonial: We believe in the potential of all students and want to allow them to learn while having fun, in a healthy, efficient and safe environment.
+  title: Directrice
+  testimonial: Nous croyons dans le potentiel de tous les élèves et souhaitons leur permettre d'apprendre en ayant du plaisir, dans un environement sain, performant et sécurisant.
   image: /img/testimonials/nathalie.jpg
 - name: Julien
-  title: Responsable IS/IT
-  testimonial: I can't wait to see this project take shape and see all the positive impact it will have on children, teachers, parents and society.
+  title: Responsable IS/IT, membre du conseil
+  testimonial: Notre école a un objectif bien plus large que celui de transmettre des connaissances académiques. Elle développe le savoir-vivre, le savoir-être, la responsabilité et l'autonomie des enfants. Les effetes sur les enfants, leurs familles et la société de demain est notable et bénéfique.
   image: /img/testimonials/julien.jpg
 - name: Joël
-  title: Enseignant ACM
-  testimonial: I dream of a « workshop » school that allows everyone to learn through their creativity. A school where imagination and experimentation are possible. Albert Einstein summed it up so well&#58; « Creativity is intelligence that has fun. »
+  title: Conseiller pédagogique
+  testimonial: Je rêve d’une école « atelier » qui permette à chacun d’apprendre au travers de sa créativité. Une école où l’ imagination et l’expérimentation sont possibles. Albert Einstein l’a si bien résumé&#58; "La créativité, c’est l’intelligence qui s’amuse."
   image: /img/testimonials/joel.jpg
 - name: Carine
-  title:
-  testimonial: « Be you tiful »&#58; you are wonderfully made !
+  title: Conseillère pédagogique
+  testimonial: « Be you tiful » &#58; you are wonderfully made !
   image: /img/testimonials/carine.jpg
