@@ -22,10 +22,10 @@
   title: Enseignante d'allemand
   testimonial: Life School Riviera est un endroit enrichissant qui respecte et favorise l'individualité de chaque enfant en apprenant l'allemand à travers le jeu. L'élève arrive à mieux retenir grâce à la bonne humeur.
   image: /img/testimonials/quote.png
-- name: Dorotha
+- name: Dorota
   title: Enseignante de sciences
   testimonial: Aujourd’hui, la science atteint une connaissance du monde inégalée. Mes élèves y participent par l’observation de la nature, l’expérimentation et le partage des dernières découvertes scientifiques.
-  image: /img/testimonials/dorotha.jpg
+  image: /img/testimonials/dorota.jpg
 - name: Sylvain
   title: Enseignant ACM
   testimonial:
@@ -40,7 +40,7 @@
   image: /img/testimonials/nathalie.jpg
 - name: Julien
   title: Responsable IS/IT, membre du conseil
-  testimonial: Notre école a un objectif bien plus large que celui de transmettre des connaissances académiques. Elle développe le savoir-vivre, le savoir-être, la responsabilité et l'autonomie des enfants. Les effetes sur les enfants, leurs familles et la société de demain est notable et bénéfique.
+  testimonial: Notre école a un objectif bien plus large que celui de transmettre des connaissances académiques. Elle développe le savoir-vivre, le savoir-être, la responsabilité et l'autonomie des enfants. Les effets positifs sur les enfants, leurs familles et la société de demain s'y construit.
   image: /img/testimonials/julien.jpg
 - name: Joël
   title: Conseiller pédagogique
