@@ -46,11 +46,15 @@
   title: Conseiller pédagogique
   testimonial: Je rêve d’une école « atelier » qui permette à chacun d’apprendre au travers de sa créativité. Une école où l’ imagination et l’expérimentation sont possibles. Albert Einstein l’a si bien résumé&#58; "La créativité, c’est l’intelligence qui s’amuse."
   image: /img/testimonials/joel.jpg
-- name: Philippe
-  title: Président du conseil associatif
-  testimonial: 
-  image: /img/testimonials/philippe.jpg
 - name: Carine
   title: Conseillère pédagogique
   testimonial: « Be you tiful » &#58; you are wonderfully made !
   image: /img/testimonials/carine.jpg
+- name: Philippe
+  title: Président du conseil associatif
+  testimonial: 
+  image: /img/testimonials/philippe.jpg
+- name: Thierry
+  title: Caissier du conseil associatif
+  testimonial: 
+  image: /img/testimonials/thierry.jpg
