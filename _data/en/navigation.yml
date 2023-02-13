@@ -39,6 +39,9 @@
       url: /en/infos#registration
 - title: Media
   url: /en/media
+  sublinks:
+    - title: Reports
+      url: /reports   
 - title: Contact
   url: /en/contact
 - title: Donate
