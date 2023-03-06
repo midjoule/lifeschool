@@ -557,24 +557,24 @@ footer, footer span {
 	  min-height: 40vw;
 	}
 
-  /*we are hiring - bottom right corner floating icon*/
-  .float{
-  	position:fixed;
-  	width:50px;
-  	height:50px;
-  	bottom:10px;
-  	right:10px;
-  	background-color:rgb(29,255,195);
-  	border-radius:40px;
-  	text-align:center;
-  	box-shadow: 2px 2px 3px #999;
-    z-index:1 ; /*otherwise it's not clickable*/
-  }
+	/*we are hiring - bottom right corner floating icon*/
+	.float{
+		position:fixed;
+		width:70px;
+		height:70px;
+		bottom:10px;
+		right:10px;
+		background-color:whitesmoke;
+		border-radius:40px;
+		text-align:center;
+		box-shadow: 2px 2px 3px #999;
+		z-index:1000 ; /*otherwise it's not clickable*/
+	}
 
-  .float-content{
-  	margin-top:7px;
-    width:38px;
-  }
+	.float-content{
+		margin-top:7px;
+		width:50px;
+	}
 
 }
 
@@ -583,20 +583,20 @@ footer, footer span {
   /*we are hiring - bottom right corner floating icon*/
   .float{
   	position:fixed;
-  	width:60px;
-  	height:60px;
+  	width:90px;
+  	height:90px;
   	top:100px;
   	left:40px;
-  	background-color:rgb(29,255,195);
+  	background-color:whitesmoke;
   	border-radius:50px;
   	text-align:center;
   	box-shadow: 2px 2px 3px #999;
-    z-index:1 ; /*otherwise it's not clickable*/
+    	z-index:1000 ; /*otherwise it's not clickable*/
   }
 
   .float-content{
   	margin-top:8px;
-    width:45px;
+    	width:75px;
   }
 }
 
