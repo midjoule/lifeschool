@@ -8,20 +8,12 @@
   image: /img/testimonials/nerida.jpg
 - name: Eva
   title: Enseignante principale 4-6P
-  testimonial: A Life school Riviera, on investit chaque minute de notre temps de travail pour permettre à votre enfant d'apprendre de façon efficace et intéressante.
+  testimonial: A Life School Riviera, on investit chaque minute de notre temps de travail pour permettre à votre enfant d'apprendre de façon efficace et intéressante.
   image: /img/testimonials/eva.jpg
 - name: Natacha N
   title: Enseignante d'éducation physique
   testimonial:  L'école Life School Riviera est un lieu propice dans lequel les atouts et les difficultés des élèves sont davantage considérés afin de leur offrir un enseignement au plus près de leurs besoins.
   image: /img/testimonials/natachan.jpg
-- name: Noël
-  title: Enseignant de mathématiques
-  testimonial: Notre école est un lieu propice pour l’apprentissage de vos enfants. Les responsables et l’équipe enseignante travaillent incessamment pour un meilleur avenir de vos enfants.
-  image: /img/testimonials/noel.jpg
-- name: Edna
-  title: Enseignante d'allemand
-  testimonial: Life School Riviera est un endroit enrichissant qui respecte et favorise l'individualité de chaque enfant en apprenant l'allemand à travers le jeu. L'élève arrive à mieux retenir grâce à la bonne humeur.
-  image: /img/testimonials/quote.png
 - name: Dorota
   title: Enseignante de sciences
   testimonial: Aujourd’hui, la science atteint une connaissance du monde inégalée. Mes élèves y participent par l’observation de la nature, l’expérimentation et le partage des dernières découvertes scientifiques.
