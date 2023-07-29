@@ -1,0 +1,33 @@
+---
+layout: page
+title: Invoice
+permalink: /invoice
+lang: en
+---
+<style>
+.pdf {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 138%; /* A4 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+</style>
+<div class="pdf">
+  <iframe id="invoiceIFrame" class="responsive-iframe"></iframe>
+</div>
+<script language="javascript">
+    var iframe = document.getElementById('invoiceIFrame');
+    iframe.src = 'https://app.ezyinvoice.ch/view/'
+                 + window.location.search.substring(1);
+</script>
