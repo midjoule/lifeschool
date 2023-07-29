@@ -1,0 +1,17 @@
+---
+layout: page
+title: Facture
+permalink: /invoice
+lang: fr
+---
+<!-- Slider Start -->
+<section id="global-header" style="background-image: url(/img/header/school-{{ page.lang }}.webp)">
+</section>
+<center>
+    <iframe id="invoiceIFrame" width="100%" height="1200" style="max-width:1000px"></iframe>
+<center>
+<script language="javascript">
+    var iframe = document.getElementById('invoiceIFrame');
+    iframe.src = 'https://app.ezyinvoice.ch/view/'
+                 + window.location.search.substring(1);
+</script>
