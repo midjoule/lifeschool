@@ -71,12 +71,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </header><!-- header close -->
 
 <!-- floating icon for special advertizing -->
-{% if page.lang == "fr" %}
-<a href="/media" class="float" target="_new" title="one-event.ch : venez avec nous !">
+{% if page.lang == "fr" && page.permalink != "/media" %}
+<a href="/media" class="float" title="one-event.ch : venez avec nous !">
   <img src="/img/ice-skating-shoes.png" class="float-content" />
 </a>
 {% else %}
-<a href="/en/infos#registration" class="float" target="_new" title="one-event.ch : come with us!">
+<a href="/en/infos#registration" class="float" title="one-event.ch : come with us!">
   <img src="/img/ice-skating-shoes.png" class="float-content" />
 </a>
 {% endif %}
