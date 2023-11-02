@@ -110,6 +110,14 @@ IMG.team-member {
   backface-visibility: hidden;
 }
 
+blockquote.signature
+{
+  font-style: normal;
+  margin-left: 32px;
+  border-left: 4px solid #CCC;
+  padding-left: 8px;
+}
+
 .team-container:hover .member-name {
   animation-name: reveal_text;
   animation-duration: 10s;
