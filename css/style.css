@@ -112,10 +112,12 @@ IMG.team-member {
 
 blockquote.signature
 {
-  font-style: normal;
-  margin-left: 32px;
+  font-style: italic;
+  font-size: smaller;
+  margin-left: 10px;
   border-left: 4px solid #CCC;
   padding-left: 8px;
+  margin-top: 20px;
 }
 
 .team-container:hover .member-name {
