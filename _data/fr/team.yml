@@ -1,29 +1,33 @@
-- name: Natacha P
+- name: Natacha
   title: Enseignante et responsable pédagogique
   testimonial: Travailler à LSR c'est la chance de pouvoir accompagner chaque élève personnellement dans ses apprentissages. C'est aussi l'opportunité de proposer aux élèves des projets collectifs et personnels afin de leur permettre d'intégrer des notions vues en cours dans des réalisations concrètes.
   image: /img/testimonials/natachap.jpg
-- name: Nerida
-  title: Enseignante d'anglais
-  testimonial: At LSR students develop a positive sense of their own identity and value, laying the foundations for them to develop characters of integrity.
-  image: /img/testimonials/nerida.jpg
-- name: Eva
-  title: Enseignante principale 4-6P
-  testimonial: A Life School Riviera, on investit chaque minute de notre temps de travail pour permettre à votre enfant d'apprendre de façon efficace et intéressante.
-  image: /img/testimonials/eva.jpg
-- name: Natacha N
-  title: Enseignante d'éducation physique
-  testimonial:  L'école Life School Riviera est un lieu propice dans lequel les atouts et les difficultés des élèves sont davantage considérés afin de leur offrir un enseignement au plus près de leurs besoins.
-  image: /img/testimonials/natachan.jpg
-- name: Dorota
-  title: Enseignante de sciences
-  testimonial: Aujourd’hui, la science atteint une connaissance du monde inégalée. Mes élèves y participent par l’observation de la nature, l’expérimentation et le partage des dernières découvertes scientifiques.
-  image: /img/testimonials/dorota.jpg
+- name: Zoé
+  title: Enseignante primaire
+  testimonial: Chaque élève a quelque chose en lui de spécial et une manière d’apprendre qui lui est propre. Mon rêve est de guider chacun afin de découvrir encore plus la créativité qui se cache au fond d’eux. J’aime échanger avec les élèves et aller creuser ce qui les passionne.
+  image: /img/testimonials/zoe.jpg
 - name: Sylvain
   title: Enseignant ACM
   testimonial:
   image: /img/testimonials/quote.png
+- name: Marielle
+  title: Support Mathématiques
+  testimonial: 
+  image: /img/testimonials/marielle.jpg
+- name: Ramiro
+  title: Enseignant en Sciences
+  testimonial: 
+  image: /img/testimonials/ramiro.jpg
+- name: Madeleine
+  title: Support Français/Maths/Anglais
+  testimonial: 
+  image: /img/testimonials/madeleine.jpg
+- name: Salomé
+  title: Stagiaire Allemand par immersion
+  testimonial: 
+  image: /img/testimonials/salome.jpg
 - name: Fabienne
-  title: Responsable pédagogique 4-6P
+  title: Conseillère pédagogique
   testimonial: « Tous les enfants ont du génie, le tout c’est de le faire apparaître. » Charlie Chaplin
   image: /img/testimonials/fabienne.jpg
 - name: Nathalie
@@ -38,14 +42,6 @@
   title: Conseillère pédagogique
   testimonial: « Be you tiful » &#58; you are wonderfully made !
   image: /img/testimonials/carine.jpg
-- name: Philippe
-  title: Président du conseil associatif
-  testimonial: Je suis cuisinier dans un EMS. J’aime que les gens puissent manger de manière saine et variée afin de rester dans un bon équilibre alimentaire. De la même manière, les enfants ont besoin d’une école basée sur des valeurs qui prennent en compte leurs besoins physique et psychique pour un épanouissement de leur personnalité.
-  image: /img/testimonials/philippe.jpg
-- name: Thierry
-  title: Caissier du conseil associatif
-  testimonial: 
-  image: /img/testimonials/thierry.jpg
 - name: Julien
   title: Responsable IS/IT, membre du conseil associatif
   testimonial: Notre école a un objectif bien plus large que celui de transmettre des connaissances académiques. Elle développe le savoir-vivre, le savoir-être, la responsabilité et l'autonomie des enfants. Les effets sur les enfants, leurs familles et la société de demain est notable et bénéfique.
