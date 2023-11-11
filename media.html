@@ -19,7 +19,7 @@ lang: fr
         <div class="block">
 
           {% assign i = 0 %}
-          {% assign sorted_posts = site.posts %}
+          {% assign sorted_posts = site.posts | sort:"date" | reverse %}
           {% for post in sorted_posts %}
           {% assign i = i | plus: 1 %}
           <div class="post-area">
