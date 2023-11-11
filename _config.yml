@@ -21,7 +21,7 @@ url: "https://lifeschool-riviera.ch/" # the base hostname & protocol for your si
 baseurl: ""
 cover: "/img/slider-bg.jpg"
 logo: "/img/logo.png"
-future: true
+future: true  # consider all posts (_posts folder), not only items with a date in the past
 
 # Build settings
 markdown: kramdown
