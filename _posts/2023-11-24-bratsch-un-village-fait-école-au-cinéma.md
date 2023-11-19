@@ -1,5 +1,5 @@
 ---
-title: '"Bratsch un village fait école" au cinéma'
+title: '"Bratsch un village fait école" - un documentaire à voir maintenant au cinéma'
 description: Si l’école autrement vous intéresse, ne manquez pas le film
   documentaire « Bratsch, un village fait école », le 24 et le 28 novembre dans
   la Riviera
