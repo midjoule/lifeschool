@@ -10,4 +10,4 @@ Centré sur l’enfant et axé sur la pratique, l'école de Bratsch développe u
 
 Life School Riviera, ayant visité cette école avec son équipe pédagogique au printemps 2021 avant l’ouverture de l’école sur la Riviera, s’inspire de ce concept.
 
-En tant qu’école qui propose un mode d’enseignement proche de l'élève, des représentants de Life School Riviera seront présents **le 24 novembre au cinéma de Chexbres** et le **28 novembre au cinéma Astor à Vevey** lors d’une discussion organisée par l’association Ciné-Doc.
+En tant qu’école qui propose un mode d’enseignement proche de l'élève, **des représentants de Life School Riviera seront présents le 24 novembre au cinéma de Chexbres** et le **28 novembre au cinéma Astor à Vevey** lors d’une discussion organisée par l’association Ciné-Doc.
