@@ -3,7 +3,7 @@ title: '"Bratsch, un village fait école" - un documentaire à voir maintenant a
   cinéma'
 description: Si l’école autrement vous intéresse, ne manquez pas le film
   documentaire « Bratsch, un village fait école », le 24 et le 28 novembre dans
-  la Riviera
+  la Riviera. Nous y serons pour y débattre !
 image: /img/402195395_17990027645414441_7627760990398760359_n.jpg
 ---
 Centré sur l’enfant et axé sur la pratique, l'école de Bratsch développe un nouveau concept pédagogique qui bouleverse le modèle scolaire actuel. Les enfants apprennent à coopérer, à élaborer des projets concrets, à animer des réunions. ✨
