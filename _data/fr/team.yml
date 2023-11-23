@@ -8,11 +8,11 @@
   image: /img/testimonials/zoe.jpg
 - name: Sylvain
   title: Enseignant ACM
-  testimonial:
+  testimonial: "J'aime transmettre et développer l'inspiration des générations futures."
   image: /img/testimonials/sylvain.jpg
 - name: Marielle
   title: Support Mathématiques
-  testimonial: 
+  testimonial: "C'est un plaisir de rencontrer les élèves individuellement et de les aider à progresser en math, souvent grâce à la manipulation de matériel très varié."
   image: /img/testimonials/marielle.jpg
 - name: Ramiro
   title: Enseignant en Sciences
