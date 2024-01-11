@@ -9,11 +9,10 @@ imageUrl: https://happyfamilies.ch/fabienne-sollberger/
 Les thèmes suivants seront présentés et discutés:
 
 * Développement de l’enfant
-
   * Contexte familial et lien avec l’école
   * Développer la créativité, l’autonomie
-* Respecter le rythme de mon enfant
 
+* Respecter le rythme de mon enfant
   * Respecter le rythme de mon enfant
   * Engagement et persévérance
 
