@@ -16,4 +16,4 @@ Les thèmes suivants seront présentés et discutés:
   * Respecter le rythme de mon enfant
   * Engagement et persévérance
 
-[V﻿oir l'affiche](</media/Conference Feb 2024.pdf>)
+[V﻿oir l'affiche](</media/Conference Feb 2024.pdf>){:target="_blank"} 
