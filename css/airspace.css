@@ -30,8 +30,10 @@ h3 {
   font-size: 2vw;
   font-weight: 300;
 }
+p, ul, ol, li, a, u, i {
+  font-size:1.5vw; 
+}
 p {
-  font-size: 1.5vw;
   line-height: 1.5em;
   text-align:justify;
 }
@@ -39,7 +41,6 @@ br {
   line-height: 250%;
 }
 ul {
-	font-size: 1.5vw;
 	padding: 0;
   	margin: 0;
   	list-style: none;
