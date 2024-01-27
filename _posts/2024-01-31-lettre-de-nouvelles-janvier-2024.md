@@ -6,7 +6,7 @@ author: ""
 image: ""
 imageUrl: ""
 ---
-L﻿es thèmes suivants sont  illustrés dans [le document](/media/blog/lettre%20nouvelle%202024%2001.pdf):
+L﻿es thèmes suivants sont  illustrés dans [le document](/media/blog/lettre%20nouvelle%202024%2001.pdf){:target="_blank"}:
 
 * Lecture
 * Organisation du travail personnel
