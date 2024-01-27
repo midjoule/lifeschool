@@ -177,11 +177,11 @@ footer.blockquote-footer {
 
 
 #blog-posts UL {
-  margin: 15px 0px 20px 0px;
+  margin: 15px 0px 20px 15px;
 }
 #blog-posts LI {
-  list-style-type: disc;
-  list-style-position: inside;
+  list-style-type: square;
+  list-style-position: outside;
   font-size:medium ;
   line-height: 1.3em;
 }
