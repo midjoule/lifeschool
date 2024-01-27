@@ -32,15 +32,15 @@ lang: fr
               </a>
             </p>
             <div id="post_{{ i }}" class="collapse">
-              {% if post.image and post.image != blank and post.imageUrl and post.imageUrl != blank %}
+              {% if post.image and post.image.length > 0 and post.imageUrl and post.imageUrl.length > 0 %}
                 <a href="{{post.imageUrl}}" target="_blank"><img src="{{ post.image }}" class="img-rounded post"></a>
-              {% elsif post.image and post.image != blank %}
+              {% elsif post.image and post.image.length > 0 %}
                 <img src="{{ post.image }}" class="img-rounded post">
               {% endif %}
 
               {{ post.content }}
 
-              {% if post.video and post.video != blank %}
+              {% if post.video and post.video.length > 0 %}
               {% assign video = post.video | replace: "https://youtu.be/", "https://www.youtube.com/embed/" | replace: "https://www.youtube.com/watch?v=", "https://www.youtube.com/embed/" %}
               <div class="video-container">
                 <iframe width="560" height="315" src="{{ video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
