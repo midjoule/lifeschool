@@ -6,7 +6,7 @@ author: ""
 image: ""
 imageUrl: ""
 ---
-L﻿es thèmes suivants sont  illustrés dans [le document](/media/blog/lettre%20nouvelle%202023%2012.pdf):
+L﻿es thèmes suivants sont  illustrés dans [le document](/media/blog/lettre%20nouvelle%202023%2012.pdf){:target="_blank"}:
 
 * S﻿ciences : le pendule de Galilée
 * E﻿space et maths
