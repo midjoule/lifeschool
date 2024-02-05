@@ -470,72 +470,76 @@ footer, footer span {
 /* Only for mobile phones
 */
 @media only screen and (max-width: 499px) {
-
-  h2 {
-    font-size: 6vw;
-    line-height : 8vw;
-    white-space: normal;
-  }
-
-  h3 {
-    font-size: 5vw;
-    font-weight: 300;
-  }
-
-  div.schedule {
-    font-size: 4vw;
-  }
-  p,ul {
-    font-size: 4vw;
-    line-height: 6vw ;
-  }
-
-  .post-area a {
-    font-size: 3vw;
-  }
-
-  h2 {
-    margin-bottom: 7vw;
-  }
-
-
+	
+	  h2 {
+	    font-size: 6vw;
+	    line-height : 8vw;
+	    white-space: normal;
+	  }
+	
+	  h3 {
+	    font-size: 5vw;
+	    font-weight: 300;
+	  }
+	
+	  div.schedule {
+	    font-size: 4vw;
+	  }
+	  p,ul {
+	    font-size: 4vw;
+	    line-height: 6vw ;
+	  }
+		
+	  li, a {
+	    font-size: 4vw;
+	  }
+	
+	  .post-area a {
+	    font-size: 3vw;
+	  }
+	
+	  h2 {
+	    margin-bottom: 7vw;
+	  }
+	
+	
 	header ul.navbar-nav {
 	  font-size: 5vw;
 	}
-
-
+	
+	
 	.navbar-brand img {
 	  width: 200px;
 	}
-
+	
 	IMG.team-member {
 	  margin-top: 2px;
 	}
-
+	
 	footer {
 	  font-size: 3.5vw;
 	}
-
-
+	
+	
 	.section-title p {
 		font-size: 4vw;
 	}
-
+	
 	#portfolio-work .block .portfolio-contant ul li {
 		width: 28%;
 	}
-
+	
 	.post-area h2 {
 		font-size: 3.5vw;
 		margin-top: 0vw;
 		margin-bottom: 2vw;
 		line-height: 4.5vw;
 	}
-
+	
 	.partner IMG {
 		width:50%;
 	}
-
+	
 	/* Modals
 	*/
 	.modal-body p {
@@ -543,20 +547,20 @@ footer, footer span {
 	  line-height: 4vw;
 	  text-align:justify;
 	}
-
+	
 	.modal-header h1 {
 	  font-size: 4.5vw;
 	}
-
+	
 	.modal-body h2 {
 	  font-size: 3vw;
 	  line-height: 4vw;
 	}
-
+	
 	#global-header {
 	  min-height: 40vw;
 	}
-
+	
 	/*we are hiring - bottom right corner floating icon*/
 	.float{
 		position:fixed;
@@ -570,7 +574,7 @@ footer, footer span {
 		box-shadow: 2px 2px 3px #999;
 		z-index:1000 ; /*otherwise it's not clickable*/
 	}
-
+	
 	.float-content{
 		margin-top:7px;
 		width:50px;
