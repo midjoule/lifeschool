@@ -170,9 +170,14 @@ px      68    160    252    */
   /*---------------------------------------------
 					Index Start
 -----------------------------------------------*/
-  .heading {
+  body * {
+	  font-size: 4vw;
+  }
+	
+	.heading {
     padding-left: 0px;
   }
+	
   h2 {
     font-size: 5vw;
     line-height : 7vw;
@@ -188,7 +193,6 @@ px      68    160    252    */
     font-size: 4vw;
   }
   p {
-    font-size: 4vw;
     line-height: 6vw ;
   }
 
@@ -470,7 +474,9 @@ footer, footer span {
 /* Only for mobile phones
 */
 @media only screen and (max-width: 499px) {
-	
+	body * {
+		font-size: 4vw;
+	}
 	  h2 {
 	    font-size: 6vw;
 	    line-height : 8vw;
@@ -486,14 +492,9 @@ footer, footer span {
 	    font-size: 4vw;
 	  }
 	  p,ul {
-	    font-size: 4vw;
 	    line-height: 6vw ;
 	  }
-		
-	  li, a {
-	    font-size: 4vw;
-	  }
-	
+			
 	  .post-area a {
 	    font-size: 3vw;
 	  }
