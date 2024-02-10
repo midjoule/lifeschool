@@ -16,6 +16,8 @@ keep_files:
 # Site settings
 title: Life School Riviera
 subtitle: "Vivre l'école autrement"
+current_year: 2023
+next_year: 2024
 url: "https://lifeschool-riviera.ch/" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: ""
