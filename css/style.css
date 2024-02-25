@@ -181,7 +181,7 @@ footer.blockquote-footer {
 }
 #blog-posts LI {
   list-style-type: square;
-  list-style-position: outside;
+  list-style-position: inside;
   line-height: 1.3em;
 }
 
