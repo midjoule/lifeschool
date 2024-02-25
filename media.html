@@ -8,8 +8,6 @@ lang: fr
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v13.0" nonce="tYY0xeZI"></script>
 
-{{ site | debug }}
-
 <!-- Slider Start -->
 <section id="global-header" style="background-image: url(/img/header/media-{{ page.lang }}.webp)">
 </section>
@@ -34,9 +32,9 @@ lang: fr
               </a>
             </p>
             <div id="post_{{ i }}" class="collapse">
-              {% if 1 == 1 or post.image and post.image.length > 0 and post.imageUrl and post.imageUrl.length > 0 %}
+              {% if post.image and post.imageUrl %}
                 <a href="{{post.imageUrl}}" target="_blank"><img src="{{ post.image }}" class="img-rounded post"></a>
-              {% elsif post.image and post.image.length > 0 %}
+              {% elsif post.image %}
                 <img src="{{ post.image }}" class="img-rounded post">
               {% endif %}
 
