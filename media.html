@@ -35,7 +35,7 @@ lang: fr
               {% if post.image and post.image != empty and post.imageUrl and post.imageUrl != empty %}
                 <a href="{{post.imageUrl}}" target="_blank"><img src="{{ post.image }}" class="img-rounded post"></a>
               {% elsif post.image and post.image != empty %}
-                <img src="{{ post.image}}" class="img-rounded post">
+                <a href="{{ post.image}}" title="Voir l'image en grand" target="_new"><img src="{{ post.image}}" class="img-rounded post"></a>
               {% endif %}
 
               {{ post.content }}
