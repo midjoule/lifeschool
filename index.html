@@ -12,6 +12,7 @@ lang: fr
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-8 offset-md-2 col-sm-12 col-12">
+      
 {% assign today_date = 'now' | date: '%s' %}
 {% assign event_end = site.feature_event_end | date: '%s' %}
 {% if today_date < event_date %}
@@ -24,6 +25,7 @@ lang: fr
           <p>
             Veuillez svp annoncer votre arrivée à l'aide de <a href="/inscription">ce formulaire</a>.</p>
 {% endif %}
+  
       <a name="start" class="anchor"></a>
       <h2>Année scolaire {{ site.current_year }}/{{ site.next_year }}</h2>
         <p class="mb-3">Nous accueillons des élèves de la <b>1P à la 8P et de la 9S à la 11S Harmos</b>. 
