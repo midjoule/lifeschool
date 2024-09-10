@@ -1,37 +1,37 @@
 - name: Natacha
-  title: Enseignante et responsable pédagogique
+  title: Direction pédagogique et enseignante
   testimonial: Travailler à LSR c'est la chance de pouvoir accompagner chaque élève personnellement dans ses apprentissages. C'est aussi l'opportunité de proposer aux élèves des projets collectifs et personnels afin de leur permettre d'intégrer des notions vues en cours dans des réalisations concrètes.
   image: /img/testimonials/natachap.jpg
 - name: Zoé
   title: Enseignante primaire
   testimonial: Chaque élève a quelque chose en lui de spécial et une manière d’apprendre qui lui est propre. Mon rêve est de guider chacun afin de découvrir encore plus la créativité qui se cache au fond d’eux. J’aime échanger avec les élèves et aller creuser ce qui les passionne.
   image: /img/testimonials/zoe.jpg
-- name: Sylvain
-  title: Enseignant ACM
-  testimonial: "J'aime transmettre et développer l'inspiration des générations futures."
-  image: /img/testimonials/sylvain.jpg
+- name: Madeleine
+  title: Enseignante maths, anglais, projets
+  testimonial: Chaque personne est unique et nécessaire. Chaque élève est essentiel pour l’équilibre du monde. Les accompagner dans leurs recherches et leurs apprentissages est un grand privilège !
+  image: /img/testimonials/madeleine.jpg
+- name: Cherene
+  title: Enseignante sciences et sport
+  testimonial: LSR offre une expérience d'apprentissage créative, pertinente et diversifiée dans toutes les matières. Elle aborde les sujets dans leur contexte et établit des liens avec d'autres sujets étudiés pour permettre à l'élève de tisser des liens avec tout ce qui l'entoure. Elle permet à l'élève de comprendre sa façon d'apprendre et d'élaborer des stratégies pour l'accompagner tout au long de son apprentissage.
+  image: /img/testimonials/cherene.jpg
+- name: Natalia
+  title: Enseignante allemand et arts
+  testimonial: J'aime cette école pour les valeurs qu'elle transmet à ses élèves. C'est un modèle d'école que je souhaiterais voir se développer dans de nombreux endroits, car cela contribuerait à un monde meilleur. Cette école est inspirante tant pour les enseignants que pour les élèves.
+  image: /img/testimonials/natalia.jpg
 - name: Marielle
   title: Support Mathématiques
   testimonial: "C'est un plaisir de rencontrer les élèves individuellement et de les aider à progresser en math, souvent grâce à la manipulation de matériel très varié."
   image: /img/testimonials/marielle.jpg
-- name: Ramiro
-  title: Enseignant en Sciences
-  testimonial: Des effectifs réduits, une grande proximité et de belles valeurs humaines sont les atouts que nous partageons pour proposer un enseignement sur-mesure, original, chaleureux et innovant.
-  image: /img/testimonials/ramiro.jpg
-- name: Madeleine
-  title: Support Français/Maths/Anglais
-  testimonial: Chaque personne est unique et nécessaire. Chaque élève est essentiel pour l’équilibre du monde. Les accompagner dans leurs recherches et leurs apprentissages est un grand privilège !
-  image: /img/testimonials/madeleine.jpg
-- name: Salomé
-  title: Stagiaire Allemand par immersion
-  testimonial: L'apprentissage des langues est un atout précieux pour chaque élève. Je suis convaincue que l'approche créative, pratique, et l'utilisation de la langue dans des situations du quotidien sont les clés pour un apprentissage plus efficace et significatif.
-  image: /img/testimonials/salome.jpg
+- name: Sylvain
+  title: Enseignant remplaçant en arts
+  testimonial: "J'aime transmettre et développer l'inspiration des générations futures."
+  image: /img/testimonials/sylvain.jpg
 - name: Fabienne
   title: Conseillère pédagogique
   testimonial: « Tous les enfants ont du génie, le tout c’est de le faire apparaître. » Charlie Chaplin
   image: /img/testimonials/fabienne.jpg
 - name: Nathalie
-  title: Directrice
+  title: Direction administrative et financière
   testimonial: Nous croyons dans le potentiel de tous les élèves et souhaitons leur permettre d'apprendre en ayant du plaisir, dans un environement sain, performant et sécurisant.
   image: /img/testimonials/nathalie.jpg
 - name: Joël
