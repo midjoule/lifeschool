@@ -47,6 +47,8 @@
 - title: Media
   url: /media
   sublinks:
+    - title: News
+      url: /media
     - title: Rapports
       url: /media/report
 - title: Contact
