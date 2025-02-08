@@ -14,5 +14,3 @@ L﻿es thèmes suivants sont  illustrés dans [le document](/media/blog/lettre%2
 * Création d'une maquette
 * Sortie : visite d'une exposition de crèches
 * Enquête dans le Lavaux
-
-
