@@ -40,6 +40,8 @@
 - title: Media
   url: /en/media
   sublinks:
+    - title: News
+      url: /en/media   
     - title: Report
       url: /en/media/report   
 - title: Contact
