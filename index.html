@@ -15,6 +15,7 @@ lang: fr
       
 {% assign today_date = 'now' | date: '%s' %}
 {% assign event_end = site.feature_event_end | date: '%s' %}
+      Date: {{ event_end }} / {{ today_date }}
 {% if today_date < event_date %}
       <a name="event" class="anchor"></a>
       <h3>Life School Riviera déménage pour la rentrée 2025 - séance d'information</h3>
@@ -25,7 +26,7 @@ lang: fr
           <p><u>Cet événement est gratuit</u></p>
           <!--p>
             Veuillez svp annoncer votre arrivée à l'aide de <a href="/inscription">ce formulaire</a>.</p-->
-{% endif %}
+ {% endif %}
   
       <!--a name="start" class="anchor"></a>
       <h2>Année scolaire {{ site.current_year }}/{{ site.next_year }}</h2>
