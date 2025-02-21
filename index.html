@@ -15,8 +15,10 @@ lang: fr
       
 {% assign today_date = 'now' | date: '%s' %}
 {% assign event_end = site.feature_event_end | date: '%s' %}
-      Date: {{ event_end }} / {{ today_date }}
-{% if today_date < event_date %}
+{% assign show_event = (today_date < event_end) %}
+{{ event_end > today_date }}
+{{ show_event }}
+{% if show_event %}
       <a name="event" class="anchor"></a>
       <h3>Life School Riviera déménage pour la rentrée 2025 - séance d'information</h3>
         <img src="/img/event/info_move_lausanne.jpg" style="width:150px;margin:0 0 20px 20px;" class="rounded float-right" />
