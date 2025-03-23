@@ -15,15 +15,13 @@ lang: fr
       
 {% assign today_date = 'now' | date: '%s' %}
 {% assign event_end = site.feature_event_end | date: '%s' %}
-{% assign show_event = (today_date < event_end) %}
-{{ show_event }}
+
 {% if today_date < event_end %}
       <a name="event" class="anchor"></a>
-      <h3>Séance d'information: Life School Riviera déménage</h3>
-        <img src="/img/event/info_move_lausanne.jpg" style="width:150px;margin:0 0 20px 20px;" class="pop rounded float-right" />
-        <p class="mb-3">Nous organisons une séance d'information le <b>lundi 17 mars à Renens</b> afin de vous présenter notre
-          nouveau projet d'école dans l'Ouest lausannois pour la rentrée 2025.<br/>Vous êtes les bienvenus pour en savoir plus dès 19h30 à 
-          <a href="https://maps.app.goo.gl/94xPdb1MSQd6Ky4t6" target="_new">la rue de la Savonnerie 7, à Renens</a>.
+      <h3>Life School Riviera déménage !</h3>
+        <img src="/img/event/pre-inscription lsn.jpg" style="width:150px;margin:0 0 20px 20px;" class="pop rounded float-right" />
+        <p class="mb-3">Si vous êtes intéressés à notre projet d'école sur l'Ouest lausannois, vous pouvez déjà procéder à une
+          pré-inscription à l'aide de <a href="https://docs.google.com/forms/d/1sind7lwRc3lqjZAJhd0mNi_z7AfVaULvHTo9lYj2KtI">ce formulaire</a>.
           <!--p>
             Veuillez svp annoncer votre arrivée à l'aide de <a href="/inscription">ce formulaire</a>.</p-->
  {% endif %}
