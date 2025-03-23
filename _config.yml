@@ -18,7 +18,7 @@ title: Life School Riviera
 subtitle: "Vivre l'école autrement"
 current_year: 2024
 next_year: 2025
-feature_event_end: "2025-03-18" #end date of the featured event (on homepage) -> this way the event is removed once the date is past.
+feature_event_end: "2025-05-31" #end date of the featured event (on homepage) -> this way the event is removed once the date is past.
 url: "https://lifeschool-riviera.ch/" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: ""
